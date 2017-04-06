@@ -1,0 +1,119 @@
+
+------Berry Plastics RatioCompiler Version 1.6 
+Date: 2/5/2017, Time: 19:34:34
+=Process Color: Black
+=Process Color: Cyan
+=Process Color: Magenta
+=Process Color: Yellow
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Ratio Testing Folder 4-2-13/H981186/H981186 Conversion Chart.txt
+Parse conversion table
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Ratio Testing Folder 4-2-13/H981186/H981186 Ratio Chart.txt
+No table found
+No table found
+No table found
+Parse measurement tables
+Ratio table from: table00
+row 0: 	Ounces|	dummy|
+row 1: 	1|	29.6|
+row 2: 	2|	59.1|
+row 3: 	3|	88.7|
+row 4: 	4|	118.3|
+row 5: 	5|	147.9|
+row 6: 	6|	177.4|
+row 7: 	7|	207.0|
+End Ratio table from tableprint 
+Ratio table from: table01
+row 0: 	mL|
+row 1: 	25|
+row 2: 	50|
+row 3: 	75|
+row 4: 	100|
+row 5: 	125|
+row 6: 	150|
+row 7: 	175|
+row 8: 	200|
+End Ratio table from tableprint 
+Ratio table from: table02
+row 0: 	Parts 1-10|	dummy|
+row 1: 	1|	20|
+row 2: 	2|	40|
+row 3: 	3|	60|
+row 4: 	4|	80|
+row 5: 	5|	100|
+row 6: 	6|	120|
+row 7: 	7|	140|
+row 8: 	8|	160|
+row 9: 	9|	180|
+row 10: 	10|	200|
+End Ratio table from tableprint 
+Ratio table from: table03
+row 0: 	Parts 2-20|	dummy|
+row 1: 	2|	20|
+row 2: 	3|	30|
+row 3: 	4|	40|
+row 4: 	5|	50|
+row 5: 	6|	60|
+row 6: 	7|	70|
+row 7: 	8|	80|
+row 8: 	9|	90|
+row 9: 	10|	100|
+row 10: 	11|	110|
+row 11: 	12|	120|
+row 12: 	13|	130|
+row 13: 	14|	140|
+row 14: 	15|	150|
+row 15: 	16|	160|
+row 16: 	17|	170|
+row 17: 	18|	180|
+row 18: 	19|	190|
+row 19: 	20|	200|
+End Ratio table from tableprint 
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Ratio Testing Folder 4-2-13/H981186/T30208CP Parameter chart.txt
+No table found
+Parse parameter table
+WARNING MESSAGE! Use of uninitialized value $linearr[1] in hash element at /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/SOM/SOMcontrol.pm line 701, <$fh> chunk 176.
+Parameter table from: parametertable
+line: 1 = val: .			key: 
+line: 2 = val: 0.15			key: Column Space (inches)
+line: 3 = val: T30208CP			key: Container Part Number
+line: 4 = val: Wolf			key: Customer Name
+line: 5 = val: Black			key: Header Horizontal Line Color
+line: 6 = val: 2			key: Header Horizontal Line Weight (points)
+line: 7 = val: Black			key: Horizontal Line Color
+line: 8 = val: 1			key: Horizontal Line Weight (points)
+line: 9 = val: U550692			key: Job Number
+line: 10 = val: Helvetica-Bold			key: Measurement Chart Font
+line: 11 = val: Black			key: Measurement Chart Font Color
+line: 12 = val: 8			key: Measurement Chart Font Size (points)
+line: 13 = val: 2.75			key: Measurement Chart Height (inches)
+line: 14 = val: Right			key: Measurement Chart Location (on Right or on Left)
+line: 15 = val: 0.75			key: Measurement Chart Width (inches)
+line: 16 = val: Kim			key: Operator Name
+line: 17 = val: 2.75			key: Ratio Chart Height (inches)
+line: 18 = val: 0.125			key: Ratio Chart Top Offset (inches)
+line: 19 = val: 0.2			key: Ratio Chart Width (inches)
+line: 20 = val: Helvetica-Condensed-Bold			key: Ratio Column Font
+line: 21 = val: Black			key: Ratio Column Font Color
+line: 22 = val: 8			key: Ratio Column Font Size (points)
+line: 23 = val: Helvetica-Condensed-Bold			key: Ratio Header Font
+line: 24 = val: Black			key: Ratio Header Font Color
+line: 25 = val: 10.5			key: Ratio Header Font Size (points)
+line: 26 = val: 0.1875			key: Ratio Header Height (inches)
+line: 27 = val: Below			key: Ratio Number Location (Above or Below)
+line: 28 = val: Black			key: Vertical Line Color Inside
+line: 29 = val: Black			key: Vertical Line Color Outside
+line: 30 = val: 1			key: Vertical Line Weight Inside (points)
+line: 31 = val: 2			key: Vertical Line Weight Outside (points)
+End parameter table from paramtableprint
+++Color and Font Check.
+-color param: Header Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Measurement Chart Font Color = Black --Exists in process colors hash.
+-color param: Ratio Column Font Color = Black --Exists in process colors hash.
+-color param: Ratio Header Font Color = Black --Exists in process colors hash.
+-color param: Vertical Line Color Inside = Black --Exists in process colors hash.
+-color param: Vertical Line Color Outside = Black --Exists in process colors hash.
+-font param: Measurement Chart Font = Helvetica-Bold **WARNING** The font: Helvetica-Bold is not in the font list. Please add it to the list of fonts and try again.
+-font param: Ratio Column Font = Helvetica-Condensed-Bold **WARNING** The font: Helvetica-Condensed-Bold is not in the font list. Please add it to the list of fonts and try again.
+-font param: Ratio Header Font = Helvetica-Condensed-Bold **WARNING** The font: Helvetica-Condensed-Bold is not in the font list. Please add it to the list of fonts and try again.
+New file name: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Ratio Testing Folder 4-2-13/H981186/H981186 Ratio Chart.eps

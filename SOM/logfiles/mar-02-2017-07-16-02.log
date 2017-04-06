@@ -1,0 +1,9 @@
+
+------Berry Plastics RatioCompiler Version 1.6 
+Date: 3/2/2017, Time: 07:16:02
+=Process Color: Black
+=Process Color: Cyan
+=Process Color: Magenta
+=Process Color: Yellow
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Berry Update Dec 2016/Test Files Dec 2016/1 Inch Markings-Table 1.txt
+FATAL ERROR MESSAGE! Not an ARRAY reference at /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/SOM/SOMcontrol.pm line 236.

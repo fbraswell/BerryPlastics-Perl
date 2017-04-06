@@ -1,0 +1,14 @@
+
+------Berry Plastics RatioCompiler Version 2.0 
+Date: 4/5/2017, Time: 22:51:31
+Program path: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug
+Command line: runprog.pl
+cwd Program path: /
+Command line: runprog.pl
+WARNING MESSAGE! print() on closed filehandle FCH at /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/SOM/SOMcontrol.pm line 58.
+FATAL ERROR MESSAGE! Stop Here! at /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/SOM/SOMcontrol.pm line 59.
+FATAL ERROR MESSAGE! Stop Here! at /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/SOM/SOMcontrol.pm line 59.
+Compilation failed in require at /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/runprog.pl line 29.
+FATAL ERROR MESSAGE! Stop Here! at /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/SOM/SOMcontrol.pm line 59.
+Compilation failed in require at /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/runprog.pl line 29.
+BEGIN failed--compilation aborted at /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/runprog.pl line 29.
