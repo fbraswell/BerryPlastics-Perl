@@ -1,0 +1,333 @@
+
+------Berry Plastics RatioCompiler Version 2.0 
+Date: 4/9/2017, Time: 17:58:32
+Program path: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl
+Command line: runprog.pl
+cwd Program path: /
+Command line: runprog.pl
+read directory file: .
+read directory file: ..
+read directory file: .DocumentRevisions-V100
+read directory file: .DS_Store
+read directory file: .file
+read directory file: .fseventsd
+read directory file: .hotfiles.btree
+read directory file: .PKInstallSandboxManager
+read directory file: .PKInstallSandboxManager-SystemSoftware
+read directory file: .Spotlight-V100
+read directory file: .Trashes
+read directory file: .vol
+read directory file: Applications
+read directory file: Berry Fonts & Colors.eps
+**Fonts & Colors file: Berry Fonts & Colors.eps
+read directory file: bin
+read directory file: cores
+read directory file: dev
+read directory file: etc
+read directory file: home
+read directory file: installer.failurerequests
+read directory file: Library
+read directory file: net
+read directory file: Network
+read directory file: opt
+read directory file: private
+read directory file: sbin
+read directory file: System
+read directory file: tmp
+read directory file: User Information
+read directory file: Users
+read directory file: usr
+read directory file: var
+read directory file: Volumes
+-Font: Courier
+-Font: Helvetica
+-Font: Helvetica-Black
+-Font: Helvetica-Bold
+-Font: Helvetica-Condensed-Bold
+-Font: Myriad-Roman
+-Font: Times-Bold
+-Font: Times-Roman
+=Process Color: Black
+=Process Color: Cyan
+=Process Color: Magenta
+=Process Color: Yellow
+=Spot Color: Berry Blue
+=Spot Color: PANTONE 106 M
+=Spot Color: PANTONE 277 M
+=Spot Color: PANTONE 2925 M
+=Spot Color: PANTONE 484 M
+=Spot Color: PANTONE Reflex Blue CVC
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Bug Test 5-29-13/SOM Test/Ratio Files/H1072802/Reference/H1072802 Conversion Chart.txt
+Parse conversion table
+k 50|v 4.138|k 118.5|v 3.7444|k 202.5|v 3.2827|k 293.3|v 2.7918|k 390.3|v 2.271|k 498|v 1.7155|k 609|v 1.1745|
+k 55|v 4.122|k 120|v 3.733|k 203|v 3.280|k 294|v 2.7843|k 392|v 2.2633|k 499|v 1.71|k 610|v 1.17|
+k 59.1|v 4.109|k 122|v 3.7216|k 204|v 3.275|k 295.7|v 2.766|k 394.3|v 2.253|k 500|v 1.705|k 612|v 1.161|
+k 60|v 4.092|k 124|v 3.7101|k 206|v 3.265|k 297|v 2.7600|k 396|v 2.245|k 502.7|v 1.694|k 615.1|v 1.1467|
+k 63|v 4.0735|k 124.2|v 3.709|k 207|v 3.260|k 299.4|v 2.749|k 399.0|v 2.2315|k 504|v 1.689|k 617|v 1.138|
+k 65.1|v 4.0605|k 125|v 3.705|k 208|v 3.1537|k 300|v 2.746|k 399.2|v 2.231|k 510|v 1.656|k 618|v 1.1335|
+k 66|v 4.055|k 126|v 3.6993|k 210|v 3.244|k 306|v 2.7136|k 400|v 2.227|k 512|v 1.6448|k 620|v 1.1245|
+k 66.7|v 4.0506|k 127.5|v 3.6908|k 212|v 3.2337|k 309|v 2.6974|k 405|v 2.199|k 512.5|v 1.642|k 621|v 1.120|
+k 67.5|v 4.0456|k 128|v 3.688|k 212.8|v 3.2295|k 310.5|v 2.689|k 406.6|v 2.19|k 513.3|v 1.6377|k 623|v 1.111|
+k 68|v 4.0425|k 129|v 3.683|k 212.9|v 3.229|k 312|v 2.681|k 408|v 2.182|k 514|v 1.634|k 624|v 1.1065|
+k 69|v 4.0363|k 130|v 3.677|k 214|v 3.2233|k 315|v 2.665|k 409|v 2.176|k 516|v 1.6230|k 625|v 1.102|
+k 70|v 4.029|k 130.1|v 3.6765|k 216|v 3.2128|k 315.4|v 2.663|k 410|v 2.17|k 517.5|v 1.615|k 628.4|v 1.086|
+k 71|v 4.0218|k 132|v 3.666|k 218.8|v 3.198|k 318|v 2.6487|k 411|v 2.165|k 520|v 1.601|k 630|v 1.079|
+k 72|v 4.0146|k 133.1|v 3.660|k 219.6|v 3.194|k 319.2|v 2.6421|k 412|v 2.1595|k 520.4|v 1.5988|k 636|v 1.048|
+k 73.3|v 4.0053|k 133.3|v 3.659|k 220|v 3.192|k 319.4|v 2.641|k 412.5|v 2.1568|k 522|v 1.5898|k 637.5|v 1.0406|
+k 73.9|v 4.001|k 135|v 3.649|k 221.8|v 3.175|k 320|v 2.638|k 413|v 2.154|k 525|v 1.573|k 638|v 1.038|
+k 75|v 3.993|k 137|v 3.6376|k 222|v 3.1730|k 321|v 2.6308|k 414|v 2.142|k 528|v 1.5635|k 640|v 1.028|
+k 77|v 3.986|k 138|v 3.632|k 224|v 3.1537|k 324|v 2.6090|k 415|v 2.1373|k 530|v 1.5572|k 640.7|v 1.025|
+k 78|v 3.9827|k 140|v 3.625|k 225|v 3.144|k 325|v 2.602|k 416|v 3.1537|k 532|v 1.5509|k 644|v 1.0105|
+k 78.9|v 3.9797|k 141|v 3.6218|k 227.7|v 3.1314|k 325.3|v 2.600|k 416.7|v 2.1294|k 532.3|v 1.550|k 645|v 1.006|
+k 79.8|v 3.9767|k 141.9|v 3.619|k 228|v 3.13|k 327.2|v 2.585926|k 420|v 2.114|k 533.3|v 1.545|k 648|v 0.993|
+k 80|v 3.976|k 143|v 3.615|k 230|v 3.121|k 328|v 2.58|k 422.9|v 2.100|k 534|v 1.5422|k 650|v 0.984|
+k 81|v 3.9715|k 144|v 3.6114|k 232.9|v 3.108|k 328.2|v 2.5785|k 423|v 2.0994|k 535|v 1.5376|k 650.5|v 0.982|
+k 81.8|v 3.9679|k 146.4|v 3.6031|k 234|v 3.1032|k 329.4|v 2.5695|k 424|v 2.0932|k 536|v 1.533|k 651|v 0.966|
+k 82|v 3.967|k 146.7|v 3.6021|k 236.6|v 3.092|k 330|v 2.565|k 425|v 2.09|k 538.2|v 1.523|k 652|v 0.962|
+k 82.5|v 3.9648|k 147.9|v 3.598|k 237|v 3.0885|k 331.2|v 2.563|k 425.6|v 2.087|k 540|v 1.514|k 656|v 0.944|
+k 82.8|v 3.9634|k 150|v 3.591|k 239.4|v 3.0681|k 332|v 2.5614|k 425.8|v 2.086|k 542.1|v 1.506|k 656.5|v 0.942|
+k 83|v 3.9625|k 153|v 3.574|k 240|v 3.063|k 332.7|v 2.56|k 428|v 2.0753|k 546|v 1.4912|k 658.8|v 0.9321|
+k 83.3|v 3.9611|k 155.2|v 3.5618|k 243|v 3.0480|k 333|v 2.5594|k 429|v 2.0704|k 547|v 1.4874|k 660|v 0.927|
+k 84|v 3.958|k 156|v 3.5574|k 244|v 3.043|k 333.3|v 2.5588|k 430|v 2.0655|k 549|v 1.4798|k 662.4|v 0.917|
+k 86|v 3.9480|k 157.7|v 3.548|k 245.4|v 3.036|k 336|v 2.553|k 432|v 2.0558|k 550|v 1.476|k 664|v 0.9102|
+k 87|v 3.9432|k 159.6|v 3.5373|k 246|v 3.033|k 337.5|v 2.5452|k 432.5|v 2.054|k 552|v 1.465|k 665|v 0.906|
+k 88|v 3.9384|k 160|v 3.535|k 246.4|v 3.031|k 338|v 2.5426|k 433.7|v 2.048|k 553|v 1.4596|k 665.3|v 0.905|
+k 88.7|v 3.935|k 162|v 3.5195|k 247.5|v 3.0255|k 340|v 2.532|k 435|v 2.0416|k 554.4|v 1.452|k 666|v 0.9020|
+k 89|v 3.9334|k 162.6|v 3.5149|k 248|v 3.023|k 342|v 2.5217|k 437.6|v 2.0288|k 555|v 1.4487|k 666.7|v 0.8989|
+k 90|v 3.928|k 163.6|v 3.507114|k 248.4|v 3.021|k 343|v 2.5165|k 439.2|v 2.0209|k 558|v 1.432|k 672|v 0.876|
+k 92|v 3.914|k 164|v 3.504|k 249|v 3.018|k 344|v 2.5110|k 440|v 2.017|k 558.6|v 1.428|k 675|v 0.86|
+k 93|v 3.907|k 164.1|v 3.503|k 250|v 3.013|k 345|v 2.506|k 441|v 2.0112|k 560|v 1.417|k 680.1|v 0.8328|
+k 94.6|v 3.8982|k 165|v 3.496|k 252|v 3.003|k 348|v 2.4904|k 443.6|v 1.996|k 561.8|v 1.408|k 682.5|v 0.82|
+k 95|v 3.896|k 165.6|v 3.491|k 255|v 2.985|k 350|v 2.48|k 444|v 1.9937|k 562.5|v 1.4043|k 683|v 0.8173|
+k 96|v 3.891|k 166|v 3.488|k 256|v 2.979|k 352|v 2.4696|k 445|v 1.988|k 564|v 1.3967|k 683.1|v 0.8168|
+k 97.5|v 3.883|k 166.3|v 3.486|k 258|v 2.9670|k 354.8|v 2.455|k 448|v 1.9706|k 565.5|v 1.389|k 684|v 0.812|
+k 97.6|v 3.8824|k 166.7|v 3.4832|k 258.7|v 2.963|k 355.5|v 2.451|k 450|v 1.959|k 567|v 1.3815|k 686|v 0.8015|
+k 98|v 3.8810|k 168|v 3.474|k 260|v 2.9537|k 356|v 2.4482|k 455.4|v 1.931|k 567.7|v 1.378|k 688|v 0.791|
+k 98.6|v 3.8768|k 170|v 3.4645|k 260.2|v 2.9523|k 357.8|v 2.4383|k 456|v 1.928|k 569.2|v 1.37|k 689|v 0.787|
+k 99|v 3.8745|k 172|v 3.4550|k 261|v 2.9478|k 360|v 2.426|k 459|v 1.913|k 570|v 1.366|k 690|v 0.782|
+k 99.8|v 3.870|k 174|v 3.4457|k 264|v 2.931|k 362.2|v 2.414|k 460|v 1.9078|k 572|v 1.356|k 693|v 0.7670|
+k 100|v 3.869|k 175|v 3.441|k 266.1|v 2.919|k 365.9|v 2.394|k 461.3|v 1.901|k 574|v 1.346|k 696|v 0.7530|
+k 102|v 3.859|k 176|v 3.4364|k 266.7|v 2.196|k 366|v 2.3935|k 462|v 1.897|k 575|v 1.341|k 700|v 0.735|
+k 103|v 3.854|k 177.4|v 3.430|k 267|v 2.9137|k 366.7|v 2.3897|k 465|v 1.888|k 576|v 1.336|k 702|v 0.7255|
+k 103.5|v 3.8515|k 178|v 3.4226|k 270|v 2.896|k 368|v 2.3826|k 465.7|v 1.8853|k 576.6|v 1.333|k 705|v 0.7113|
+k 104|v 3.849|k 180|v 3.398|k 273.5|v 2.882|k 369.6|v 2.374|k 466.7|v 1.8821|k 577.5|v 1.3285|k 709.7|v 0.689|
+k 105|v 3.844|k 184|v 3.378|k 274|v 2.88|k 372|v 2.361|k 468|v 1.878|k 578|v 1.326|k 711|v 0.683|
+k 106|v 3.8387|k 184.8|v 3.374|k 275|v 2.876|k 372.6|v 2.357|k 472.5|v 1.8468|k 579.6|v 1.318|k 714|v 0.6698|
+k 106.4|v 3.8365|k 186|v 3.368|k 276|v 2.871|k 375|v 2.342|k 473|v 1.8445|k 581|v 1.3108|k 715|v 0.6653|
+k 106.5|v 3.836|k 189|v 3.3523|k 279|v 2.859|k 378|v 2.335|k 473.1|v 1.844|k 583.3|v 1.299|k 720|v 0.643|
+k 107|v 3.8333|k 189.2|v 3.3512|k 280|v 2.858|k 378.5|v 2.326|k 474|v 1.8393|k 585|v 1.2903|k 726|v 0.623|
+k 108|v 3.8280|k 190|v 3.347|k 282|v 2.8554|k 380|v 2.319|k 475|v 1.834|k 585.5|v 1.2878|k 729|v 0.6127|
+k 109.4|v 3.821|k 192|v 3.337|k 283.9|v 2.853|k 382.5|v 2.3073|k 478.8|v 1.8142|k 585.6|v 1.2873|k 732|v 0.6026|
+k 109.8|v 3.819|k 195|v 3.3215|k 285|v 2.852|k 382.9|v 2.3054|k 480|v 1.808|k 586.7|v 1.2816|k 733.3|v 0.5982|
+k 110|v 3.818|k 195.2|v 3.3205|k 286|v 2.851|k 383|v 2.305|k 480.5|v 1.805|k 588|v 1.275|k 735|v 0.5925|
+k 110.9|v 3.810|k 196|v 3.3165|k 288|v 2.849|k 384|v 2.300|k 483|v 1.792|k 591.4|v 1.264|k 736|v 0.5891|
+k 111|v 3.8090|k 197.1|v 3.311|k 289.8|v 2.83|k 384.4|v 2.298|k 486|v 1.7770|k 592.5|v 1.259|k 739.3|v 0.578|
+k 112|v 3.801|k 198|v 3.306|k 292.5|v 2.8005|k 385|v 2.2953|k 487.5|v 1.7698|k 594|v 1.2490|k 742|v 0.568|
+k 112.5|v 3.7963|k 199.6|v 3.298|k 292.7|v 2.7983|k 387|v 2.286|k 487.9|v 1.768|k 598.8|v 1.2218|k 744|v 0.561|
+k 114|v 3.7833|k 200|v 3.296|k 292.8|v 2.7972|k 390|v 2.2725|k 488|v 1.7675|k 600|v 1.215|k 750|v 0.539|
+k 118.3|v 3.746|k 293|v 2.7950|k 490|v 1.757|k 601.7|v 1.207|k 756|v 0.5170|
+k 490.8|v 1.753|k 602|v 1.2040|k 768.6|v 0.4711|
+k 492|v 1.747|k 605|v 1.1915|k 768.8|v 0.4704|
+k 492.3|v 1.7455|k 607.5|v 1.181|k 770|v 0.4660|
+k 492.8|v 1.743|k 608|v 1.179|k 777|v 0.4406|
+k 495|v 1.731|k 800|v 0.3570|
+k 496|v 1.726|
+k 496.8|v 1.722|
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Bug Test 5-29-13/SOM Test/Ratio Files/H1072802/Reference/H1072802 Ratio Chart.txt
+No table found in "H1072802 Ratio Chart.txt"
+No table found in "H1072802 Ratio Chart.txt"
+No table found in "H1072802 Ratio Chart.txt"
+Parse ratio tables
+%% ERROR firstcol%%Ratio table from: table00
+row 0: 	|	1|	1|	10%|	50%|
+row 1: 	1|	60|	120|	126|	150|
+row 2: 	2|	120|	240|	252|	300|
+row 3: 	3|	180|	360|	378|	450|
+row 4: 	4|	240|	480|	504|	600|
+row 5: 	5|	300|	600|	630|	750|
+End Ratio table from tableprint 
+Ratio table from: table01
+row 0: 	|	1|	10%|	20%|
+row 1: 	1|	60|	66|	72|
+row 2: 	2|	120|	132|	144|
+row 3: 	3|	180|	198|	216|
+row 4: 	4|	240|	264|	288|
+row 5: 	5|	300|	330|	360|
+row 6: 	6|	360|	396|	432|
+row 7: 	7|	420|	462|	504|
+row 8: 	8|	480|	528|	576|
+row 9: 	9|	540|	594|	648|
+row 10: 	10|	600|	660|	720|
+End Ratio table from tableprint 
+Ratio table from: table02
+row 0: 	|	2|	1|	10%|	25%|	30%|	1|	2|
+row 1: 	1|	60|	90|	96|	105|	108|	120|	150|
+row 2: 	2|	120|	180|	192|	210|	216|	240|	300|
+row 3: 	3|	180|	270|	288|	315|	324|	360|	450|
+row 4: 	4|	240|	360|	384|	420|	432|	480|	600|
+row 5: 	5|	300|	450|	480|	525|	540|	600|	750|
+End Ratio table from tableprint 
+Ratio table from: table03
+row 0: 	1|	60|	80|	90|	100|
+row 1: 	2|	120|	160|	180|	200|
+row 2: 	3|	180|	240|	270|	300|
+row 3: 	4|	240|	320|	360|	400|
+row 4: 	5|	300|	400|	450|	500|
+row 5: 	6|	360|	480|	540|	600|
+row 6: 	7|	420|	560|	630|	700|
+End Ratio table from tableprint 
+Ratio table from: table04
+row 0: 	|	4|	1|	 1/2|	1|	2|
+row 1: 	1|	60|	75|	82.5|	90|	105|
+row 2: 	2|	120|	150|	165|	180|	210|
+row 3: 	3|	180|	225|	247.5|	270|	315|
+row 4: 	4|	240|	300|	330|	360|	420|
+row 5: 	5|	300|	375|	412.5|	450|	525|
+row 6: 	6|	360|	450|	495|	540|	630|
+row 7: 	7|	420|	525|	577.5|	630|	735|
+End Ratio table from tableprint 
+Ratio table from: table05
+row 0: 	|	5|	1|	1|
+row 1: 	1|	60|	72|	84|
+row 2: 	2|	120|	144|	168|
+row 3: 	3|	180|	216|	252|
+row 4: 	4|	240|	288|	336|
+row 5: 	5|	300|	360|	420|
+row 6: 	6|	360|	432|	504|
+row 7: 	7|	420|	504|	588|
+row 8: 	8|	480|	576|	672|
+End Ratio table from tableprint 
+Ratio table from: table06
+row 0: 	|	6|	1|	1|
+row 1: 	1|	60|	70|	80|
+row 2: 	2|	120|	140|	160|
+row 3: 	3|	180|	210|	240|
+row 4: 	4|	240|	280|	320|
+row 5: 	5|	300|	350|	400|
+row 6: 	6|	360|	420|	480|
+row 7: 	7|	420|	490|	560|
+row 8: 	8|	480|	560|	640|
+row 9: 	9|	540|	630|	720|
+End Ratio table from tableprint 
+Ratio table from: table07
+row 0: 	|	8|	1|	1|
+row 1: 	1|	80|	90|	100|
+row 2: 	2|	160|	180|	200|
+row 3: 	3|	240|	270|	300|
+row 4: 	4|	320|	360|	400|
+row 5: 	5|	400|	450|	500|
+row 6: 	6|	480|	540|	600|
+row 7: 	7|	560|	630|	700|
+End Ratio table from tableprint 
+Ratio table from: table08
+row 0: 	Ounces|	dummy|
+row 1: 	2|	59.1|
+row 2: 	4|	118.3|
+row 3: 	6|	177.4|
+row 4: 	8|	236.6|
+row 5: 	10|	295.7|
+row 6: 	12|	354.8|
+row 7: 	14|	414.0|
+row 8: 	16|	473.1|
+row 9: 	18|	532.3|
+row 10: 	20|	591.4|
+row 11: 	22|	650.5|
+row 12: 	24|	709.7|
+row 13: 	26|	768.8|
+End Ratio table from tableprint 
+Ratio table from: table09
+row 0: 	mL|
+row 1: 	50|
+row 2: 	100|
+row 3: 	150|
+row 4: 	200|
+row 5: 	250|
+row 6: 	300|
+row 7: 	350|
+row 8: 	400|
+row 9: 	450|
+row 10: 	500|
+row 11: 	550|
+row 12: 	600|
+row 13: 	650|
+row 14: 	700|
+row 15: 	750|
+End Ratio table from tableprint 
+Ratio table from: table10
+row 0: 	Parts|	dummy|
+row 1: 	1|	72|
+row 2: 	2|	144|
+row 3: 	3|	216|
+row 4: 	4|	288|
+row 5: 	5|	360|
+row 6: 	6|	432|
+row 7: 	7|	504|
+row 8: 	8|	576|
+row 9: 	9|	648|
+row 10: 	10|	720|
+End Ratio table from tableprint 
+Ratio table from: table11
+row 0: 	Parts|	dummy|
+row 1: 	1|	50|
+row 2: 	2|	100|
+row 3: 	3|	150|
+row 4: 	4|	200|
+row 5: 	5|	250|
+row 6: 	6|	300|
+row 7: 	7|	350|
+row 8: 	8|	400|
+row 9: 	9|	450|
+row 10: 	10|	500|
+row 11: 	11|	550|
+row 12: 	12|	600|
+row 13: 	13|	650|
+row 14: 	14|	700|
+row 15: 	15|	750|
+End Ratio table from tableprint 
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Bug Test 5-29-13/SOM Test/Ratio Files/H1072802/Reference/T41032TP Parameter chart.txt
+No table found in "T41032TP Parameter chart.txt"
+Parse parameter table
+Parameter table from: parametertable
+line: 1 = val: 0.1			key: Column Space (inches)
+line: 2 = val: T41032TP			key: Container Part Number
+line: 3 = val: Hyman			key: Customer Name
+line: 4 = val: Black			key: Header Horizontal Line Color
+line: 5 = val: 2			key: Header Horizontal Line Weight (points)
+line: 6 = val: Black			key: Horizontal Line Color
+line: 7 = val: 1			key: Horizontal Line Weight (points)
+line: 8 = val: H55555_9108			key: Job Number
+line: 9 = val: Helvetica-Bold			key: Measurement Chart Font
+line: 10 = val: Black			key: Measurement Chart Font Color
+line: 11 = val: 10			key: Measurement Chart Font Size (points)
+line: 12 = val: 4			key: Measurement Chart Height (inches)
+line: 13 = val: Right			key: Measurement Chart Location (on Right or on Left)
+line: 14 = val: 0.75			key: Measurement Chart Width (inches)
+line: 15 = val: Kim			key: Operator Name
+line: 16 = val: 4			key: Ratio Chart Height (inches)
+line: 17 = val: 0.25			key: Ratio Chart Top Offset (inches)
+line: 18 = val: 0.2			key: Ratio Chart Width (inches)
+line: 19 = val: Helvetica-Bold			key: Ratio Column Font
+line: 20 = val: Black			key: Ratio Column Font Color
+line: 21 = val: 9			key: Ratio Column Font Size (points)
+line: 22 = val: Helvetica-Bold			key: Ratio Header Font
+line: 23 = val: Black			key: Ratio Header Font Color
+line: 24 = val: 12			key: Ratio Header Font Size (points)
+line: 25 = val: 0.25			key: Ratio Header Height (inches)
+line: 26 = val: Below			key: Ratio Number Location (Above or Below)
+line: 27 = val: Black			key: Vertical Line Color Inside
+line: 28 = val: Black			key: Vertical Line Color Outside
+line: 29 = val: 1			key: Vertical Line Weight Inside (points)
+line: 30 = val: 2			key: Vertical Line Weight Outside (points)
+End parameter table from paramtableprint
+++Color and Font Check.
+-color param: Header Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Measurement Chart Font Color = Black --Exists in process colors hash.
+-color param: Ratio Column Font Color = Black --Exists in process colors hash.
+-color param: Ratio Header Font Color = Black --Exists in process colors hash.
+-color param: Vertical Line Color Inside = Black --Exists in process colors hash.
+-color param: Vertical Line Color Outside = Black --Exists in process colors hash.
+-font param: Measurement Chart Font = Helvetica-Bold--Exists in fonts hash.
+-font param: Ratio Column Font = Helvetica-Bold--Exists in fonts hash.
+-font param: Ratio Header Font = Helvetica-Bold--Exists in fonts hash.
+New file name: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Bug Test 5-29-13/SOM Test/Ratio Files/H1072802/Reference/H1072802 Ratio Chart.eps

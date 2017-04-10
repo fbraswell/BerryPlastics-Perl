@@ -3,9 +3,13 @@ package SOM::SOMtables;
 # Copyright (c) 2007 Systems of Merritt, Inc.
 # Written by Frank Braswell for Berry Plastics
 
+# This package is responsible for building the PostScript EPS file.
+
 # use strict;
 use SOM::myutils;
 use SOM::getopt;
+
+print "load SOMtables.pm\n";
 #===========================================================#
 	# The following closures control access to 
 	# important control variables.

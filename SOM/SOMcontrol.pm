@@ -3,6 +3,10 @@ package SOM::SOMcontrol;
 # Copyright (c) 2007 Systems of Merritt, Inc.
 # Written by Frank Braswell for Berry Plastics
 # Update 4-30-10 remove reference to AppleScript
+# Updated March/April 2017
+
+# This package is responsible for parsing the input files and
+# building data structures with the data
  
 require Exporter;
 @ISA = qw(Exporter);
@@ -17,7 +21,15 @@ use SOM::getopt;
 use SOM::SOMtables;
 # use Mac::AppleScript qw( RunAppleScript );
 
-print "loading SOMcontrol.pm\n"; # DEBUG
+my $_conversion = 'conversion';
+my $_ratio = 'ratio';
+my $_measurement = 'measurement';
+my $_parameter = 'parameter';
+
+print "load SOMcontrol.pm\n"; # DEBUG
+
+
+
 my $ratiocompilerver = '2.0';
 $/ = "\r"; # input record separator
 $| = 1; # flush after each write
@@ -107,6 +119,12 @@ my %parameterlist =
 );
 #===========================================================#	
 	# colors
+    
+    # Look for a file with /Fonts|Colors/i in the name at the
+    # location $dh, which is determined below
+    
+    # The fonts and colors are added into the final EPS file
+    
 #		%%CMYKCustomColor: 0 0 0 0.2400 (PANTONE Cool Gray 4 C)
 #		%%+ 0 1 0.8100 0.0400 (PANTONE 186 C)
 #		%%+ 1 0.5700 0 0.0200 (Berry Blue)
@@ -136,7 +154,7 @@ my %parameterlist =
         # Determine fonts, process colors and spot colors
 	foreach ( readdir $dh )
 	{
-		logprint "read directory file: $_\n";
+#		logprint "read directory file: $_\n";
         # Example file names
         # Berry Fonts.eps
         # Berry Colors.eps
@@ -197,6 +215,8 @@ my %parameterlist =
 #	die "HALT PROGRAM!!!";
 # } # end closure
 #===========================================================#
+# This procedure is called from runprog.pl to set up any initial
+# data or procedures.
 sub initstuff
 {
 	# Establish path to distiller application
@@ -206,14 +226,17 @@ sub initstuff
 envincdump( ) if (0);
 } # end sub initstuff
 #===========================================================#
-# This function is called from RatioCompiler.app It is responsible for 
+# This function is called from runprog.pl. It is responsible for 
 # coordinating the main processing work of this software package.
+# It is called after initstuff above.
 sub processjob
 {	
 	my $result;
 	my @convobj;
     my $fh;
 	$result = 'status ok';
+    # @ARGV contains the command line arguments,
+    # which are the names of the 3 input files
 	foreach my $fin ( @ARGV )
 	{
 		logprint "Input file: $fin\n";
@@ -224,7 +247,8 @@ sub processjob
         } else
         { logprint "File didn't open: $fin\n";
         }
-		
+		# parsetables figures out what kind of input
+        # file we are deling with and processes it.
 		push @convobj, ( parsetables( $fh, $fin ) );
 	
 	} # foreach my $fin ( @ARGV )
@@ -417,29 +441,33 @@ sub parsetables
 		# array.
 		CASE:
 		{
-			$charttype =~ /conversion/		&& do
+			$charttype =~ /$_conversion/		&& do
 													{
 														logprint "Parse conversion table\n";
 														push @tableobjects, ( parseconversiontable( $fh, $fin ) );
+                                                        $_conversion = 'not found again';
 														last CASE;
 													};
-			$charttype =~ /ratio/		&& do
+			$charttype =~ /$_ratio/		&& do
 													{
 														logprint "Parse ratio tables\n";
 														push @tableobjects, ( parseratiotables( $fh, $fin ) );
+                                                        $_ratio = 'not found again';
 														last CASE;
 													};
-			$charttype =~ /measurement/		&& do
+			$charttype =~ /$_measurement/		&& do
 													{
 														logprint "Parse measurement tables\n";
 														# push @tableobjects, ( parsemeasurementtables( $fh, $fin ) );
 														push @tableobjects, ( parseratiotables( $fh, $fin ) );
+                                                        $_measurement = 'not found again';
 														last CASE;
 													};
-			$charttype =~ /parameter/		&& do
+			$charttype =~ /$_parameter/		&& do
 													{
 														logprint "Parse parameter table\n";
 														push @tableobjects, ( parseparametertable( $fh, $fin ) );
+                                                        $_parameter = 'not found again';
 														last CASE;
 													};
 													
