@@ -1,0 +1,690 @@
+
+------Berry Plastics RatioCompiler Version 2.0 
+Date: 4/10/2017, Time: 20:18:19
+Program path: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl
+Command line: runprog.pl
+cwd Program path: /
+Command line: runprog.pl
+**Fonts & Colors file: Berry Fonts & Colors.eps
+-Font: Courier
+-Font: Helvetica
+-Font: Helvetica-Black
+-Font: Helvetica-Bold
+-Font: Helvetica-Condensed-Bold
+-Font: Myriad-Roman
+-Font: Times-Bold
+-Font: Times-Roman
+=Process Color: Black
+=Process Color: Cyan
+=Process Color: Magenta
+=Process Color: Yellow
+=Spot Color: Berry Blue
+=Spot Color: PANTONE 106 M
+=Spot Color: PANTONE 277 M
+=Spot Color: PANTONE 2925 M
+=Spot Color: PANTONE 484 M
+=Spot Color: PANTONE Reflex Blue CVC
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Bug Test 5-29-13/SOM Test/Ratio Files/H1072803/Reference/H1072803 Conversion Chart.txt
+Parse ratio tables
+Ratio table from: table00
+row 0: 	|	99|	2.0334|
+End Ratio table from tableprint 
+Ratio table from: table01
+row 0: 	|	195|	1.2290
+30|	2.6560|
+End Ratio table from tableprint 
+Ratio table from: table02
+row 0: 	|	100|	2.0250|
+End Ratio table from tableprint 
+Ratio table from: table03
+row 0: 	|	196|	1.2220
+32|	2.635|
+End Ratio table from tableprint 
+Ratio table from: table04
+row 0: 	|	101|	2.0140|
+End Ratio table from tableprint 
+Ratio table from: table05
+row 0: 	|	198|	1.2080
+33|	2.6245|
+End Ratio table from tableprint 
+Ratio table from: table06
+row 0: 	|	101.3|	2.0109|
+End Ratio table from tableprint 
+Ratio table from: table07
+row 0: 	|	200|	1.1940
+33.3|	2.6213|
+End Ratio table from tableprint 
+Ratio table from: table08
+row 0: 	|	102|	2.0035|
+End Ratio table from tableprint 
+Ratio table from: table09
+row 0: 	|	202.5|	1.1732
+33.8|	2.6161|
+End Ratio table from tableprint 
+Ratio table from: table10
+row 0: 	|	103.5|	1.9878|
+End Ratio table from tableprint 
+Ratio table from: table100
+row 0: 	|	166.7|	1.4669|
+End Ratio table from tableprint 
+Ratio table from: table101
+row 0: 	|	275|	0.6182
+73.3|	2.2417|
+End Ratio table from tableprint 
+Ratio table from: table102
+row 0: 	|	168|	1.4551|
+End Ratio table from tableprint 
+Ratio table from: table103
+row 0: 	|	276|	0.6126
+75|	2.2310|
+End Ratio table from tableprint 
+Ratio table from: table104
+row 0: 	|	168.8|	1.4478|
+End Ratio table from tableprint 
+Ratio table from: table105
+row 0: 	|	279|	0.5960
+76.5|	2.2170|
+End Ratio table from tableprint 
+Ratio table from: table106
+row 0: 	|	169|	1.4460|
+End Ratio table from tableprint 
+Ratio table from: table107
+row 0: 	|	280|	0.5885
+78|	2.2024|
+End Ratio table from tableprint 
+Ratio table from: table108
+row 0: 	|	171|	1.4265|
+End Ratio table from tableprint 
+Ratio table from: table109
+row 0: 	|	281.3|	0.5788
+80|	2.1830|
+End Ratio table from tableprint 
+Ratio table from: table11
+row 0: 	|	203|	1.1690
+34|	2.6140|
+End Ratio table from tableprint 
+Ratio table from: table110
+row 0: 	|	172|	1.4167|
+End Ratio table from tableprint 
+Ratio table from: table111
+row 0: 	|	285|	0.5511
+83|	2.1623|
+End Ratio table from tableprint 
+Ratio table from: table112
+row 0: 	|	172.5|	1.4118|
+End Ratio table from tableprint 
+Ratio table from: table113
+row 0: 	|	286|	0.5436
+84|	2.1554|
+End Ratio table from tableprint 
+Ratio table from: table114
+row 0: 	|	175|	1.3874|
+End Ratio table from tableprint 
+Ratio table from: table115
+row 0: 	|	287.5|	0.5324
+86|	2.1416|
+End Ratio table from tableprint 
+Ratio table from: table116
+row 0: 	|	176|	1.3777|
+End Ratio table from tableprint 
+Ratio table from: table117
+row 0: 	|	288|	0.5286
+88|	2.1278|
+End Ratio table from tableprint 
+Ratio table from: table118
+row 0: 	|	177.4|	1.3640|
+End Ratio table from tableprint 
+Ratio table from: table119
+row 0: 	|	290.5|	0.5099
+88.7|	2.1230|
+End Ratio table from tableprint 
+Ratio table from: table12
+row 0: 	|	104|	1.9825|
+End Ratio table from tableprint 
+Ratio table from: table120
+row 0: 	|	180|	1.3490|
+End Ratio table from tableprint 
+Ratio table from: table121
+row 0: 	|	292.5|	0.4950
+90|	2.1140|
+End Ratio table from tableprint 
+Ratio table from: table122
+row 0: 	|	183|	1.3310|
+End Ratio table from tableprint 
+Ratio table from: table123
+row 0: 	|	293.3|	0.4877
+92|	2.0946|
+End Ratio table from tableprint 
+Ratio table from: table124
+row 0: 	|	183.3|	1.3292|
+End Ratio table from tableprint 
+Ratio table from: table125
+row 0: 	|	294|	0.4814
+93|	2.0850|
+End Ratio table from tableprint 
+Ratio table from: table126
+row 0: 	|	184|	1.3250|
+End Ratio table from tableprint 
+Ratio table from: table127
+row 0: 	|	295.7|	0.4660
+95|	2.0676|
+End Ratio table from tableprint 
+Ratio table from: table128
+row 0: 	|	186|	1.3130|
+End Ratio table from tableprint 
+Ratio table from: table129
+row 0: 	|	300|	0.4260
+96|	2.0590|
+End Ratio table from tableprint 
+Ratio table from: table13
+row 0: 	|	204|	1.1606
+35|	2.6032|
+End Ratio table from tableprint 
+Ratio table from: table130
+row 0: 	|	187.5|	1.2988|
+End Ratio table from tableprint 
+Ratio table from: table131
+row 0: 	|	301|	0.4184
+97.5|	2.0460|
+End Ratio table from tableprint 
+Ratio table from: table132
+row 0: 	|	188|	1.2940|
+End Ratio table from tableprint 
+Ratio table from: table133
+row 0: 	|	312|	0.3348
+98|	2.0418|
+End Ratio table from tableprint 
+Ratio table from: table134
+row 0: 	|	189|	1.2849|
+End Ratio table from tableprint 
+Ratio table from: table135
+row 0: 	|	315|	0.3120
+|
+End Ratio table from tableprint 
+Ratio table from: table136
+row 0: 	|	190|	1.2758|
+End Ratio table from tableprint 
+Ratio table from: table137
+row 0: 	|	322|	0.2726
+|
+End Ratio table from tableprint 
+Ratio table from: table138
+row 0: 	|	191.3|	1.2640|
+End Ratio table from tableprint 
+Ratio table from: table139
+row 0: 	|	325.3|	0.2540
+|
+End Ratio table from tableprint 
+Ratio table from: table14
+row 0: 	|	105|	1.9720|
+End Ratio table from tableprint 
+Ratio table from: table140
+row 0: 	|	192|	1.2574|
+End Ratio table from tableprint 
+Ratio table from: table141
+row 0: 	|	325.5|	0.2530
+|
+End Ratio table from tableprint 
+Ratio table from: table142
+row 0: 	|	330|	0.2150|
+End Ratio table from tableprint 
+Ratio table from: table15
+row 0: 	|	206|	1.1437
+36|	2.5923|
+End Ratio table from tableprint 
+Ratio table from: table16
+row 0: 	|	106|	1.9636|
+End Ratio table from tableprint 
+Ratio table from: table17
+row 0: 	|	207|	1.1353
+36.7|	2.5847|
+End Ratio table from tableprint 
+Ratio table from: table18
+row 0: 	|	108|	1.9468|
+End Ratio table from tableprint 
+Ratio table from: table19
+row 0: 	|	207.5|	1.1311
+37.5|	2.5760|
+End Ratio table from tableprint 
+Ratio table from: table20
+row 0: 	|	110|	1.9300|
+End Ratio table from tableprint 
+Ratio table from: table21
+row 0: 	|	208|	1.1269
+38|	2.5700|
+End Ratio table from tableprint 
+Ratio table from: table22
+row 0: 	|	112.5|	1.9090|
+End Ratio table from tableprint 
+Ratio table from: table23
+row 0: 	|	210|	1.1100
+38.3|	2.5680|
+End Ratio table from tableprint 
+Ratio table from: table24
+row 0: 	|	113|	1.9050|
+End Ratio table from tableprint 
+Ratio table from: table25
+row 0: 	|	212|	1.0947
+39|	2.5598|
+End Ratio table from tableprint 
+Ratio table from: table26
+row 0: 	|	114|	1.8967|
+End Ratio table from tableprint 
+Ratio table from: table27
+row 0: 	|	215|	1.0717|	
+40|	2.5480|
+End Ratio table from tableprint 
+Ratio table from: table28
+row 0: 	|	114.8|	1.8900|
+End Ratio table from tableprint 
+Ratio table from: table29
+row 0: 	|	216|	1.0640|	
+41.5|	2.5336|
+End Ratio table from tableprint 
+Ratio table from: table30
+row 0: 	|	115|	1.8883|
+End Ratio table from tableprint 
+Ratio table from: table31
+row 0: 	|	220|	1.0333|	
+42|	2.5288|
+End Ratio table from tableprint 
+Ratio table from: table32
+row 0: 	|	117|	1.8711|
+End Ratio table from tableprint 
+Ratio table from: table33
+row 0: 	|	224|	1.0027|	
+43|	2.5192|
+End Ratio table from tableprint 
+Ratio table from: table34
+row 0: 	|	118.3|	1.8600|
+End Ratio table from tableprint 
+Ratio table from: table35
+row 0: 	|	225|	0.9950|	
+44|	2.5096|
+End Ratio table from tableprint 
+Ratio table from: table36
+row 0: 	|	120|	1.8450|
+End Ratio table from tableprint 
+Ratio table from: table37
+row 0: 	|	228|	0.9757|	
+45|	2.5000|
+End Ratio table from tableprint 
+Ratio table from: table38
+row 0: 	|	122|	1.8282|
+End Ratio table from tableprint 
+Ratio table from: table39
+row 0: 	|	229.5|	0.9660|	
+46|	2.4933|
+End Ratio table from tableprint 
+Ratio table from: table40
+row 0: 	|	124.5|	1.8072|
+End Ratio table from tableprint 
+Ratio table from: table41
+row 0: 	|	230|	0.9626|	
+46.5|	2.4900|
+End Ratio table from tableprint 
+Ratio table from: table42
+row 0: 	|	125|	1.8030|
+End Ratio table from tableprint 
+Ratio table from: table43
+row 0: 	|	231|	0.9560
+47.5|	2.4826|
+End Ratio table from tableprint 
+Ratio table from: table44
+row 0: 	|	126|	1.7946|
+End Ratio table from tableprint 
+Ratio table from: table45
+row 0: 	|	232.5|	0.9460|	
+48|	2.4789|
+End Ratio table from tableprint 
+Ratio table from: table46
+row 0: 	|	128|	1.7778|
+End Ratio table from tableprint 
+Ratio table from: table47
+row 0: 	|	233.3|	0.9393|	
+48.8|	2.4730|
+End Ratio table from tableprint 
+Ratio table from: table48
+row 0: 	|	129|	1.7694|
+End Ratio table from tableprint 
+Ratio table from: table49
+row 0: 	|	234|	0.9335|	
+49|	2.4717|
+End Ratio table from tableprint 
+Ratio table from: table50
+row 0: 	|	130|	1.7610|
+End Ratio table from tableprint 
+Ratio table from: table51
+row 0: 	|	236.3|	0.9145|	
+49.5|	2.4684|
+End Ratio table from tableprint 
+Ratio table from: table52
+row 0: 	|	132|	1.7442|
+End Ratio table from tableprint 
+Ratio table from: table53
+row 0: 	|	236.6|	0.9120|	
+50|	2.4650|
+End Ratio table from tableprint 
+Ratio table from: table54
+row 0: 	|	133.3|	1.7333|
+End Ratio table from tableprint 
+Ratio table from: table55
+row 0: 	|	237.5|	0.9043|	
+51|	2.4538|
+End Ratio table from tableprint 
+Ratio table from: table56
+row 0: 	|	135|	1.7190|
+End Ratio table from tableprint 
+Ratio table from: table57
+row 0: 	|	238|	0.90004|	
+51.8|	2.4448|
+End Ratio table from tableprint 
+Ratio table from: table58
+row 0: 	|	138|	1.6890|
+End Ratio table from tableprint 
+Ratio table from: table59
+row 0: 	|	240|	0.8830
+52|	2.4426|
+End Ratio table from tableprint 
+Ratio table from: table60
+row 0: 	|	139.5|	1.6740|
+End Ratio table from tableprint 
+Ratio table from: table61
+row 0: 	|	243.8|	0.8560
+52.5|	2.4370|
+End Ratio table from tableprint 
+Ratio table from: table62
+row 0: 	|	140|	1.6704|
+End Ratio table from tableprint 
+Ratio table from: table63
+row 0: 	|	244|	0.8546
+53|	2.4312|
+End Ratio table from tableprint 
+Ratio table from: table64
+row 0: 	|	142.5|	1.6524|
+End Ratio table from tableprint 
+Ratio table from: table65
+row 0: 	|	245|	0.8476
+54|	2.4196|
+End Ratio table from tableprint 
+Ratio table from: table66
+row 0: 	|	143|	1.6488|
+End Ratio table from tableprint 
+Ratio table from: table67
+row 0: 	|	246|	0.8407
+55|	2.4080|
+End Ratio table from tableprint 
+Ratio table from: table68
+row 0: 	|	144|	1.6416|
+End Ratio table from tableprint 
+Ratio table from: table69
+row 0: 	|	247.5|	0.8303
+56.3|	2.4000|
+End Ratio table from tableprint 
+Ratio table from: table70
+row 0: 	|	146.3|	1.6250|
+End Ratio table from tableprint 
+Ratio table from: table71
+row 0: 	|	249|	0.8199
+57|	2.3958|
+End Ratio table from tableprint 
+Ratio table from: table72
+row 0: 	|	146.7|	1.6222|
+End Ratio table from tableprint 
+Ratio table from: table73
+row 0: 	|	250|	0.8130
+57.5|	2.3928|
+End Ratio table from tableprint 
+Ratio table from: table74
+row 0: 	|	147|	1.6201|
+End Ratio table from tableprint 
+Ratio table from: table75
+row 0: 	|	252|	0.7976
+59.1|	2.3830|
+End Ratio table from tableprint 
+Ratio table from: table76
+row 0: 	|	147.9|	1.6138|
+End Ratio table from tableprint 
+Ratio table from: table77
+row 0: 	|	255|	0.7746
+60|	2.3770|
+End Ratio table from tableprint 
+Ratio table from: table78
+row 0: 	|	148.5|	1.6096|
+End Ratio table from tableprint 
+Ratio table from: table79
+row 0: 	|	256.7|	0.7615
+61|	2.3643|
+End Ratio table from tableprint 
+Ratio table from: table80
+row 0: 	|	150|	1.5990|
+End Ratio table from tableprint 
+Ratio table from: table81
+row 0: 	|	258|	0.7515
+63|	2.3388|
+End Ratio table from tableprint 
+Ratio table from: table82
+row 0: 	|	153|	1.5750|
+End Ratio table from tableprint 
+Ratio table from: table83
+row 0: 	|	260|	0.7362
+64|	2.3261|
+End Ratio table from tableprint 
+Ratio table from: table84
+row 0: 	|	155.3|	1.5561|
+End Ratio table from tableprint 
+Ratio table from: table85
+row 0: 	|	262.5|	0.7170
+65|	2.3133|
+End Ratio table from tableprint 
+Ratio table from: table86
+row 0: 	|	156|	1.5503|
+End Ratio table from tableprint 
+Ratio table from: table87
+row 0: 	|	263|	0.7130
+66|	2.3005|
+End Ratio table from tableprint 
+Ratio table from: table88
+row 0: 	|	157.5|	1.5380|
+End Ratio table from tableprint 
+Ratio table from: table89
+row 0: 	|	264|	0.7035
+66.7|	2.2916|
+End Ratio table from tableprint 
+Ratio table from: table90
+row 0: 	|	159|	1.5320|
+End Ratio table from tableprint 
+Ratio table from: table91
+row 0: 	|	265|	0.6939
+67.5|	2.2814|
+End Ratio table from tableprint 
+Ratio table from: table92
+row 0: 	|	160|	1.5280|
+End Ratio table from tableprint 
+Ratio table from: table93
+row 0: 	|	266.1|	0.6834
+68|	2.2750|
+End Ratio table from tableprint 
+Ratio table from: table94
+row 0: 	|	162|	1.5098|
+End Ratio table from tableprint 
+Ratio table from: table95
+row 0: 	|	266.7|	0.6776
+69|	2.2688|
+End Ratio table from tableprint 
+Ratio table from: table96
+row 0: 	|	165|	1.4824|
+End Ratio table from tableprint 
+Ratio table from: table97
+row 0: 	|	270|	0.6460
+70|	2.2625|
+End Ratio table from tableprint 
+Ratio table from: table98
+row 0: 	|	166|	1.4733|
+End Ratio table from tableprint 
+Ratio table from: table99
+row 0: 	|	273|	0.6293
+72|	2.2499|
+End Ratio table from tableprint 
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Bug Test 5-29-13/SOM Test/Ratio Files/H1072803/Reference/H1072803 Ratio Chart.txt
+No table found in "H1072803 Ratio Chart.txt" at 2
+No table found in "H1072803 Ratio Chart.txt" at 3
+No table found in "H1072803 Ratio Chart.txt" at 5
+No table found in "H1072803 Ratio Chart.txt" at 9
+No table found in "H1072803 Ratio Chart.txt" at 10
+No table found in "H1072803 Ratio Chart.txt" at 11
+No table found in "H1072803 Ratio Chart.txt" at 12
+No table found in "H1072803 Ratio Chart.txt" at 13
+No table found in "H1072803 Ratio Chart.txt" at 16
+No table found in "H1072803 Ratio Chart.txt" at 17
+No table found in "H1072803 Ratio Chart.txt" at 18
+No table found in "H1072803 Ratio Chart.txt" at 19
+No table found in "H1072803 Ratio Chart.txt" at 20
+No table found in "H1072803 Ratio Chart.txt" at 21
+No table found in "H1072803 Ratio Chart.txt" at 22
+No table found in "H1072803 Ratio Chart.txt" at 23
+No table found in "H1072803 Ratio Chart.txt" at 24
+No table found in "H1072803 Ratio Chart.txt" at 27
+No table found in "H1072803 Ratio Chart.txt" at 28
+No table found in "H1072803 Ratio Chart.txt" at 29
+No table found in "H1072803 Ratio Chart.txt" at 30
+No table found in "H1072803 Ratio Chart.txt" at 31
+No table found in "H1072803 Ratio Chart.txt" at 34
+No table found in "H1072803 Ratio Chart.txt" at 35
+No table found in "H1072803 Ratio Chart.txt" at 36
+No table found in "H1072803 Ratio Chart.txt" at 37
+No table found in "H1072803 Ratio Chart.txt" at 38
+No table found in "H1072803 Ratio Chart.txt" at 39
+No table found in "H1072803 Ratio Chart.txt" at 40
+No table found in "H1072803 Ratio Chart.txt" at 43
+No table found in "H1072803 Ratio Chart.txt" at 44
+No table found in "H1072803 Ratio Chart.txt" at 45
+No table found in "H1072803 Ratio Chart.txt" at 46
+No table found in "H1072803 Ratio Chart.txt" at 47
+No table found in "H1072803 Ratio Chart.txt" at 50
+No table found in "H1072803 Ratio Chart.txt" at 51
+No table found in "H1072803 Ratio Chart.txt" at 52
+No table found in "H1072803 Ratio Chart.txt" at 53
+No table found in "H1072803 Ratio Chart.txt" at 54
+No table found in "H1072803 Ratio Chart.txt" at 55
+No table found in "H1072803 Ratio Chart.txt" at 56
+No table found in "H1072803 Ratio Chart.txt" at 57
+No table found in "H1072803 Ratio Chart.txt" at 60
+No table found in "H1072803 Ratio Chart.txt" at 61
+No table found in "H1072803 Ratio Chart.txt" at 62
+No table found in "H1072803 Ratio Chart.txt" at 63
+No table found in "H1072803 Ratio Chart.txt" at 64
+No table found in "H1072803 Ratio Chart.txt" at 65
+No table found in "H1072803 Ratio Chart.txt" at 66
+Parse measurement tables
+%% ERROR firstcol%%Ratio table from: table00
+row 0: 	|	1|	1|	10%|	50%|
+row 1: 	1|	30|	60|	63|	75|
+row 2: 	2|	60|	120|	126|	150|
+row 3: 	3|	90|	180|	189|	225|
+row 4: 	4|	120|	240|	252|	300|
+End Ratio table from tableprint 
+Ratio table from: table01
+row 0: 	|	1|	10%|	20%|
+row 1: 	1|	30|	33|	36|
+row 2: 	2|	60|	66|	72|
+row 3: 	3|	90|	99|	108|
+row 4: 	4|	120|	132|	144|
+row 5: 	5|	150|	165|	180|
+row 6: 	6|	180|	198|	216|
+row 7: 	7|	210|	231|	252|
+row 8: 	8|	240|	264|	288|
+End Ratio table from tableprint 
+Ratio table from: table02
+row 0: 	|	2|	1|	10%|	25%|	30%|	1|	2|
+row 1: 	1|	30|	45|	48|	52.5|	54|	60|	75|
+row 2: 	2|	60|	90|	96|	105|	108|	120|	150|
+row 3: 	3|	90|	135|	144|	157.5|	162|	180|	225|
+row 4: 	4|	120|	180|	192|	210|	216|	240|	300|
+End Ratio table from tableprint 
+Ratio table from: table03
+row 0: 	1|	30|	40|	45|	50|
+row 1: 	2|	60|	80|	90|	100|
+row 2: 	3|	90|	120|	135|	150|
+row 3: 	4|	120|	160|	180|	200|
+row 4: 	5|	150|	200|	225|	250|
+row 5: 	6|	180|	240|	270|	300|
+End Ratio table from tableprint 
+Ratio table from: table04
+row 0: 	|	4|	1|	 1/2|	1|	2|
+row 1: 	1|	40|	50|	55|	60|	70|
+row 2: 	2|	80|	100|	110|	120|	140|
+row 3: 	3|	120|	150|	165|	180|	210|
+row 4: 	4|	160|	200|	220|	240|	280|
+End Ratio table from tableprint 
+Ratio table from: table05
+row 0: 	|	5|	1|	1|
+row 1: 	1|	30|	36|	42|
+row 2: 	2|	60|	72|	84|
+row 3: 	3|	90|	108|	126|
+row 4: 	4|	120|	144|	168|
+row 5: 	5|	150|	180|	210|
+row 6: 	6|	180|	216|	252|
+row 7: 	7|	210|	252|	294|
+End Ratio table from tableprint 
+Ratio table from: table06
+row 0: 	|	6|	1|	1|
+row 1: 	1|	30|	35|	40|
+row 2: 	2|	60|	70|	80|
+row 3: 	3|	90|	105|	120|
+row 4: 	4|	120|	140|	160|
+row 5: 	5|	150|	175|	200|
+row 6: 	6|	180|	210|	240|
+row 7: 	7|	210|	245|	280|
+End Ratio table from tableprint 
+Ratio table from: table07
+row 0: 	|	8|	1|	1|
+row 1: 	1|	40|	45|	50|
+row 2: 	2|	80|	90|	100|
+row 3: 	3|	120|	135|	150|
+row 4: 	4|	160|	180|	200|
+row 5: 	5|	200|	225|	250|
+row 6: 	6|	240|	270|	300|
+End Ratio table from tableprint 
+Ratio table from: table08
+row 0: 	Parts|	dummy|
+row 1: 	1|	30|
+row 2: 	2|	420|
+row 3: 	3|	630|
+row 4: 	4|	840|
+row 5: 	5|	1050|
+row 6: 	6|	1260|
+row 7: 	7|	1470|
+row 8: 	8|	1680|
+row 9: 	9|	1890|
+row 10: 	10|	2100|
+End Ratio table from tableprint 
+Ratio table from: table09
+row 0: 	Ounces|	dummy|
+row 1: 	2|	59.1|
+row 2: 	3|	88.7|
+row 3: 	4|	118.3|
+row 4: 	5|	147.9|
+row 5: 	6|	177.4|
+row 6: 	7|	207.0|
+row 7: 	8|	236.6|
+row 8: 	9|	266.1|
+row 9: 	10|	295.7|
+row 10: 	11|	325.3|
+End Ratio table from tableprint 
+Ratio table from: table10
+row 0: 	mL|
+row 1: 	50|
+row 2: 	75|
+row 3: 	100|
+row 4: 	125|
+row 5: 	150|
+row 6: 	175|
+row 7: 	200|
+row 8: 	225|
+row 9: 	250|
+row 10: 	275|
+row 11: 	300|
+End Ratio table from tableprint 
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Bug Test 5-29-13/SOM Test/Ratio Files/H1072803/Reference/T30915CP Parameter chart.txt
+FATAL ERROR MESSAGE! Conversion table doesn't exist

@@ -1,0 +1,293 @@
+
+------Berry Plastics RatioCompiler Version 2.0 
+Date: 4/12/2017, Time: 06:25:30
+Program path: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl
+Command line: runprog.pl
+cwd Program path: /
+Command line: runprog.pl
+**Fonts & Colors file: Berry Fonts & Colors.eps
+-line: %!PS-Adobe-3.1 EPSF-3.0
+-line: %ADO_DSC_Encoding: MacOS Roman
+-line: %%Title: Berry Fonts & Colors.eps
+-line: %%Creator: Adobe Illustrator(R) 12
+-line: %%AI8_CreatorVersion: 12.0.1
+-line: %AI9_PrintingDataBegin
+-line: %%For: Mike McMillian
+-line: %%CreationDate: 6/25/07
+-line: %%BoundingBox: 0 0 442 737
+-line: %%HiResBoundingBox: 0 0 441.0108 736.3125
+-line: %%CropBox: 0 0 441.0108 736.3125
+-line: %%LanguageLevel: 2
+-line: %%DocumentData: Clean7Bit
+-line: %%Pages: 1
+-line: %%DocumentNeededResources: font Times-Bold
+-line: %%+ font Times-Roman
+-line: %%+ font Helvetica-Black
+-line: %%+ font Helvetica-Condensed-Bold
+-line: %%+ font Helvetica-Bold
+-line: %%+ font Helvetica
+-line: %%+ font Helvetica-UltraCompressed
+-line: %%+ font Courier
+-line: %%+ font Myriad-Roman
+-line: %%DocumentSuppliedResources: procset Adobe_AGM_Image 1.0 0
+-line: %%+ procset Adobe_CoolType_Utility_T42 1.0 0
+-line: %%+ procset Adobe_CoolType_Utility_MAKEOCF 1.19 0
+-line: %%+ procset Adobe_CoolType_Core 2.23 0
+-line: %%+ procset Adobe_AGM_Core 2.0 0
+-line: %%+ procset Adobe_AGM_Utils 1.0 0
+-line: %%DocumentFonts: Times-Bold
+-line: %%+ Times-Roman
+-line: %%+ Helvetica-Black
+-line: %%+ Helvetica-Condensed-Bold
+-line: %%+ Helvetica-Bold
+-line: %%+ Helvetica
+-line: %%+ Courier
+-line: %%+ Myriad-Roman
+-line: %%DocumentNeededFonts: Times-Bold
+-line: %%+ Times-Roman
+-line: %%+ Helvetica-Black
+-line: %%+ Helvetica-Condensed-Bold
+-line: %%+ Helvetica-Bold
+-line: %%+ Helvetica
+-line: %%+ Courier
+-line: %%+ Myriad-Roman
+-line: %%DocumentNeededFeatures: 
+-line: %%DocumentSuppliedFeatures: 
+-line: %%DocumentProcessColors:  Cyan Magenta Yellow Black
+-line: %%DocumentCustomColors: (PANTONE Reflex Blue CVC)
+-line: %%+ (PANTONE 277 M)
+-line: %%+ (PANTONE 106 M)
+-line: %%+ (PANTONE 484 M)
+-line: %%+ (PANTONE 2925 M)
+-line: %%+ (Berry Blue)
+-line: %%CMYKCustomColor: 1 0.7216 0 0.0588 (PANTONE Reflex Blue CVC)
+-line: %%+ 0.2700 0.0700 0 0 (PANTONE 277 M)
+-line: %%+ 0 0.0200 0.6900 0 (PANTONE 106 M)
+-line: %%+ 0 0.9500 1 0.2900 (PANTONE 484 M)
+-line: %%+ 0.8500 0.2400 0 0 (PANTONE 2925 M)
+-line: %%+ 1 0.5687 0 0.0197 (Berry Blue)
+-line: %%RGBCustomColor: 
+-line: %ADO_BuildNumber: Adobe Illustrator(R) 12.0.1 x205 R agm 4.3861 ct 5.530
+-line: %ADO_ContainsXMP: MainFirst
+-line: %%EndComments
+-Font: Courier
+-Font: Helvetica
+-Font: Helvetica-Black
+-Font: Helvetica-Bold
+-Font: Helvetica-Condensed-Bold
+-Font: Myriad-Roman
+-Font: Times-Bold
+-Font: Times-Roman
+=Process Color: Black
+=Process Color: Cyan
+=Process Color: Magenta
+=Process Color: Yellow
+=Spot Color: Berry Blue
+=Spot Color: PANTONE 106 M
+=Spot Color: PANTONE 277 M
+=Spot Color: PANTONE 2925 M
+=Spot Color: PANTONE 484 M
+=Spot Color: PANTONE Reflex Blue CVC
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Bug Test 5-29-13/SOM Test/Ratio Files/H1045916/Reference/H1045916 Conversion Chart.txt
+Parse conversion table
+k 200|v 4.9326|k 660|v 3.6538|k 1260|v 2.1156|
+k 225|v 4.8728|k 666.7|v 3.6363|k 1272|v 2.0862|
+k 236.6|v 4.8451|k 675|v 3.6146|k 1275|v 2.07885|
+k 240|v 4.8350|k 680|v 3.6015|k 1280|v 2.0666|
+k 244|v 4.8230|k 687.5|v 3.5819|k 1290|v 2.0421|
+k 245|v 4.8200|k 690|v 3.5754|k 1296|v 2.0274|
+k 248|v 4.8110|k 700|v 3.5493|k 1300|v 2.0176|
+k 250|v 4.8050|k 709.7|v 3.5074|k 1301.1|v 2.0149|
+k 260|v 4.7751|k 720|v 3.4824|k 1320|v 1.9677|
+k 265|v 4.7601|k 732|v 3.4532|k 1325|v 1.9552|
+k 266.7|v 4.7550|k 733.3|v 3.4500|k 1333.3|v 1.9345|
+k 270|v 4.74513|k 735|v 3.4459|k 1350|v 1.8928|
+k 275|v 4.7302|k 744|v 3.4240|k 1360|v 1.8678|
+k 280|v 4.7152|k 750|v 3.4094|k 1368|v 1.8479|
+k 285|v 4.7002|k 780|v 3.3364|k 1375|v 1.8304|
+k 286.7|v 4.6951|k 784|v 3.326667|k 1380|v 1.8179|
+k 290|v 4.68522|k 795|v 3.2999|k 1395|v 1.7805|
+k 300|v 4.6553|k 798|v 3.2926|k 1400|v 1.7680|
+k 305|v 4.6410|k 800|v 3.2877|k 1419.4|v 1.7117|
+k 310|v 4.62674|k 810|v 3.2592|k 1425|v 1.6995|
+k 320|v 4.59818|k 812.5|v 3.252089|k 1433.3|v 1.6813|
+k 325|v 4.5839|k 825|v 3.2165|k 1440|v 1.6666|
+k 330|v 4.5696|k 828|v 3.2080|k 1450|v 1.64473|
+k 333.3|v 4.5602|k 830|v 3.2033|k 1462.5|v 1.6174|
+k 340|v 4.5411|k 833.3|v 3.1956|k 1464|v 1.6141|
+k 345|v 4.5269|k 840|v 3.1800|k 1466.7|v 1.6082|
+k 350|v 4.5126|k 848|v 3.1614|k 1470|v 1.6010|
+k 354.8|v 4.4987|k 850|v 3.1567|k 1485|v 1.568167|
+k 360|v 4.4836|k 855|v 3.1451|k 1488|v 1.5616|
+k 366.7|v 4.4642|k 860|v 3.1334|k 1500|v 1.5354|
+k 375|v 4.4401|k 864|v 3.124093|k 1525|v 1.4740|
+k 390|v 4.3966|k 870|v 3.11013|k 1530|v 1.4617|
+k 392|v 4.3908|k 875|v 3.0985|k 1537.6|v 1.4430|
+k 399|v 4.3705|k 880|v 3.0868|k 1540|v 1.4373|
+k 400|v 4.3676|k 900|v 3.0401|k 1550|v 1.4137|
+k 405|v 4.3544|k 912|v 3.0049|k 1560|v 1.3900|
+k 415|v 4.3280|k 915|v 2.9961|k 1568|v 1.3711|
+k 420|v 4.3148|k 920|v 2.9814|k 1575|v 1.3545|
+k 424|v 4.3043|k 930|v 2.9521|k 1590|v 1.3190|
+k 425|v 4.30165|k 946.2|v 2.9046|k 1600|v 1.2954|
+k 430|v 4.2885|k 950|v 2.8948|k 1620|v 1.2432|
+k 432|v 4.28324|k 960|v 2.8691|k 1625|v 1.2301|
+k 440|v 4.2622|k 975|v 2.8305|k 1647|v 1.1728|
+k 450|v 4.2358|k 976|v 2.8279|k 1650|v 1.1650|
+k 456|v 4.2200|k 980|v 2.8176|k 1655.9|v 1.1494|
+k 460|v 4.2094|k 990|v 2.7918|k 1660|v 1.1404|
+k 473.1|v 4.1749|k 992|v 2.7867|k 1666.7|v 1.1256|
+k 475|v 4.1697|k 1000|v 2.7661|k 1680|v 1.0964|
+k 480|v 4.1560|k 1020|v 2.7184|k 1700|v 1.0525|
+k 487.5|v 4.1341|k 1035|v 2.6826|k 1708|v 1.0342|
+k 488|v 4.1341|k 1040|v 2.6707|k 1710|v 1.0296|
+k 490|v 4.1286|k 1050|v 2.6469|k 1720|v 1.0068|
+k 495|v 4.11485|k 1060|v 2.6230|k 1728|v 0.9886|
+k 496|v 4.1121|k 1064.5|v 2.6123|k 1736|v 0.9703|
+k 500|v 4.1012|k 1066.7|v 2.6052|k 1740|v 0.9612|
+k 510|v 4.074|k 1080|v 2.5621|k 1750|v 0.9383|
+k 520|v 4.0468|k 1098|v 2.5037|k 1760|v 0.9155|
+k 525|v 4.0332|k 1100|v 2.4972|k 1774.2|v 0.8831|
+k 530|v 4.0196|k 1120|v 2.4559|k 1800|v 0.8132|
+k 533.3|v 4.0107|k 1125|v 2.4456|k 1820|v 0.7691|
+k 540|v 3.9925|k 1140|v 2.4147|k 1830|v 0.7470|
+k 549|v 3.968|k 1146.7|v 2.4009|k 1833.3|v 0.7397|
+k 550|v 3.9653|k 1160|v 2.3735|k 1840|v 0.7249|
+k 560|v 3.9381|k 1170|v 2.3529|k 1860|v 0.6808|
+k 570|v 3.9109|k 1176|v 2.340525|k 1875|v 0.6477|
+k 573.3|v 3.9020|k 1182.8|v 2.3265|k 1890|v 0.6146|
+k 580|v 3.88375|k 1197|v 2.2737|k 1892.5|v 0.6091|
+k 591.4|v 3.8527|k 1200|v 2.2626|k 1900|v 0.5823|
+k 600|v 3.8105|k 1215|v 2.2259|k 1920|v 0.5361|
+k 610|v 3.7844|k 1220|v 2.2136|k 1925|v 0.5246|
+k 620|v 3.7583|k 1225|v 2.2014|k 1950|v 0.4668|
+k 625|v 3.7452|k 1240|v 2.1646|k 1952|v 0.4622|
+k 630|v 3.7321|k 1245|v 2.1523|k 1960|v 0.4438|
+k 640|v 3.7060|k 1250|v 2.1401|k 1980|v 0.3976|
+k 650|v 3.6799|k 1984|v 0.3884|
+k 2000|v 0.3514|
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Bug Test 5-29-13/SOM Test/Ratio Files/H1045916/Reference/H1045916 Ratio Chart.txt
+No table found in "H1045916 Ratio Chart.txt" at 2
+No table found in "H1045916 Ratio Chart.txt" at 3
+No table found in "H1045916 Ratio Chart.txt" at 5
+Parse ratio tables
+Ratio table from: table00
+row 0: 	H1045916 Hyman Super Auto Parts|	dummy|
+End Ratio table from tableprint 
+Ratio table from: table01
+row 0: 	|	1|	1|	10%|
+row 1: 	1|	300|	600|	630|
+row 2: 	2|	600|	1200|	1260|
+row 3: 	3|	900|	1800|	1890|
+End Ratio table from tableprint 
+Ratio table from: table02
+row 0: 	|	2|	1|	10%|
+row 1: 	1|	300|	450|	480|
+row 2: 	2|	600|	900|	960|
+row 3: 	3|	900|	1350|	1440|
+row 4: 	4|	1200|	1800|	1920|
+End Ratio table from tableprint 
+Ratio table from: table03
+row 0: 	|	3|	1|	10%|
+row 1: 	1|	300|	400|	430|
+row 2: 	2|	600|	800|	860|
+row 3: 	3|	900|	1200|	1290|
+row 4: 	4|	1200|	1600|	1720|
+End Ratio table from tableprint 
+Ratio table from: table04
+row 0: 	|	4|	1|	10%|
+row 1: 	1|	320|	400|	432|
+row 2: 	2|	640|	800|	864|
+row 3: 	3|	960|	1200|	1296|
+row 4: 	4|	1280|	1600|	1728|
+End Ratio table from tableprint 
+Ratio table from: table05
+row 0: 	|	8|	1|	10%|
+row 1: 	1|	320|	360|	392|
+row 2: 	2|	640|	720|	784|
+row 3: 	3|	960|	1080|	1176|
+row 4: 	4|	1280|	1440|	1568|
+row 5: 	5|	1600|	1800|	1960|
+End Ratio table from tableprint 
+Ratio table from: table06
+row 0: 	Ounces|	dummy|
+row 1: 	16|	473.1|
+row 2: 	24|	709.7|
+row 3: 	32|	946.2|
+row 4: 	40|	1182.8|
+row 5: 	48|	1419.4|
+row 6: 	56|	1655.9|
+row 7: 	64|	1892.5|
+End Ratio table from tableprint 
+Ratio table from: table07
+row 0: 	Parts|	dummy|
+row 1: 	1|	200|
+row 2: 	2|	400|
+row 3: 	3|	600|
+row 4: 	4|	800|
+row 5: 	5|	1000|
+row 6: 	6|	1200|
+row 7: 	7|	1400|
+row 8: 	8|	1600|
+row 9: 	9|	1800|
+row 10: 	10|	2000|
+End Ratio table from tableprint 
+Ratio table from: table08
+row 0: 	mL|
+row 1: 	250|
+row 2: 	500|
+row 3: 	750|
+row 4: 	1000|
+row 5: 	1250|
+row 6: 	1500|
+row 7: 	1750|
+row 8: 	2000|
+End Ratio table from tableprint 
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Bug Test 5-29-13/SOM Test/Ratio Files/H1045916/Reference/T60785CP Parameter chart.txt
+No table found in "T60785CP Parameter chart.txt" at 1
+Parse parameter table
+Parameter table from: parametertable
+line: 1 = val: 0.25			key: Column Space (inches)
+line: 2 = val: T60785CP			key: Container Part Number
+line: 3 = val: Hyman			key: Customer Name
+line: 4 = val: Black			key: Header Horizontal Line Color
+line: 5 = val: 2			key: Header Horizontal Line Weight (points)
+line: 6 = val: Black			key: Horizontal Line Color
+line: 7 = val: 1.5			key: Horizontal Line Weight (points)
+line: 8 = val: H559918_9108			key: Job Number
+line: 9 = val: Helvetica-Bold			key: Measurement Chart Font
+line: 10 = val: Black			key: Measurement Chart Font Color
+line: 11 = val: 12			key: Measurement Chart Font Size (points)
+line: 12 = val: 4.625			key: Measurement Chart Height (inches)
+line: 13 = val: Right			key: Measurement Chart Location (on Right or on Left)
+line: 14 = val: 0.85			key: Measurement Chart Width (inches)
+line: 15 = val: Kim			key: Operator Name
+line: 16 = val: 4.625			key: Ratio Chart Height (inches)
+line: 17 = val: 0.375			key: Ratio Chart Top Offset (inches)
+line: 18 = val: 0.35			key: Ratio Chart Width (inches)
+line: 19 = val: Helvetica-Bold			key: Ratio Column Font
+line: 20 = val: Black			key: Ratio Column Font Color
+line: 21 = val: 11			key: Ratio Column Font Size (points)
+line: 22 = val: Helvetica-Condensed-Bold			key: Ratio Header Font
+line: 23 = val: Black			key: Ratio Header Font Color
+line: 24 = val: 14.5			key: Ratio Header Font Size (points)
+line: 25 = val: 0.25			key: Ratio Header Height (inches)
+line: 26 = val: Below			key: Ratio Number Location (Above or Below)
+line: 27 = val: Black			key: Vertical Line Color Inside
+line: 28 = val: Black			key: Vertical Line Color Outside
+line: 29 = val: 1.5			key: Vertical Line Weight Inside (points)
+line: 30 = val: 2.5			key: Vertical Line Weight Outside (points)
+End parameter table from paramtableprint
+++Color and Font Check.
+-color param: Header Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Measurement Chart Font Color = Black --Exists in process colors hash.
+-color param: Ratio Column Font Color = Black --Exists in process colors hash.
+-color param: Ratio Header Font Color = Black --Exists in process colors hash.
+-color param: Vertical Line Color Inside = Black --Exists in process colors hash.
+-color param: Vertical Line Color Outside = Black --Exists in process colors hash.
+-font param: Measurement Chart Font = Helvetica-Bold--Exists in fonts hash.
+-font param: Ratio Column Font = Helvetica-Bold--Exists in fonts hash.
+-font param: Ratio Header Font = Helvetica-Condensed-Bold--Exists in fonts hash.
+WARNING MESSAGE! Use of uninitialized value $col_str in concatenation (.) or string at /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl/SOM/SOMtables.pm line 636, <$fh> chunk 315.
+New file name: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Bug Test 5-29-13/SOM Test/Ratio Files/H1045916/Reference/H1045916 Ratio Chart.eps

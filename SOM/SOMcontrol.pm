@@ -26,11 +26,12 @@ my $_ratio = 'ratio';
 my $_measurement = 'measurement';
 my $_parameter = 'parameter';
 
-print "load SOMcontrol.pm\n"; # DEBUG
-
-
+# print "load SOMcontrol.pm\n"; # DEBUG
 
 my $ratiocompilerver = '2.0';
+
+# DEBUG Input record separator affects how Font & Color EPS
+# is parsed
 $/ = "\r"; # input record separator
 $| = 1; # flush after each write
 
@@ -165,9 +166,15 @@ my %parameterlist =
 			$fc = "$progpath/$_";
 			open $fch, $fc || die "Can't open Fonts & Colors file\n";
 			logprint "**Fonts & Colors file: $_\n";
-			while ( <$fch> )
-			{
-				if ( $foundfont || /documentfonts/i )
+            local $/ = "\n"; # input record separator for this block only - EPS file
+			while ( <$fch> ) # read in lines of file
+			{			
+#                chomp; # no need to chomp
+#                logprint "-line: $_";
+                last if /%%EndComments/i;
+                #		%%DocumentFonts: CenturySchoolbook
+                #		%%+ Times-Roman
+                if ( $foundfont || /documentfonts/i )
 				{
 					unless ( /documentfonts/i || /%%\+/ )
 					{
@@ -182,13 +189,14 @@ my %parameterlist =
 					next;
 				}
 				
+                #		%%+ 1 0.5700 0 0.0200 (Berry Blue)
 				if ( ( $cvals, $cname ) = /[\+:] (\d.+)\s\((.+)\)/ )
 				{
 					# logprint "Found color name: $cname; values: $cvals\n" if $cvals;
 					$colors{ $cname } = $cvals if $cvals;
 				}
-				
-				last if /%%endcomments/i;
+				# logprint "-line: $_";
+				# last if /%%endcomments/i;
 			}
 			# logprint "**End of Fonts & Colors file:\n";
 	
@@ -200,7 +208,7 @@ my %parameterlist =
 	{
 		logprint "-Font: $_\n";
 	} 
-	foreach ( sort keys %processcolors )
+	foreach ( sort keys %processcolors ) # predefined CMYK above
 	{
 		logprint "=Process Color: $_\n";
 	}
@@ -471,7 +479,8 @@ sub parsetables
 														last CASE;
 													};
 													
-			logprint "No table found in \"$fnamein\"\n";
+#			logprint "No table found in \"$fnamein\" at $linenum\n";
+            logprint "Looking for table in \"$fnamein\" at line $linenum\n";
 		} # end CASE
 		
 		$prevloc = tell; # Set previous location for next loop
@@ -757,7 +766,10 @@ sub parseparametertable
 		next if /^#/; # skip lines beginning with # comment
 		@linearr = split "\t"; # split line on whitespace
 		
-		next if @linearr == 0; # discard lines with no information
+#		next if @linearr == 0; # discard lines with no information
+        # Sometimes I've noticed a first line with only a "." 
+        # lines with 0, 1, or more than 2 items must be rejected
+        next if @linearr != 2; # must have 2 items, a key and value
 		# Make the first col the value and the second col the key
 		$paramhash{ $linearr[ 1 ] } = $linearr[ 0 ];
 		

@@ -9,7 +9,7 @@ package SOM::SOMtables;
 use SOM::myutils;
 use SOM::getopt;
 
-print "load SOMtables.pm\n";
+# print "load SOMtables.pm\n";
 #===========================================================#
 	# The following closures control access to 
 	# important control variables.
