@@ -51,7 +51,7 @@ initstuff();
 my $status = processjob();
 
 # Print the final status
-print "processjob status: $status\n";
+print "++processjob status: $status\n";
 
 print "-----End Program -----\n";
 

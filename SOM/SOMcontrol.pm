@@ -451,21 +451,21 @@ sub parsetables
 		{
 			$charttype =~ /$_conversion/		&& do
 													{
-														logprint "Parse conversion table\n";
+														logprint "++Parse conversion table\n";
 														push @tableobjects, ( parseconversiontable( $fh, $fin ) );
                                                         $_conversion = 'not found again';
 														last CASE;
 													};
 			$charttype =~ /$_ratio/		&& do
 													{
-														logprint "Parse ratio tables\n";
+														logprint "++Parse ratio tables\n";
 														push @tableobjects, ( parseratiotables( $fh, $fin ) );
                                                         $_ratio = 'not found again';
 														last CASE;
 													};
 			$charttype =~ /$_measurement/		&& do
 													{
-														logprint "Parse measurement tables\n";
+														logprint "++Parse measurement tables\n";
 														# push @tableobjects, ( parsemeasurementtables( $fh, $fin ) );
 														push @tableobjects, ( parseratiotables( $fh, $fin ) );
                                                         $_measurement = 'not found again';
@@ -473,7 +473,7 @@ sub parsetables
 													};
 			$charttype =~ /$_parameter/		&& do
 													{
-														logprint "Parse parameter table\n";
+														logprint "++Parse parameter table\n";
 														push @tableobjects, ( parseparametertable( $fh, $fin ) );
                                                         $_parameter = 'not found again';
 														last CASE;
@@ -579,7 +579,8 @@ sub parseratiotables
 							# Ounces table is always 2 columns wide, right under the "ounces" label
 							# The dummy entry is necessary so that the blank space after Ounces or Parts
 							# won't be seen as the end of a table
-						$linearr[ $tmpind + 2 ] = 'dummy';
+						# $linearr[ $tmpind + 2 ] = 'dummy';
+                        $linearr[ $tmpind + 2 ] = ' '; # use a space for placeholder
 						push @sliceranges, $tmpind + 1; # push beginning index
 						push @sliceranges, $tmpind + 2; # push ending index
 						$lookforheader = 0; # Turn off look for header until next blank column
@@ -973,6 +974,7 @@ sub buildeps
 	my ( $tableobjects ) = @_;
 	my %objects; # Hash for table objects and names
 	my $fh; # file handle
+    logprint "++Build EPS file\n";
 	# Place all objects into hash with object name keys
 	# logprint "**Name of all table objects:\n";
 	foreach ( @$tableobjects )
@@ -1078,7 +1080,7 @@ sub buildeps
 	my $fileheader = 1; # This is not an embedded eps header or trailer
 	$epsstring = $objects{ 'table00' }->epsheader( 0, 0, $epswidth * 72, $epsheight, $fileheader ) . 
 								$epsstring . $objects{ 'table00' }->epstrailer( $fileheader );
-	logprint "New file name: $fname\n";
+	logprint "++New file name: $fname\n";
 	open $fh, ">$fname";
 	print $fh $epsstring;
 } # sub buildeps

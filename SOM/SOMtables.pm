@@ -144,7 +144,7 @@ sub buildtableeps
 	my $vlo_str; # vertical line outside proc
 	my $vli_str; # vertical line inside proc
 	my $sl_str; # start line proc
-	my $col_str; # column line and text proc
+	my $col_str = ''; # column line and text proc
 	my $hlo_str; # horizontal line outside proc
 	my $hdr_str; # header text and horizontal line
 	my $makeratiotable = $tabletype =~ /ratio/i; # Type of table to produce
@@ -595,7 +595,10 @@ hlc % horizontal line color
 rcw inch 0 rl st
 EOS
 ;
-			
+		# See if $col_str defined
+        logprint "col_str not defined\n" unless defined $col_str;
+        logprint "makeratiotable not defined\n" unless defined $makeratiotable;
+        
 		} # for ( my $row = 1; $i < $pkg->{ 'tablerows' }; $row++ )
 		
 		# Move over to the next column
@@ -632,7 +635,13 @@ x_val slo neg inch m
 EOS
 :'';	
 
-# Put together the sequencing from the above ps procs	
+# Put together the sequencing from the above ps procs
+logprint "sl_str not defined for epsstr\n" unless defined $sl_str;
+logprint "col_str not defined for epsstr\n" unless defined $col_str;
+logprint "vli_str not defined for epsstr\n" unless defined $vli_str;
+logprint "hdr_str not defined for epsstr\n" unless defined $hdr_str;
+logprint "hlo_str not defined for epsstr\n" unless defined $hlo_str;
+logprint "vlo_str not defined for epsstr\n" unless defined $vlo_str;
 	$epsstr .=
 <<"EOS"
 % epsstr $sl_str $col_str $vli_str $hdr_str $hlo_str $vlo_str
