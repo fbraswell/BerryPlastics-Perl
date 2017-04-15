@@ -252,6 +252,29 @@ sub processjob
         #        $fh = ""; # init handle
 		if (open $fh, $fin)
         { logprint "";
+            # check line endings
+            local $/ = undef; # no line endings
+            my $instr = <$fh>; # read entire file
+            my $fnonly = $fin;
+            ($fnonly) = $fnonly =~ /.*\/(.*)/;
+            my $filetype;
+            ($filetype) = ($fnonly =~ /.*(txt)/)?'TXT':'noTXT';
+            logprint "^^^^File Name: $fnonly, $filetype ";
+            
+            # Now determine line endings and type of file
+            if ($instr =~ /\r\n/) # PC files - 0D0A
+            { 
+                logprint " - PC file with CRLF - ";
+            } elsif ($instr =~ /\r/) # Max file with CR only - 0D
+            {
+                logprint " - Mac file with CR - ";
+            } elsif ($instr =~ /\n/) # Unix file with LF only - 0A
+            {
+                logprint " - Unix file with LF - ";
+            }
+            logprint "File Length: ", length $instr, "\n";
+            seek $fh, 0, 0; # rewind file
+        
         } else
         { logprint "File didn't open: $fin\n";
         }

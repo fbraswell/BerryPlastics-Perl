@@ -1,0 +1,189 @@
+
+------Berry Plastics RatioCompiler Version 2.0 
+Date: 4/14/2017, Time: 11:31:31
+Program path: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl
+Command line: runprog.pl
+cwd Program path: /
+Command line: runprog.pl
+**Fonts & Colors file: Berry Fonts & Colors.eps
+-Font: Courier
+-Font: Helvetica
+-Font: Helvetica-Black
+-Font: Helvetica-Bold
+-Font: Helvetica-Condensed-Bold
+-Font: Helvetica-UltraCompressed
+-Font: Myriad-Roman
+-Font: Times-Bold
+-Font: Times-Roman
+=Process Color: Black
+=Process Color: Cyan
+=Process Color: Magenta
+=Process Color: Yellow
+=Spot Color: Berry Blue
+=Spot Color: PANTONE 106 M
+=Spot Color: PANTONE 277 M
+=Spot Color: PANTONE 2925 M
+=Spot Color: PANTONE 484 M
+=Spot Color: PANTONE Reflex Blue CVC
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Ratio Testing Folder 4-2-13/H981186/H981186 Conversion Chart.txt
+++Parse conversion table
+k 20|v 2.6325|k 90|v 1.6196|
+k 22|v 2.6021|k 92|v 1.6001|
+k 22.5|v 2.5945|k 96|v 1.5612|
+k 24|v 2.5716|k 99|v 1.5319|
+k 25|v 2.5564|k 100|v 1.5222|
+k 26|v 2.5412|k 103.5|v 1.4738|
+k 27|v 2.5260|k 104|v 1.4669|
+k 27.5|v 2.5184|k 105|v 1.4531|
+k 28|v 2.5108|k 108|v 1.4117|
+k 29.6|v 2.4864|k 110|v 1.384|
+k 30|v 2.4803|k 112|v 1.3564|
+k 32|v 2.4339|k 112.5|v 1.3495|
+k 33|v 2.4236|k 114|v 1.3288|
+k 34.5|v 2.4082|k 118.3|v 1.2694|
+k 35|v 2.4030|k 120|v 1.2459|
+k 36|v 2.3875|k 125|v 1.1853|
+k 38|v 2.3566|k 126|v 1.1732|
+k 40|v 2.3257|k 128|v 1.1489|
+k 42|v 2.2972|k 129|v 1.1368|
+k 43|v 2.2829|k 130|v 1.1247|
+k 44|v 2.2687|k 132|v 1.1005|
+k 45|v 2.2544|k 135|v 1.0642|
+k 46|v 2.2401|k 137.5|v 1.0339|
+k 48|v 2.2116|k 138|v 1.0278|
+k 50|v 2.1831|k 140|v 1.0036|
+k 52|v 2.1539|k 144|v 0.9622|
+k 54|v 2.1248|k 144|v 0.9622|
+k 55|v 2.1102|k 147.9|v 0.9218|
+k 56|v 2.0956|k 150|v 0.9001|
+k 59.1|v 2.0504|k 152|v 0.8764|
+k 60|v 2.0373|k 154|v 0.8527|
+k 64|v 1.9764|k 156|v 0.829|
+k 66|v 1.9459|k 157.5|v 0.8112|
+k 67.5|v 1.9231|k 160|v 0.7815|
+k 69|v 1.9002|k 162|v 0.7599|
+k 70|v 1.8850|k 165|v 0.7275|
+k 72|v 1.8625|k 168|v 0.6951|
+k 75|v 1.8288|k 170|v 0.6735|
+k 76|v 1.8175|k 172|v 0.6518|
+k 78|v 1.795|k 172.5|v 0.6464|
+k 80|v 1.7725|k 175|v 0.6194|
+k 81|v 1.7573|k 176|v 0.6086|
+k 82.5|v 1.7344|k 177.4|v 0.5934|
+k 84|v 1.7115|k 180|v 0.5653|
+k 86|v 1.681|k 182|v 0.5447|
+k 88|v 1.6505|k 184|v 0.524|
+k 88.7|v 1.6398|k 190|v 0.4620|
+k 192|v 0.4413|
+k 198|v 0.3794|
+k 200|v 0.3587|
+k 207|v 0.2864|
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Ratio Testing Folder 4-2-13/H981186/H981186 Ratio Chart.txt
+Looking for table in "H981186 Ratio Chart.txt" at line 2
+Looking for table in "H981186 Ratio Chart.txt" at line 3
+Looking for table in "H981186 Ratio Chart.txt" at line 5
+++Parse measurement tables
+Ratio table from: table00
+row 0: 	Ounces|	 |
+row 1: 	1|	29.6|
+row 2: 	2|	59.1|
+row 3: 	3|	88.7|
+row 4: 	4|	118.3|
+row 5: 	5|	147.9|
+row 6: 	6|	177.4|
+row 7: 	7|	207.0|
+End Ratio table from tableprint 
+Ratio table from: table01
+row 0: 	mL|
+row 1: 	25|
+row 2: 	50|
+row 3: 	75|
+row 4: 	100|
+row 5: 	125|
+row 6: 	150|
+row 7: 	175|
+row 8: 	200|
+End Ratio table from tableprint 
+Ratio table from: table02
+row 0: 	Parts 1-10|	 |
+row 1: 	1|	20|
+row 2: 	2|	40|
+row 3: 	3|	60|
+row 4: 	4|	80|
+row 5: 	5|	100|
+row 6: 	6|	120|
+row 7: 	7|	140|
+row 8: 	8|	160|
+row 9: 	9|	180|
+row 10: 	10|	200|
+End Ratio table from tableprint 
+Ratio table from: table03
+row 0: 	Parts 2-20|	 |
+row 1: 	2|	20|
+row 2: 	3|	30|
+row 3: 	4|	40|
+row 4: 	5|	50|
+row 5: 	6|	60|
+row 6: 	7|	70|
+row 7: 	8|	80|
+row 8: 	9|	90|
+row 9: 	10|	100|
+row 10: 	11|	110|
+row 11: 	12|	120|
+row 12: 	13|	130|
+row 13: 	14|	140|
+row 14: 	15|	150|
+row 15: 	16|	160|
+row 16: 	17|	170|
+row 17: 	18|	180|
+row 18: 	19|	190|
+row 19: 	20|	200|
+End Ratio table from tableprint 
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Ratio Testing Folder 4-2-13/H981186/T30208CP Parameter chart.txt
+Looking for table in "T30208CP Parameter chart.txt" at line 1
+++Parse parameter table
+Parameter table from: parametertable
+line: 1 = val: 0.15			key: Column Space (inches)
+line: 2 = val: T30208CP			key: Container Part Number
+line: 3 = val: Wolf			key: Customer Name
+line: 4 = val: Black			key: Header Horizontal Line Color
+line: 5 = val: 2			key: Header Horizontal Line Weight (points)
+line: 6 = val: Black			key: Horizontal Line Color
+line: 7 = val: 1			key: Horizontal Line Weight (points)
+line: 8 = val: U550692			key: Job Number
+line: 9 = val: Helvetica-Bold			key: Measurement Chart Font
+line: 10 = val: Black			key: Measurement Chart Font Color
+line: 11 = val: 8			key: Measurement Chart Font Size (points)
+line: 12 = val: 2.75			key: Measurement Chart Height (inches)
+line: 13 = val: Right			key: Measurement Chart Location (on Right or on Left)
+line: 14 = val: 0.75			key: Measurement Chart Width (inches)
+line: 15 = val: Kim			key: Operator Name
+line: 16 = val: 2.75			key: Ratio Chart Height (inches)
+line: 17 = val: 0.125			key: Ratio Chart Top Offset (inches)
+line: 18 = val: 0.2			key: Ratio Chart Width (inches)
+line: 19 = val: Helvetica-Condensed-Bold			key: Ratio Column Font
+line: 20 = val: Black			key: Ratio Column Font Color
+line: 21 = val: 8			key: Ratio Column Font Size (points)
+line: 22 = val: Helvetica-Condensed-Bold			key: Ratio Header Font
+line: 23 = val: Black			key: Ratio Header Font Color
+line: 24 = val: 10.5			key: Ratio Header Font Size (points)
+line: 25 = val: 0.1875			key: Ratio Header Height (inches)
+line: 26 = val: Below			key: Ratio Number Location (Above or Below)
+line: 27 = val: Black			key: Vertical Line Color Inside
+line: 28 = val: Black			key: Vertical Line Color Outside
+line: 29 = val: 1			key: Vertical Line Weight Inside (points)
+line: 30 = val: 2			key: Vertical Line Weight Outside (points)
+End parameter table from paramtableprint
+++Color and Font Check.
+-color param: Header Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Measurement Chart Font Color = Black --Exists in process colors hash.
+-color param: Ratio Column Font Color = Black --Exists in process colors hash.
+-color param: Ratio Header Font Color = Black --Exists in process colors hash.
+-color param: Vertical Line Color Inside = Black --Exists in process colors hash.
+-color param: Vertical Line Color Outside = Black --Exists in process colors hash.
+-font param: Measurement Chart Font = Helvetica-Bold--Exists in fonts hash.
+-font param: Ratio Column Font = Helvetica-Condensed-Bold--Exists in fonts hash.
+-font param: Ratio Header Font = Helvetica-Condensed-Bold--Exists in fonts hash.
+++Build EPS file
+++New file name: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Ratio Testing Folder 4-2-13/H981186/H981186 Ratio Chart.eps
