@@ -726,6 +726,48 @@ sub getconvhash
 	return $pkg->{ 'convhash' };
 } # sub getconvhash
 #===========================================================#
+# Determine direction of conversion table - up or down
+sub dirconvhash
+{
+	my $pkg = shift;
+    my $firstloop = 1;
+    my $measurement = 'up';
+    my $inches = 'up';
+    my %chash = %{ $pkg->{ 'convhash' } }; # shorten reference
+    my $prevkey = '';
+    my $prevval = '';
+    my $prevmeasurement = '';
+    my $previnches = '';
+    
+    # the keys should always progress upward, the measurement values
+    # the values can progress either way, the inches values
+ #   logprint "Conversion table direction: ", $pkg->{ 'tablename' }, "\n";
+	foreach ( sort { $a <=> $b } keys %chash )
+	{
+		# first loop doesn't check since no prev value
+        if ($firstloop)
+        { 
+            # set to false and don't check directions
+            $firstloop = 0;
+        } else
+        {
+            # check directions second loop and beyond
+            # check measurement info
+            $measurement = $prevkey > $_? 'down':'up';
+            # check inches info
+            $inches = $prevval > $chash{ $_ }? 'down':'up';
+        }
+        
+        # always save info for next loop
+        $prevkey = $_;
+        $prevval = $chash{ $_ };
+	}
+    return " - measurement: $measurement - inches: $inches\n";
+#	logprint "End Conversion table direction\n";
+    
+#	return $pkg->{ 'convhash' };
+} # sub dirconvhash
+#===========================================================#
 # conversion table print
 sub conversiontableprint
 {

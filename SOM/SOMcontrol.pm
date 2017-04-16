@@ -34,6 +34,7 @@ my $ratiocompilerver = '2.0';
 # is parsed
 $/ = "\r"; # input record separator
 $| = 1; # flush after each write
+my $message = '';
 
 
 #    print "prog name: $0\n";
@@ -264,15 +265,27 @@ sub processjob
             # Now determine line endings and type of file
             if ($instr =~ /\r\n/) # PC files - 0D0A
             { 
-                logprint " - PC file with CRLF - ";
+                logprint " - PC file CRLF - ";
+                $/ = "\r\n"; # input record separator
             } elsif ($instr =~ /\r/) # Max file with CR only - 0D
             {
-                logprint " - Mac file with CR - ";
+                logprint " - Mac file CR - ";
+                $/ = "\r"; # input record separator
             } elsif ($instr =~ /\n/) # Unix file with LF only - 0A
             {
-                logprint " - Unix file with LF - ";
+                logprint " - Unix file LF - ";
+                $/ = "\n"; # input record separator
             }
-            logprint "File Length: ", length $instr, "\n";
+            
+            my $matchcomma += () = $instr =~ /(,)/g;
+            # logprint "=== commas matched $matchcomma\n";
+            my $matchtab += () = $instr =~ /(\t)/g;
+            #  logprint "=== tabs matched $matchtab\n";
+            
+            logprint "File Length: ", length $instr;
+            logprint " - $matchtab tabs" if $matchtab;
+            logprint " - $matchcomma commas" if $matchcomma;
+            logprint "\n";
             seek $fh, 0, 0; # rewind file
         
         } else
@@ -284,7 +297,9 @@ sub processjob
 	
 	} # foreach my $fin ( @ARGV )
 	buildeps( \@convobj );
-	return $result;
+    
+    return "$result - EPS built" . ($message? "- message: $message":'');
+	# return "$result - EPS built - message: $message";
 } # end sub processjob
 #===========================================================#
 #				T41032TP2																			
@@ -685,7 +700,8 @@ sub parseratiotables
 			# A beginning ($firstcol = true) should always have an end
 		unless ( $firstcol )
 		{
-			logprint "%% ERROR firstcol%%";
+			logprint "%% ERROR firstcol%%\n";
+            $message .= "%% ERROR firstcol%%";
 		}
 
 			# First check for end of tables. If there is a blank
@@ -974,7 +990,7 @@ sub parseconversiontable
 				logprint "k $_|";
                 # Shift off the value in the next column
 				$v = shift @tmparr;
-				logprint "v $v|";
+				logprint "v $v|"; # DEBUG print
                 # Add the key/value to the $convhash
 				$convhash{ $_ } = $v;
 			}
@@ -982,10 +998,9 @@ sub parseconversiontable
 		logprint "\n";
 	} # while ( <$fh> ) # file reading loop
 	
-	$convobj =
-					new SOM::SOMtables( 'conversiontable', $fin );	# add table name
+	$convobj = new SOM::SOMtables( 'conversiontable', $fin );	# add table name
 	$convobj->addconvhash( \%convhash );
-	
+	$message .= $convobj->dirconvhash();
 	# Dump hash
 #	$convobj->conversiontableprint( );
 
