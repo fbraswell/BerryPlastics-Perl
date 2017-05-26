@@ -50,8 +50,8 @@ initstuff();
 # Do the heavy lifting with processjob.
 my $status = processjob();
 
-# Print the final status
-print "++processjob status: $status\n";
+# Print the final status - done in processjob
+# print "++processjob status: $status\n";
 
 print "-----End Program -----\n";
 

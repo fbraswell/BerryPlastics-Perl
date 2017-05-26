@@ -28,7 +28,7 @@ my $_parameter = 'parameter';
 
 # print "load SOMcontrol.pm\n"; # DEBUG
 
-my $ratiocompilerver = '2.0';
+my $ratiocompilerver = '2.0'; # Must be a number
 
 # DEBUG Input record separator affects how Font & Color EPS
 # is parsed
@@ -297,7 +297,7 @@ sub processjob
 	
 	} # foreach my $fin ( @ARGV )
 	buildeps( \@convobj );
-    
+    print "++processjob status: "."$result - EPS built" . ($message? "- message: $message":'')."\n";
     return "$result - EPS built" . ($message? "- message: $message":'');
 	# return "$result - EPS built - message: $message";
 } # end sub processjob
@@ -569,11 +569,15 @@ sub parseratiotables
 	{
 		chomp;
 		$linenum++; # increment line number
-		@linearr = split "\t"; # split line on whitespace
+		@linearr = split "\t"; # split line on whitespace - tab 0x09
 		
-		### DEBUG ### logprint "lookforheader: $lookforheader; line: ";
-		### DEBUG ### @linearr? map { logprint $_?"$_|":'*|' } @linearr: logprint 'blank line'; 
-#		logprint "\n";
+		### DEBUG ### 
+#		logprint "lookforheader: $lookforheader; line: ";
+		logprint "lookforheader: ",$lookforheader?'yes':'no',"; line array: ";
+		### DEBUG ### 
+		@linearr? map { logprint $_?"$_|":'*|' } @linearr: logprint 'blank line'; 
+#		
+		logprint "\n";
 			# Discard lines with no information
 			# Blank lines also indicate new tables
 		if ( @linearr == 0 )
@@ -603,13 +607,17 @@ sub parseratiotables
 					} # foreach ( @sliceranges )
 					next if $foundindex;
 				
+				# Measurement Tables Locate
+				# Look for Ounces, Parts or mL column headings
+				# Usually after the list of tables
 				my $tmpind;
 				if ( $i == 0 && $linearr[ $i ] =~ /ounces|parts|ml/i )
 				{	$tmpind = $i - 1;
 				} else
 				{	$tmpind = $i;
 				}
-					# Measurement tables may be mixed in with ratio tables
+				# Measurement tables may be mixed in with ratio tables
+				# Ounces and Parts have two columns
 				# if ( $linearr[ $i + 1 ] =~ /ounces|parts/i )
 				if ( $linearr[ $tmpind + 1 ] =~ /ounces|parts/i )
 					{
@@ -629,7 +637,8 @@ sub parseratiotables
 					}
 					
 					# $tmpind = $i - 1;
-						# Measurement tables may be mixed in with ratio tables
+				# Measurement tables may be mixed in with ratio tables
+				# mL only has one column
 				# if ( $linearr[ $i + 1 ] =~ /ml/i )
 				if ( $linearr[ $tmpind + 1 ] =~ /ml/i )
 					{
@@ -644,16 +653,40 @@ sub parseratiotables
 						next;
 					}
 					
-						# ignore unknown text
-					if ( $linearr[ $i ] =~ /^\D/ )
+						# Check for known number types including 1/2
+						#	null	4		1	 	1/2		1		2			
+						#	1		320		400		440		480		560
+						#	2		640		800		880		960		1120			
+						#	3		960		1200	1320	1440	1680
+						# ignore leading white space?
+						# it can also have nothing in it
+					if ( (not $linearr[ $i ]) || $linearr[ $i ] =~ /^\s?\d/ )
+#					if ( $linearr[ $i ] =~ /^\s?\d/ || not $linearr[ $i ])
 					{
-						# logprint "**unknown text: ", $linearr[ $i ], "**";
-						next;
-					}					
+						# logprint "^^known text: ", $linearr[ $i ], "^^";
+						# continue on to tests below
+						
+					} else
+					{
+						logprint "**unknown text: ", $linearr[ $i ], "**";
+						next; # Go to next cell
+					}
+					
+						# ignore unknown text
+						# \D is non-numeric match
+						# \d is numeric match
+#					if ( $linearr[ $i ] =~ /^\D/ )
+#					if ( $linearr[ $i ] =~ /^\s?\D/ )
+#					{
+#						logprint "**unknown text: ", $linearr[ $i ], "**";
+#						next;
+#					}					
 				
 					# logprint " col: $i; val: ", $linearr[ $i ], " - ";
 					# Locate beginning of table or tables
 					# First row of table will have a blank cell followed by a cell with a number
+					# \D is non-numeric match
+					# \d is numeric match
 				if ( $firstcol and not $linearr[ $i ] and $linearr[ $i + 1 ] =~ /^\d/ )
 				{
 					# logprint "----first values found: ", $linearr[ $i ], " and ", $linearr[ $i + 1 ];
@@ -702,6 +735,13 @@ sub parseratiotables
 		{
 			logprint "%% ERROR firstcol%%\n";
             $message .= "%% ERROR firstcol%%";
+			logprint "== body slicerange before: ";
+			map { logprint "$_|" } @sliceranges;
+			### DEBUG ### 
+			logprint "== table tablerange: ";
+			### DEBUG ### 
+			map { logprint "$_|" } @tableranges;
+			logprint "\n";
 		}
 
 			# First check for end of tables. If there is a blank
