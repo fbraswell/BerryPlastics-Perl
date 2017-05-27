@@ -21,6 +21,8 @@ use SOM::getopt;
 use SOM::SOMtables;
 # use Mac::AppleScript qw( RunAppleScript );
 
+# Variables used to determine if file contains
+# one of four types of data.
 my $_conversion = 'conversion';
 my $_ratio = 'ratio';
 my $_measurement = 'measurement';
@@ -358,11 +360,11 @@ sub parsetables
 		}
 		
 		# Determine the kind of tables 
-		# 1. Conversion Table
+		# 1. Conversion Table - can be one or multiple column pairs
 		
-#				Grams	Inches		Grams	Inches		Grams	Inches		Grams	Inches		Grams	Inches		Grams	Inches		Grams	Inches
-#				50		4.138			118.5	3.7444		202.5	3.2827		295.7	2.766			390.3	2.271			499		1.71			609		1.1745
-#				55		4.122			120		3.733			203		3.280			297		2.7600		392		2.2633		500		1.705			610		1.17
+#		Grams	Inches		Grams	Inches		Grams	Inches		
+#		50		4.138		118.5	3.7444		202.5	3.2827		
+#		55		4.122		120		3.733		203		3.280			
 		
         # Found in a separate file
         # Look for Grams keyword
@@ -474,7 +476,8 @@ sub parsetables
 
 		# Look for chart key words
         # See if you can find "Ratio Chart Width" within the first 5 lines
-		if ( $linearr[ 1 ] =~ /Ratio Chart Width/i && $linenum < 5 ) 
+		# make sure $linearr[ 1 ] has something in it
+		if ( defined $linearr[ 1 ] && $linearr[ 1 ] =~ /Ratio Chart Width/i && $linenum < 5 ) 
 		{
 			$charttype = 'parameter';
 			# logprint "line: $linenum - Found Conversion Table Header info: $_\n";
@@ -491,6 +494,7 @@ sub parsetables
 													{
 														logprint "++Parse conversion table\n";
 														push @tableobjects, ( parseconversiontable( $fh, $fin ) );
+														# Can only fine one time
                                                         $_conversion = 'not found again';
 														last CASE;
 													};
@@ -498,6 +502,7 @@ sub parsetables
 													{
 														logprint "++Parse ratio tables\n";
 														push @tableobjects, ( parseratiotables( $fh, $fin ) );
+														# Can only fine one time
                                                         $_ratio = 'not found again';
 														last CASE;
 													};
@@ -506,6 +511,7 @@ sub parsetables
 														logprint "++Parse measurement tables\n";
 														# push @tableobjects, ( parsemeasurementtables( $fh, $fin ) );
 														push @tableobjects, ( parseratiotables( $fh, $fin ) );
+														# Can only fine one time
                                                         $_measurement = 'not found again';
 														last CASE;
 													};
@@ -513,6 +519,7 @@ sub parsetables
 													{
 														logprint "++Parse parameter table\n";
 														push @tableobjects, ( parseparametertable( $fh, $fin ) );
+														# Can only fine one time
                                                         $_parameter = 'not found again';
 														last CASE;
 													};
@@ -575,11 +582,13 @@ sub parseratiotables
 #		logprint "lookforheader: $lookforheader; line: ";
 		logprint "lookforheader: ",$lookforheader?'yes':'no',"; line array: ";
 		### DEBUG ### 
+		# if @linearry has elements, print them with map, else print 'blank line'
 		@linearr? map { logprint $_?"$_|":'*|' } @linearr: logprint 'blank line'; 
 #		
 		logprint "\n";
 			# Discard lines with no information
 			# Blank lines also indicate new tables
+			# if @linearr doesn't have any elements, turn on $lookforheader
 		if ( @linearr == 0 )
 		{
 			$lookforheader = 1; # Start looking for next table header
@@ -632,6 +641,7 @@ sub parseratiotables
 						$lookforheader = 0; # Turn off look for header until next blank column
 						### DEBUG ### 
 						# logprint ">>>>>Found Ounces or Parts Table", $tablenum, "<<<<<<";
+						# put a leading 0 up to table 10 -> ++$tablenum<=9?'0':''
 						push @tableranges, ( $tmpind + 1, 'table'.(++$tablenum<=9?'0':'').$tablenum );
 						next;
 					}
@@ -687,7 +697,7 @@ sub parseratiotables
 					# First row of table will have a blank cell followed by a cell with a number
 					# \D is non-numeric match
 					# \d is numeric match
-				if ( $firstcol and not $linearr[ $i ] and $linearr[ $i + 1 ] =~ /^\d/ )
+				if ( $firstcol and not $linearr[ $i ] and $linearr[ $i + 1 ] =~ /^\s?\d/ )
 				{
 					# logprint "----first values found: ", $linearr[ $i ], " and ", $linearr[ $i + 1 ];
 					push @sliceranges, $i; # push beginning index
@@ -700,7 +710,7 @@ sub parseratiotables
 				
 					# Locate end of table or tables
 					# The end will have a cell with a number followed by a blank cell
-				if ( not $firstcol and $linearr[ $i ] =~ /^\d/ and not $linearr[ $i + 1 ] )
+				if ( not $firstcol and $linearr[ $i ] =~ /^\s?\d/ and not $linearr[ $i + 1 ] )
 				{
 					# logprint "----last values found: ", $linearr[ $i ], " and ", $linearr[ $i + 1 ];
 					push @sliceranges, $i; # push ending index
@@ -710,7 +720,7 @@ sub parseratiotables
 				
 					# Locate end of table or tables
 					# The end can also have a cell with a number in the last cell
-				if ( not $firstcol and $i + 1 == $#linearr and $linearr[ $i + 1 ] =~ /^\d/ )
+				if ( not $firstcol and $i + 1 == $#linearr and $linearr[ $i + 1 ] =~ /^\s?\d/ )
 				{
 					# logprint "----last value found at eol: ", $linearr[ $i + 1 ];
 					push @sliceranges, $i + 1; # push ending index
@@ -726,11 +736,12 @@ sub parseratiotables
 			### DEBUG ### map { logprint "$_|" } @tableranges;
 			### DEBUG ### logprint "\n";		
 				
-		} # if ( $lookforheader )
+		} # if ( 1 or $lookforheader )
 
 			# look for first col of table
 			# Slice range entries always come in pairs.
 			# A beginning ($firstcol = true) should always have an end
+			# where $firstcol == false
 		unless ( $firstcol )
 		{
 			logprint "%% ERROR firstcol%%\n";
@@ -812,7 +823,7 @@ sub parseratiotables
 			
 		} # for ( my $i = 1; $i <= $#sliceranges; $i += 2 )		
 
-	} # while ( <$fh> )
+	} # while ( <$fh> ) # read lines of text, looking for tables
 	
 	# logprint "### Dump tablehash ###\n";
 	foreach ( sort keys %tablehash )
