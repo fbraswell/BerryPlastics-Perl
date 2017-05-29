@@ -392,11 +392,13 @@ sub parsetables
 		{
 			# Look for a ratio table
             # Nothing in first location, number in second location
-            if ( not $linearr[ $i ] and $linearr[ $i + 1 ] =~ /\d/ )
+            if ( not $linearr[ $i ] and $linearr[ $i + 1 ] =~ /^\s?\d/ )
 			{
 				$charttype = 'ratio';
-				# logprint "----values found: ", $linearr[ $i ], " and ", $linearr[ $i + 1 ], "\n";
-				# logprint "--found ratio on line: $_\n";
+				# 
+				logprint "----values found: ", $linearr[ $i ], " and ", $linearr[ $i + 1 ], "\n";
+				# 
+				logprint "--found ratio on line: $_\n";
 			}
 		} # for ( my $i = 0; $i < $#linearr - 1; $i++ )
 		
@@ -420,16 +422,19 @@ sub parsetables
 #															700
 #															750		
         # Step through the line array, looking for data
-		for ( my $i = 0; $i < $#linearr; $i++ )
+		for ( my $i = 0; $i <= $#linearr; $i++ )
 		{
 			# Look for a measurement table header
             # look for "ounces", "parts" or "ml"
-            if ( 	$linearr[ $i ] =~ /ounces/i || 
-						$linearr[ $i ] =~ /parts/i ||
-						$linearr[ $i ] =~ /ml/i )
+#			logprint "--measurement table: $linearr[$j]; last ind: $#linearr\n";
+#            if ( 	($linearr[ $j ] =~ /ounces/i) or 
+#						($linearr[ $j ] =~ /parts/i) or
+#						($linearr[ $j ] =~ /ml/i) )
+			if ( 	$linearr[ $i ] =~ /ounces|parts|ml/i) 
 			{
 				$charttype = 'measurement';
-				# logprint "--found measurement on line: $_\n";
+				# 
+				logprint "--found measurement on line: $_\n";
 			}
 		} # for ( my $i = 0; $i < $#linearr; $i++ )
 					
@@ -494,15 +499,15 @@ sub parsetables
 													{
 														logprint "++Parse conversion table\n";
 														push @tableobjects, ( parseconversiontable( $fh, $fin ) );
-														# Can only fine one time
+														# Can only find one time
                                                         $_conversion = 'not found again';
 														last CASE;
 													};
-			$charttype =~ /$_ratio/		&& do
+			$charttype =~ /$_ratio/				&& do
 													{
 														logprint "++Parse ratio tables\n";
 														push @tableobjects, ( parseratiotables( $fh, $fin ) );
-														# Can only fine one time
+														# Can only find one time
                                                         $_ratio = 'not found again';
 														last CASE;
 													};
@@ -511,15 +516,15 @@ sub parsetables
 														logprint "++Parse measurement tables\n";
 														# push @tableobjects, ( parsemeasurementtables( $fh, $fin ) );
 														push @tableobjects, ( parseratiotables( $fh, $fin ) );
-														# Can only fine one time
+														# Can only find one time
                                                         $_measurement = 'not found again';
 														last CASE;
 													};
-			$charttype =~ /$_parameter/		&& do
+			$charttype =~ /$_parameter/			&& do
 													{
 														logprint "++Parse parameter table\n";
 														push @tableobjects, ( parseparametertable( $fh, $fin ) );
-														# Can only fine one time
+														# Can only find one time
                                                         $_parameter = 'not found again';
 														last CASE;
 													};
@@ -580,7 +585,7 @@ sub parseratiotables
 		
 		### DEBUG ### 
 #		logprint "lookforheader: $lookforheader; line: ";
-		logprint "lookforheader: ",$lookforheader?'yes':'no',"; line array: ";
+		logprint "line: $linenum; lookforheader: ",$lookforheader?'yes':'no',"; line array: ";
 		### DEBUG ### 
 		# if @linearry has elements, print them with map, else print 'blank line'
 		@linearr? map { logprint $_?"$_|":'*|' } @linearr: logprint 'blank line'; 
@@ -670,13 +675,15 @@ sub parseratiotables
 						#	3		960		1200	1320	1440	1680
 						# ignore leading white space?
 						# it can also have nothing in it
-					if ( (not $linearr[ $i ]) || $linearr[ $i ] =~ /^\s?\d/ )
-#					if ( $linearr[ $i ] =~ /^\s?\d/ || not $linearr[ $i ])
-					{
-						# logprint "^^known text: ", $linearr[ $i ], "^^";
-						# continue on to tests below
-						
-					} else
+#					if ( (not $linearr[ $i ]) || $linearr[ $i ] =~ /^\s?\d/ )
+##					if ( $linearr[ $i ] =~ /^\s?\d/ || not $linearr[ $i ])
+#					{
+#						# logprint "^^known text: ", $linearr[ $i ], "^^";
+#						# continue on to tests below
+#						
+#					} else
+					
+					unless ( (not $linearr[ $i ]) || $linearr[ $i ] =~ /^\s?\d/ )
 					{
 						logprint "**unknown text: ", $linearr[ $i ], "**";
 						next; # Go to next cell

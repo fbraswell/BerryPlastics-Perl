@@ -1,0 +1,397 @@
+
+------Berry Plastics RatioCompiler Version 2.0 
+Date: 5/27/2017, Time: 05:00:39
+Program path: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl
+Command line: runprog.pl
+cwd Program path: /
+Command line: runprog.pl
+**Fonts & Colors file: Berry Fonts & Colors.eps
+-Font: Courier
+-Font: Helvetica
+-Font: Helvetica-Black
+-Font: Helvetica-Bold
+-Font: Helvetica-Condensed-Bold
+-Font: Helvetica-UltraCompressed
+-Font: Myriad-Roman
+-Font: Times-Bold
+-Font: Times-Roman
+=Process Color: Black
+=Process Color: Cyan
+=Process Color: Magenta
+=Process Color: Yellow
+=Spot Color: Berry Blue
+=Spot Color: PANTONE 106 M
+=Spot Color: PANTONE 277 M
+=Spot Color: PANTONE 2925 M
+=Spot Color: PANTONE 484 M
+=Spot Color: PANTONE Reflex Blue CVC
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Berry Update Dec 2016/Test Jobs March 2017/T801163/H1404394 Conversion Chart.txt
+^^^^File Name: H1404394 Conversion Chart.txt, TXT  - Mac file CR - File Length: 3062 - 1680 tabs
+Looking for table in "H1404394 Conversion Chart.txt" at line 2
+Looking for table in "H1404394 Conversion Chart.txt" at line 3
+Looking for table in "H1404394 Conversion Chart.txt" at line 5
+++Parse ratio tables
+line: 0; lookforheader: yes; line array: T801163|
+line: 1; lookforheader: yes; line array: blank line
+line: 2; lookforheader: yes; line array: *|Customer:  Signed Approval means that all ratios on this spreadsheet are accurate and calculated according to customer specifications.  Any changes needed to the below ratios must be clearly marked and returned to Berry Plastics before artwork can further be processed. |
+line: 3; lookforheader: yes; line array: *|Date:|*|*|*|Print #|H1404394 Hyman Industrial Finishes True Performance IF165|
+**unknown text: Date:****unknown text: Print #**line: 4; lookforheader: yes; line array: blank line
+line: 5; lookforheader: yes; line array: *|Signature|
+line: 6; lookforheader: yes; line array: blank line
+line: 7; lookforheader: yes; line array: blank line
+line: 8; lookforheader: yes; line array: blank line
+line: 9; lookforheader: yes; line array: *|1|1|50%|
+line: 10; lookforheader: no; line array: 1|500|1000|1250|
+line: 11; lookforheader: no; line array: 2|1000|2000|2500|
+line: 12; lookforheader: no; line array: 3|1500|3000|3750|
+line: 13; lookforheader: no; line array: blank line
+line: 14; lookforheader: yes; line array: blank line
+line: 15; lookforheader: yes; line array: blank line
+line: 16; lookforheader: yes; line array: blank line
+line: 17; lookforheader: yes; line array: *|2|1|10%|15%|20%|*|*|2|1|5|
+line: 18; lookforheader: no; line array: 1|500|750|800|825|850|*|1|500|750|2000|
+line: 19; lookforheader: no; line array: 2|1000|1500|1600|1650|1700|*|2|750|1125|3000|
+line: 20; lookforheader: no; line array: 3|1500|2250|2400|2475|2550|*|2|1000|1500|4000|
+line: 21; lookforheader: no; line array: 4|2000|3000|3200|3300|3400|
+line: 22; lookforheader: yes; line array: blank line
+line: 23; lookforheader: yes; line array: blank line
+line: 24; lookforheader: yes; line array: blank line
+line: 25; lookforheader: yes; line array: blank line
+line: 26; lookforheader: yes; line array: *|3|2|1|*|*|*|*|3|1|20%|1|
+line: 27; lookforheader: no; line array: 1|600|1000|1200|*|*|*|1|600|800|920|1000|
+line: 28; lookforheader: no; line array: 2|1200|2000|2400|*|*|*|2|1200|1600|1840|2000|
+line: 29; lookforheader: no; line array: 3|1800|3000|3600|*|*|*|3|1800|2400|2760|3000|
+line: 30; lookforheader: no; line array: *|*|*|*|*|*|*|4|2400|3200|3680|4000|
+line: 31; lookforheader: yes; line array: blank line
+line: 32; lookforheader: yes; line array: blank line
+line: 33; lookforheader: yes; line array: blank line
+line: 34; lookforheader: yes; line array: *|4|1|15%|1|1.5|2|*|*|5|1|
+line: 35; lookforheader: no; line array: 1|600|750|840|900|975|1050|*|1|500|600|
+line: 36; lookforheader: no; line array: 2|900|1125|1260|1350|1462.5|1575|*|2|1000|1200|
+line: 37; lookforheader: no; line array: 3|1200|1500|1680|1800|1950|2100|*|3|1500|1800|
+line: 38; lookforheader: no; line array: 4|1500|1875|2100|2250|2437.5|2625|*|4|2000|2400|
+line: 39; lookforheader: no; line array: 5|1800|2250|2520|2700|2925|3150|*|5|2500|3000|
+line: 40; lookforheader: no; line array: 6|2100|2625|2940|3150|3412.5|3675|*|6|3000|3600|
+line: 41; lookforheader: no; line array: blank line
+line: 42; lookforheader: yes; line array: blank line
+line: 43; lookforheader: yes; line array: *|6|1|*|*|7|1|*|*|8|1|2|30%|
+line: 44; lookforheader: no; line array: 1|600|700|*|1|560|640|*|1|560|630|770|798|
+line: 45; lookforheader: no; line array: 2|1200|1400|*|2|1120|1280|*|2|1120|1260|1540|1596|
+line: 46; lookforheader: no; line array: 3|1800|2100|*|3|1680|1920|*|3|1680|1890|2310|2394|
+line: 47; lookforheader: no; line array: 4|2400|2800|*|4|2240|2560|*|4|2240|2520|3080|3192|
+line: 48; lookforheader: no; line array: 5|3000|3500|*|5|2800|3200|
+line: 49; lookforheader: yes; line array: *|*|*|*|6|3360|3840|
+line: 50; lookforheader: yes; line array: blank line
+line: 51; lookforheader: yes; line array: *|*|*|*|*|*|*|*|8| 1/2|4|
+line: 52; lookforheader: no; line array: *|8|1|4|*|*|*|1|560|595|875|
+line: 53; lookforheader: no; line array: 1|560|630|910|*|*|*|2|1120|1190|1750|
+line: 54; lookforheader: no; line array: 2|1120|1260|1820|*|*|*|3|1680|1785|2625|
+line: 55; lookforheader: no; line array: 3|1680|1890|2730|*|*|*|4|2240|2380|3500|
+line: 56; lookforheader: no; line array: 4|2240|2520|3640|
+line: 57; lookforheader: yes; line array: blank line
+line: 58; lookforheader: yes; line array: blank line
+line: 59; lookforheader: yes; line array: Ounces|*|*|Parts|
+line: 60; lookforheader: no; line array: 16|473.1|*|1|500|
+line: 61; lookforheader: no; line array: 32|946.2|*|2|1000|
+line: 62; lookforheader: no; line array: 48|1419.4|*|3|1500|
+line: 63; lookforheader: no; line array: 64|1892.5|*|4|2000|
+line: 64; lookforheader: no; line array: 80|2365.6|*|5|2500|
+line: 65; lookforheader: no; line array: 96|2838.7|*|6|3000|
+line: 66; lookforheader: no; line array: 112|3311.8|*|7|3500|
+line: 67; lookforheader: no; line array: 128|3785.0|*|8|4000|
+line: 68; lookforheader: no; line array: blank line
+line: 69; lookforheader: yes; line array: blank line
+line: 70; lookforheader: yes; line array: blank line
+line: 71; lookforheader: yes; line array: blank line
+line: 72; lookforheader: yes; line array: blank line
+line: 73; lookforheader: yes; line array: blank line
+line: 74; lookforheader: yes; line array: blank line
+line: 75; lookforheader: yes; line array: blank line
+line: 76; lookforheader: yes; line array: blank line
+line: 77; lookforheader: yes; line array: blank line
+line: 78; lookforheader: yes; line array: blank line
+line: 79; lookforheader: yes; line array: blank line
+line: 80; lookforheader: yes; line array: blank line
+line: 81; lookforheader: yes; line array: blank line
+line: 82; lookforheader: yes; line array: blank line
+line: 83; lookforheader: yes; line array: blank line
+line: 84; lookforheader: yes; line array: blank line
+line: 85; lookforheader: yes; line array: blank line
+line: 86; lookforheader: yes; line array: blank line
+line: 87; lookforheader: yes; line array: blank line
+line: 88; lookforheader: yes; line array: blank line
+line: 89; lookforheader: yes; line array: blank line
+line: 90; lookforheader: yes; line array: blank line
+line: 91; lookforheader: yes; line array: blank line
+line: 92; lookforheader: yes; line array: blank line
+line: 93; lookforheader: yes; line array: blank line
+line: 94; lookforheader: yes; line array: blank line
+line: 95; lookforheader: yes; line array: blank line
+line: 96; lookforheader: yes; line array: blank line
+line: 97; lookforheader: yes; line array: blank line
+line: 98; lookforheader: yes; line array: blank line
+line: 99; lookforheader: yes; line array: blank line
+line: 100; lookforheader: yes; line array: blank line
+line: 101; lookforheader: yes; line array: blank line
+line: 102; lookforheader: yes; line array: blank line
+line: 103; lookforheader: yes; line array: blank line
+line: 104; lookforheader: yes; line array: blank line
+line: 105; lookforheader: yes; line array: blank line
+line: 106; lookforheader: yes; line array: blank line
+line: 107; lookforheader: yes; line array: blank line
+line: 108; lookforheader: yes; line array: blank line
+line: 109; lookforheader: yes; line array: blank line
+line: 110; lookforheader: yes; line array: blank line
+line: 111; lookforheader: yes; line array: blank line
+line: 112; lookforheader: yes; line array: blank line
+line: 113; lookforheader: yes; line array: blank line
+line: 114; lookforheader: yes; line array: blank line
+line: 115; lookforheader: yes; line array: blank line
+line: 116; lookforheader: yes; line array: blank line
+line: 117; lookforheader: yes; line array: blank line
+line: 118; lookforheader: yes; line array: blank line
+line: 119; lookforheader: yes; line array: blank line
+line: 120; lookforheader: yes; line array: blank line
+line: 121; lookforheader: yes; line array: blank line
+line: 122; lookforheader: yes; line array: blank line
+line: 123; lookforheader: yes; line array: blank line
+line: 124; lookforheader: yes; line array: blank line
+line: 125; lookforheader: yes; line array: blank line
+line: 126; lookforheader: yes; line array: blank line
+line: 127; lookforheader: yes; line array: blank line
+line: 128; lookforheader: yes; line array: blank line
+line: 129; lookforheader: yes; line array: blank line
+line: 130; lookforheader: yes; line array: blank line
+line: 131; lookforheader: yes; line array: blank line
+line: 132; lookforheader: yes; line array: blank line
+line: 133; lookforheader: yes; line array: blank line
+line: 134; lookforheader: yes; line array: blank line
+line: 135; lookforheader: yes; line array: blank line
+line: 136; lookforheader: yes; line array: blank line
+line: 137; lookforheader: yes; line array: blank line
+line: 138; lookforheader: yes; line array: blank line
+line: 139; lookforheader: yes; line array: blank line
+Ratio table from: table00
+row 0: 	|	1|	1|	50%|
+row 1: 	1|	500|	1000|	1250|
+row 2: 	2|	1000|	2000|	2500|
+row 3: 	3|	1500|	3000|	3750|
+End Ratio table from tableprint 
+Ratio table from: table01
+row 0: 	|	2|	1|	10%|	15%|	20%|
+row 1: 	1|	500|	750|	800|	825|	850|
+row 2: 	2|	1000|	1500|	1600|	1650|	1700|
+row 3: 	3|	1500|	2250|	2400|	2475|	2550|
+row 4: 	4|	2000|	3000|	3200|	3300|	3400|
+End Ratio table from tableprint 
+Ratio table from: table02
+row 0: 	|	2|	1|	5|
+row 1: 	1|	500|	750|	2000|
+row 2: 	2|	750|	1125|	3000|
+row 3: 	2|	1000|	1500|	4000|
+End Ratio table from tableprint 
+Ratio table from: table03
+row 0: 	|	3|	2|	1|
+row 1: 	1|	600|	1000|	1200|
+row 2: 	2|	1200|	2000|	2400|
+row 3: 	3|	1800|	3000|	3600|
+End Ratio table from tableprint 
+Ratio table from: table04
+row 0: 	|	3|	1|	20%|	1|
+row 1: 	1|	600|	800|	920|	1000|
+row 2: 	2|	1200|	1600|	1840|	2000|
+row 3: 	3|	1800|	2400|	2760|	3000|
+row 4: 	4|	2400|	3200|	3680|	4000|
+End Ratio table from tableprint 
+Ratio table from: table05
+row 0: 	|	4|	1|	15%|	1|	1.5|	2|
+row 1: 	1|	600|	750|	840|	900|	975|	1050|
+row 2: 	2|	900|	1125|	1260|	1350|	1462.5|	1575|
+row 3: 	3|	1200|	1500|	1680|	1800|	1950|	2100|
+row 4: 	4|	1500|	1875|	2100|	2250|	2437.5|	2625|
+row 5: 	5|	1800|	2250|	2520|	2700|	2925|	3150|
+row 6: 	6|	2100|	2625|	2940|	3150|	3412.5|	3675|
+End Ratio table from tableprint 
+Ratio table from: table06
+row 0: 	|	5|	1|
+row 1: 	1|	500|	600|
+row 2: 	2|	1000|	1200|
+row 3: 	3|	1500|	1800|
+row 4: 	4|	2000|	2400|
+row 5: 	5|	2500|	3000|
+row 6: 	6|	3000|	3600|
+End Ratio table from tableprint 
+Ratio table from: table07
+row 0: 	|	6|	1|
+row 1: 	1|	600|	700|
+row 2: 	2|	1200|	1400|
+row 3: 	3|	1800|	2100|
+row 4: 	4|	2400|	2800|
+row 5: 	5|	3000|	3500|
+End Ratio table from tableprint 
+Ratio table from: table08
+row 0: 	|	7|	1|
+row 1: 	1|	560|	640|
+row 2: 	2|	1120|	1280|
+row 3: 	3|	1680|	1920|
+row 4: 	4|	2240|	2560|
+row 5: 	5|	2800|	3200|
+row 6: 	6|	3360|	3840|
+End Ratio table from tableprint 
+Ratio table from: table09
+row 0: 	|	8|	1|	2|	30%|
+row 1: 	1|	560|	630|	770|	798|
+row 2: 	2|	1120|	1260|	1540|	1596|
+row 3: 	3|	1680|	1890|	2310|	2394|
+row 4: 	4|	2240|	2520|	3080|	3192|
+End Ratio table from tableprint 
+Ratio table from: table10
+row 0: 	|	8|	 1/2|	4|
+row 1: 	1|	560|	595|	875|
+row 2: 	2|	1120|	1190|	1750|
+row 3: 	3|	1680|	1785|	2625|
+row 4: 	4|	2240|	2380|	3500|
+End Ratio table from tableprint 
+Ratio table from: table11
+row 0: 	|	8|	1|	4|
+row 1: 	1|	560|	630|	910|
+row 2: 	2|	1120|	1260|	1820|
+row 3: 	3|	1680|	1890|	2730|
+row 4: 	4|	2240|	2520|	3640|
+End Ratio table from tableprint 
+Ratio table from: table12
+row 0: 	Ounces|	 |
+row 1: 	16|	473.1|
+row 2: 	32|	946.2|
+row 3: 	48|	1419.4|
+row 4: 	64|	1892.5|
+row 5: 	80|	2365.6|
+row 6: 	96|	2838.7|
+row 7: 	112|	3311.8|
+row 8: 	128|	3785.0|
+End Ratio table from tableprint 
+Ratio table from: table13
+row 0: 	Parts|	 |
+row 1: 	1|	500|
+row 2: 	2|	1000|
+row 3: 	3|	1500|
+row 4: 	4|	2000|
+row 5: 	5|	2500|
+row 6: 	6|	3000|
+row 7: 	7|	3500|
+row 8: 	8|	4000|
+End Ratio table from tableprint 
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Berry Update Dec 2016/Test Jobs March 2017/T801163/H1404394 Ratio Chart.txt
+^^^^File Name: H1404394 Ratio Chart.txt, TXT  - Mac file CR - File Length: 2934 - 889 tabs
+++Parse conversion table
+k 473.1|v 5.7970|k 1425|v 4.2908|k 2580|v 2.5183|
+k 475|v 5.7926|k 1440|v 4.2623|k 2600|v 2.4901|
+k 500|v 5.7350|k 1462.5|v 4.2197|k 2602.2|v 2.4870|
+k 540|v 5.6662|k 1466.7|v 4.2117|k 2625|v 2.4500|
+k 550|v 5.6490|k 1500|v 4.1486|k 2666.7|v 2.3821|
+k 560|v 5.6318|k 1540|v 4.0900|k 2700|v 2.3370|
+k 562.5|v 5.6275|k 1545|v 4.0827|k 2730|v 2.2966|
+k 595|v 5.5894|k 1562.5|v 4.0571|k 2750|v 2.2697|
+k 600|v 5.5835|k 1575|v 4.0381|k 2760|v 2.2538|
+k 623|v 5.5160|k 1596|v 4.0061|k 2800|v 2.1900|
+k 625|v 5.5105|k 1600|v 4.0000|k 2812.5|v 2.1740|
+k 630|v 5.5041|k 1620|v 3.9696|k 2814|v 2.1721|
+k 640|v 5.4914|k 1650|v 3.9240|k 2838.7|v 2.1411|
+k 650|v 5.4787|k 1655.9|v 3.9150|k 2850|v 2.1252|
+k 666.7|v 5.4575|k 1660|v 3.9093|k 2880|v 2.0829|
+k 700|v 5.4020|k 1666.7|v 3.9000|k 2916.7|v 2.0311|
+k 709.7|v 5.3870|k 1680|v 3.8815|k 2925|v 2.0194|
+k 720|v 5.3710|k 1687.5|v 3.8710|k 2933.3|v 2.0077|
+k 733.3|v 5.3504|k 1700|v 3.8537|k 2940|v 1.9983|
+k 750|v 5.3256|k 1720|v 3.8261|k 3000|v 1.9138|
+k 770|v 5.2899|k 1750|v 3.7846|k 3075.3|v 1.7787|
+k 772.5|v 5.2854|k 1785|v 3.7103|k 3080|v 1.7722|
+k 798|v 5.2399|k 1800|v 3.6785|k 3090|v 1.7583|
+k 800|v 5.2363|k 1820|v 3.6545|k 3093.8|v 1.7530|
+k 810|v 5.2184|k 1840|v 3.6305|k 3125|v 1.7100|
+k 825|v 5.1916|k 1875|v 3.5886|k 3150|v 1.6760|
+k 830|v 5.1827|k 1876|v 3.5870|k 3180|v 1.6350|
+k 833.3|v 5.1768|k 1890|v 3.5641|k 3192|v 1.6186|
+k 840|v 5.1680|k 1892.5|v 3.5600|k 3200|v 1.6076|
+k 843.8|v 5.1630|k 1900|v 3.5479|k 3240|v 1.5529|
+k 850|v 5.1550|k 1920|v 3.5155|k 3250|v 1.5392|
+k 860|v 5.1421|k 1950|v 3.4670|k 3300|v 1.4707|
+k 875|v 5.1228|k 1968.8|v 3.4366|k 3311.8|v 1.4510|
+k 900|v 5.0906|k 2000|v 3.3742|k 3320|v 1.4376|
+k 910|v 5.0721|k 2083.3|v 3.2638|k 3325|v 1.4295|
+k 920|v 5.0535|k 2100|v 3.2390|k 3333.3|v 1.4160|
+k 937.5|v 5.0210|k 2120|v 3.2087|k 3360|v 1.3625|
+k 938|v 5.0201|k 2129|v 3.1951|k 3375|v 1.3470|
+k 946.2|v 5.0045|k 2160|v 3.1456|k 3400|v 1.3140|
+k 950|v 4.9982|k 2187.5|v 3.1016|k 3412.5|v 1.2975|
+k 975|v 4.9565|k 2200|v 3.0854|k 3437.5|v 1.2644|
+k 1000|v 4.9148|k 2240|v 3.0336|k 3440|v 1.2611|
+k 1050|v 4.8254|k 2250|v 3.0207|k 3450|v 1.2477|
+k 1060|v 4.8101|k 2300|v 2.9458|k 3500|v 1.1807|
+k 1080|v 4.7794|k 2310|v 2.9308|k 3548.4|v 1.1128|
+k 1100|v 4.7487|k 2317.5|v 2.9196|k 3600|v 1.0393|
+k 1120|v 4.7181|k 2333.3|v 2.8959|k 3640|v 0.9823|
+k 1125|v 4.7104|k 2365.6|v 2.8490|k 3666.7|v 0.9443|
+k 1150|v 4.6765|k 2375|v 2.8353|k 3675|v 0.9324|
+k 1182.8|v 4.6321|k 2380|v 2.8280|k 3680|v 0.9253|
+k 1190|v 4.6217|k 2394|v 2.8076|k 3750|v 0.8256|
+k 1200|v 4.6073|k 2400|v 2.7988|k 3752|v 0.8231|
+k 1250|v 4.5392|k 2430|v 2.7474|k 3785|v 0.7820|
+k 1260|v 4.5250|k 2437.5|v 2.7346|k 3800|v 0.7630|
+k 1280|v 4.4966|k 2450|v 2.7132|k 3840|v 0.7123|
+k 1300|v 4.4682|k 2475|v 2.6718|k 3850|v 0.6996|
+k 1333.3|v 4.4209|k 2490|v 2.6470|k 3862.5|v 0.6806|
+k 1350|v 4.3957|k 2500|v 2.6305|k 3900|v 0.6237|
+k 1400|v 4.3203|k 2520|v 2.6027|k 4000|v 0.4720|
+k 1406.3|v 4.3140|k 2531.3|v 2.5870|k 4021.5|v 0.4622|
+k 1419.4|v 4.3014|k 2550|v 2.5606|
+k 2560|v 2.5465|
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Berry Update Dec 2016/Test Jobs March 2017/T801163/T801163 Parameter chart.txt
+^^^^File Name: T801163 Parameter chart.txt, TXT  - Mac file CR - File Length: 1167 - 66 tabs
+Looking for table in "T801163 Parameter chart.txt" at line 1
+++Parse parameter table
+Parameter table from: parametertable
+line: 1 = val: 0.3			key: Column Space (inches)
+line: 2 = val: T801163			key: Container Part Number
+line: 3 = val: Hyman			key: Customer Name
+line: 4 = val: Black			key: Header Horizontal Line Color
+line: 5 = val: 2			key: Header Horizontal Line Weight (points)
+line: 6 = val: Black			key: Horizontal Line Color
+line: 7 = val: 1.5			key: Horizontal Line Weight (points)
+line: 8 = val: H666666_9108			key: Job Number
+line: 9 = val: Helvetica-Bold			key: Measurement Chart Font
+line: 10 = val: Black			key: Measurement Chart Font Color
+line: 11 = val: 13			key: Measurement Chart Font Size (points)
+line: 12 = val: 6			key: Measurement Chart Height (inches)
+line: 13 = val: Right			key: Measurement Chart Location (on Right or on Left)
+line: 14 = val: 0.95			key: Measurement Chart Width (inches)
+line: 15 = val: Kim			key: Operator Name
+line: 16 = val: 6			key: Ratio Chart Height (inches)
+line: 17 = val: 0.3125			key: Ratio Chart Top Offset (inches)
+line: 18 = val: 0.35			key: Ratio Chart Width (inches)
+line: 19 = val: Helvetica-Bold			key: Ratio Column Font
+line: 20 = val: Black			key: Ratio Column Font Color
+line: 21 = val: 13			key: Ratio Column Font Size (points)
+line: 22 = val: Helvetica-UltraCompressed			key: Ratio Header Font
+line: 23 = val: Black			key: Ratio Header Font Color
+line: 24 = val: 21			key: Ratio Header Font Size (points)
+line: 25 = val: 0.375			key: Ratio Header Height (inches)
+line: 26 = val: Below			key: Ratio Number Location (Above or Below)
+line: 27 = val: Black			key: Vertical Line Color Inside
+line: 28 = val: Black			key: Vertical Line Color Outside
+line: 29 = val: 1.5			key: Vertical Line Weight Inside (points)
+line: 30 = val: 2.5			key: Vertical Line Weight Outside (points)
+End parameter table from paramtableprint
+++Color and Font Check.
+-color param: Header Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Measurement Chart Font Color = Black --Exists in process colors hash.
+-color param: Ratio Column Font Color = Black --Exists in process colors hash.
+-color param: Ratio Header Font Color = Black --Exists in process colors hash.
+-color param: Vertical Line Color Inside = Black --Exists in process colors hash.
+-color param: Vertical Line Color Outside = Black --Exists in process colors hash.
+-font param: Measurement Chart Font = Helvetica-Bold--Exists in fonts hash.
+-font param: Ratio Column Font = Helvetica-Bold--Exists in fonts hash.
+-font param: Ratio Header Font = Helvetica-UltraCompressed--Exists in fonts hash.
+++Build EPS file
+++New file name: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Berry Update Dec 2016/Test Jobs March 2017/T801163/H1404394 Conversion Chart.eps
