@@ -264,18 +264,28 @@ sub processjob
             ($filetype) = ($fnonly =~ /.*(txt)/)?'TXT':'noTXT';
             logprint "^^^^File Name: $fnonly, $filetype ";
             
+			unless ( $filetype eq 'TXT')
+			{
+				print "\n\n";
+				die "File must be a text file - extension = .txt\n";
+			}
+			
             # Now determine line endings and type of file
             if ($instr =~ /\r\n/) # PC files - 0D0A
             { 
                 logprint " - PC file CRLF - ";
+				print "\n\n";
+				die "Cannot process PC files!\n";
                 $/ = "\r\n"; # input record separator
-            } elsif ($instr =~ /\r/) # Max file with CR only - 0D
+            } elsif ($instr =~ /\r/) # Mac file with CR only - 0D
             {
                 logprint " - Mac file CR - ";
                 $/ = "\r"; # input record separator
             } elsif ($instr =~ /\n/) # Unix file with LF only - 0A
             {
                 logprint " - Unix file LF - ";
+				print "\n\n";
+				die "Cannot process Unix files!\n";
                 $/ = "\n"; # input record separator
             }
             
@@ -288,12 +298,7 @@ sub processjob
             logprint " - $matchtab tabs" if $matchtab;
             logprint " - $matchcomma commas" if $matchcomma;
             logprint "\n";
-			
-			unless ( $filetype eq 'TXT')
-			{
-				die "File must be a text file - extension = .txt\n";
-			}
-			
+						
             seek $fh, 0, 0; # rewind file
         
         } else
@@ -913,6 +918,7 @@ sub parseparametertable
 	
 	if ( $missingparam )
 	{
+		print "\n\n";
 		die "Missing parameters must be added to the parameter file.\n";
 	}
 	
@@ -929,6 +935,7 @@ sub parseparametertable
 	
 	if ( $missingparamval )
 	{
+		print "\n\n";
 		die "Missing values must be added to the parameter file.\n";
 	}
 
@@ -1105,17 +1112,20 @@ sub buildeps
 	unless ( exists $objects{ 'conversiontable' } )
 	{
 		# logprint "Conversion table doesn't exist\n";
+		print "\n\n";
 		die "Conversion table doesn't exist\n";
 	}
 	
 	unless ( exists $objects{ 'parametertable' } )
 	{
 		# logprint "Parameter table doesn't exist\n";
+		print "\n\n";
 		die "Parameter table doesn't exist\n";
 	}
 	
 	unless ( exists $objects{ 'table00' } )
 	{
+		print "\n\n";
 		die "--!! Can't find table00!\n";
 		# return 0; # buildeps failed
 	}

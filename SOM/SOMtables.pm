@@ -563,7 +563,8 @@ EOS
 			$coloffset = $ch->{ $colkey + 0 };
 			unless ( $coloffset )
 			{
-				logprint "--Warning - Value outside printable area!\n";
+#				logprint "--Warning - Value outside printable area!\n";
+				warn " Value outside printable area!\n";
 				logprint "---table name: $tn - row: $row; col: $col; name: $colname; Measurement Value: $colkey; offset: no value - skip to next value\n";
 				next;
 			}

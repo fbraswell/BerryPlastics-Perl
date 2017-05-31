@@ -1,0 +1,63 @@
+
+------Berry Plastics RatioCompiler Version 2.0 
+Date: 5/31/2017, Time: 13:23:41
+Program path: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl
+Command line: runprog.pl
+cwd Program path: /
+Command line: runprog.pl
+**Fonts & Colors file: Berry Fonts & Colors.eps
+-Font: Courier
+-Font: Helvetica
+-Font: Helvetica-Black
+-Font: Helvetica-Bold
+-Font: Helvetica-Condensed-Bold
+-Font: Helvetica-UltraCompressed
+-Font: Myriad-Roman
+-Font: Times-Bold
+-Font: Times-Roman
+=Process Color: Black
+=Process Color: Cyan
+=Process Color: Magenta
+=Process Color: Yellow
+=Spot Color: Berry Blue
+=Spot Color: PANTONE 106 M
+=Spot Color: PANTONE 277 M
+=Spot Color: PANTONE 2925 M
+=Spot Color: PANTONE 484 M
+=Spot Color: PANTONE Reflex Blue CVC
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Test Files for Berry/H542925_9108/parameter chart.txt
+^^^^File Name: parameter chart.txt, TXT  - Mac file CR - File Length: 826 - 25 tabs
+++Parse parameter table
+Parameter table from: parametertable
+line: 1 = val: 0.1			key: Column Space (inches)
+line: 2 = val: Paint Spot			key: Customer Name
+line: 3 = val: Berry Blue			key: Horizontal Line Color
+line: 4 = val: 1			key: Horizontal Line Weight (points)
+line: 5 = val: H486731_9108			key: Job Number
+line: 6 = val: Courier			key: Measurement Chart Font
+line: 7 = val: Black			key: Measurement Chart Font Color
+line: 8 = val: 8			key: Measurement Chart Font Size (points)
+line: 9 = val: 4			key: Measurement Chart Height (inches)
+line: 10 = val: Left			key: Measurement Chart Location (on Right or on Left)
+line: 11 = val: 0.75			key: Measurement Chart Width (inches)
+line: 12 = val: Braswell			key: Operator Name
+line: 13 = val: 4.5			key: Ratio Chart Height (inches)
+line: 14 = val: 0.2			key: Ratio Chart Width (inches)
+line: 15 = val: Helvetica			key: Ratio Column Font
+line: 16 = val: Black			key: Ratio Column Font Color
+line: 17 = val: 8			key: Ratio Column Font Size (points)
+line: 18 = val: Times-Bold			key: Ratio Header Font
+line: 19 = val: Yellow			key: Ratio Header Font Color
+line: 20 = val: 6			key: Ratio Header Font Size (points)
+line: 21 = val: 0.2			key: Ratio Header Height (inches)
+line: 22 = val: Magenta			key: Vertical Line Color Inside
+line: 23 = val: Cyan			key: Vertical Line Color Outside
+line: 24 = val: 1			key: Vertical Line Weight Inside (points)
+line: 25 = val: 2			key: Vertical Line Weight Outside (points)
+End parameter table from paramtableprint
+==>Missing parameter: Container Part Number
+==>Missing parameter: Header Horizontal Line Color
+==>Missing parameter: Header Horizontal Line Weight (points)
+==>Missing parameter: Ratio Chart Top Offset (inches)
+==>Missing parameter: Ratio Number Location (Above or Below)
+FATAL ERROR MESSAGE! Missing parameters must be added to the parameter file.
