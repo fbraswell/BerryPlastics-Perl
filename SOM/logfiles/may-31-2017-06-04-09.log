@@ -1,0 +1,2434 @@
+
+------Berry Plastics RatioCompiler Version 2.0 
+Date: 5/31/2017, Time: 06:04:09
+Program path: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl
+Command line: runprog.pl
+cwd Program path: /
+Command line: runprog.pl
+**Fonts & Colors file: Berry Fonts & Colors.eps
+-Font: Courier
+-Font: Helvetica
+-Font: Helvetica-Black
+-Font: Helvetica-Bold
+-Font: Helvetica-Condensed-Bold
+-Font: Helvetica-UltraCompressed
+-Font: Myriad-Roman
+-Font: Times-Bold
+-Font: Times-Roman
+=Process Color: Black
+=Process Color: Cyan
+=Process Color: Magenta
+=Process Color: Yellow
+=Spot Color: Berry Blue
+=Spot Color: PANTONE 106 M
+=Spot Color: PANTONE 277 M
+=Spot Color: PANTONE 2925 M
+=Spot Color: PANTONE 484 M
+=Spot Color: PANTONE Reflex Blue CVC
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/B1466721 folder Bug test 5-20-17/B1466721 Conversion Chart.txt
+^^^^File Name: B1466721 Conversion Chart.txt, TXT  - Mac file CR - File Length: 739 - 62 tabs
+++Parse conversion table
+k 40|v 5.4785|
+k 44.4|v 5.4356|
+k 59.1|v 5.2902|
+k 80|v 4.9670|
+k 88.7|v 4.8325|
+k 100|v 4.9272|
+k 115|v 4.8015|
+k 118.3|v 4.7740|
+k 120|v 4.7945|
+k 133.1|v 4.6628|
+k 140|v 4.5929|
+k 147.9|v 4.5275|
+k 150|v 4.5101|
+k 160|v 4.4255|
+k 177.4|v 4.2780|
+k 200|v 4.0872|
+k 207.0|v 4.0345|
+k 221.8|v 3.9235|
+k 230|v 3.8618|
+k 236.6|v 3.8125|
+k 240|v 3.7868|
+k 250|v 3.7121|
+k 266.1|v 3.5930|
+k 266.1|v 3.5930|
+k 280|v 3.4906|
+k 295.7|v 3.3747|
+k 300|v 3.3434|
+k 310.5|v 3.2567|
+k 320|v 3.1780|
+k 325.3|v 3.1578|
+k 345|v 3.0133|
+k 350|v 2.9767|
+k 354.8|v 2.9425|
+k 360|v 2.9242|
+k 380|v 2.7651|
+k 384.4|v 2.7300|
+k 399.2|v 2.6241|
+k 400|v 2.6183|
+k 414.0|v 2.5203|
+k 420|v 2.4782|
+k 443.6|v 2.3137|
+k 450|v 2.2691|
+k 460|v 2.2023|
+k 473.1|v 2.1147|
+k 500|v 1.9352|
+k 502.7|v 1.9183|
+k 532.3|v 1.7354|
+k 550|v 1.6257|
+k 560|v 1.5604|
+k 561.8|v 1.5484|
+k 575|v 1.4616|
+k 591.4|v 1.3536|
+k 600|v 1.2968|
+k 621.0|v 1.1588|
+k 650.5|v 0.9647|
+k 680.1|v 0.7700|
+k 709.7|v 0.5750|
+k 739.3|v 0.5087|
+k 768.8|v 0.6474|
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/B1466721 folder Bug test 5-20-17/B1466721 Ratio Chart.eps
+^^^^File Name: B1466721 Ratio Chart.eps, noTXT  - Unix file LF - File Length: 26451 - 90 tabs
+--found measurement on line: %!PS-Adobe-3.1 EPSF-3.0
+%%Creator: Ratio Compiler 2.0
+%%--Creator: Adobe Illustrator(R) 12
+%%--AI8_CreatorVersion: 12.0.1
+%%For: (Kim) (Berry Plastics)
+%%Title: (BASF - B1003076)
+%%CreationDate: 5/29/2017 10:04:35
+%%BoundingBox: 0 0 172.8 478
+%%HiResBoundingBox: 0 0 172.8 478
+%%DocumentProcessColors: Black 
+
+%%EndComments 
+%%BeginProlog
+/u { } def
+/U { } def
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+%%BeginPageSetup
+%%EndPageSetup
+u
+/SOMsv save def
+%%BeginDocument
+%!PS-Adobe-3.1 EPSF-3.0
+%%Creator: Ratio Compiler 2.0
+%%--Creator: Adobe Illustrator(R) 12
+%%--AI8_CreatorVersion: 12.0.1
+%%For: (Kim) (Berry Plastics)
+%%Title: (BASF - B1003076)
+%%CreationDate: 5/29/2017 10:04:35
+%%BoundingBox: 0 0 61.2 478
+%%HiResBoundingBox: 0 0 61.2 478
+%%DocumentProcessColors: Black 
+
+%%EndComments 
+%%BeginProlog
+/u { } def
+/U { } def
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+%%BeginPageSetup
+%%EndPageSetup
+u
+/SOMsv save def
+/bd { bind def } bind def
+/ld { load def } bd
+/ed { exch def } bd
+/d /def ld
+/m /moveto ld
+/rm /rmoveto ld
+/l /lineto ld
+/rl /rlineto ld
+/sh /show ld
+/st /stroke ld
+/gs /gsave ld
+/gr /grestore ld
+/inch { 72 mul } bd
+/slw /setlinewidth ld
+
+/rnlabove (below) (above) eq d % Ratio number location (above or below)
+% Center justify ratio numbers
+% len is the width of the space the string must be centered in
+/centershow % pass - str len aboveorbelow
+{
+	/above exch d
+	2 copy pop exch % make extra copy of string
+	2 div exch stringwidth pop 2 div sub % xoffset
+	above % calculate the y offset
+	{ % place number above
+		bo % up by bo (baseline offset)
+	}
+	{ % place number below
+		% bo rcfs add neg % move down by font size + baseline offset
+		rcfs neg nbo add % move down by font size
+	} ifelse
+	rm % move into position
+	sh % show char
+} bd
+% Center justify ratio header numbers
+% This proc must center horizontally and vertically
+% len is the width of the space the string must be centered in
+/centershowhdr % pass - str len dummy
+{
+	pop % get rid of dummy boolean 
+	2 copy pop exch % make extra copy of string
+	2 div exch stringwidth pop 2 div sub % xoffset
+	rhh inch yheight sub 2 div % calculate the y offset
+	rm % move into position
+	sh % show char
+} bd
+% Right justify from current point
+/rightshow % pass str
+{
+	dup stringwidth pop % get width of str
+	neg 0 rm % backup by stringwidth
+	sh % show char
+} bd
+% ratio table variables
+/bo 2 d % baseline offset
+/nbo 0 d % negative baseline offset
+/ho 10 d % information header offset
+/hfs 6 d % information header font
+/hf_proc % information header font
+{
+	rcf findfont hfs scalefont setfont
+} bind def
+
+/ver 2.0 d % ratio comiler version
+/on (Kim) d % operator name
+/cn (BASF) d % customer name
+/jn (B1003076) d % job number
+/cpn (S40232) d % container part number
+/rcw 0.2 d % width of col
+/rch 6.5 d % height of col
+/rcf /Helvetica-Bold d % Ratio Column Font
+/rcfc (Black) d % ratio column font color
+/rcfs 9 d % ratio column font size
+/rcto 0.5625 d % Ratio Chart Top Offset (inches) 
+
+/rcf_proc % Ratio Column Font
+{
+	rcf findfont rcfs scalefont setfont
+} bind def
+
+/cs 0.1 d % column spacing
+/tablecols 1 d % number of ratio table cols
+/vlwo 2 d % vertical line weight outside
+/vlwi 1 d % vertical line weight inside
+/vlco (Black) d % vertical line color outside
+/vlci (Black) d % vertical line color inside
+/rhh 0.25 d % ratio header height
+/rhf /Helvetica-Bold d % ratio header font
+/rhfc (Black) d % ratio header font color
+/rhfs 12 d % ratio header font size
+/hhlw 2 d % header horizontal line weight under header text
+/hhlc (black) d % header horizontal line color under header text
+
+/rhf_proc % ratio header font
+{
+	rhf findfont rhfs scalefont setfont
+} bind def
+
+% Find the height of numbers for vertical centering
+gs 
+newpath 0 0 m rhf_proc
+(1234567890) true charpath
+flattenpath pathbbox
+gr
+	% calc yheight from ury - lly
+exch pop exch sub /yheight ed % save yheight
+pop % discard llx
+
+/hlw 1 d % horizontal line weight
+/hlc (Black) d % horizontal line color
+% /slo .125 d % offset from startline to top of ratio chart
+/slo rcto d % offset from startline to top of ratio chart
+/mcw 0.75 d % width of measurement table
+/mcf /Helvetica-Bold d % measurement chart font
+/mcfc (Black) d % measurement chart font color
+/mcfs 10 d % measurement chart font size
+
+/mcf_proc % measurement chart font
+{
+	mcf findfont mcfs scalefont setfont
+} bind def
+%%%%%%%%%%%% color procs below
+% process color proc
+/vlco
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/vlci
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/rhfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/rcfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/hlc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/mcfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/hhlc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+
+%%%%%%%%%%%% color procs above
+% Move origin to top - 
+% all moves are negative from top
+% 0 rch inch translate
+0 rch inch slo add 15 add translate
+% Put in header information only once
+% if table00
+(table01) (table00) eq
+{
+% rcf_proc % set rcf font
+hf_proc % set information header font
+0 0 0 1 setcmykcolor % black
+% header information
+% 0 ho rcto inch add m (Job Number: ) sh jn sh % job number
+0 ho m 0 8 rm
+(Job Number: ) sh jn sh % job number
+( - Container Part Number: ) sh cpn sh % container part number
+( - Customer Name: ) sh cn sh % customer name
+0 ho m 
+(Operator Name: ) sh on sh % operator name
+( - Date and Time: 5/29/2017 10:04:35) sh % show date and time
+( - Ratio Compiler Version: ) sh ver 10 string cvs sh % ratio compiler version
+} if
+% epsstr % sl_str
+% Move origin to top - 
+% all moves are negative from top
+% 0 rch inch translate
+% Draw start line and label with table name
+% rcf_proc % set rcf font
+hf_proc % set information header font
+0 0 0 1 setcmykcolor % black
+% 0 bo rcto inch add m (table01) sh % indicate start line
+0 bo m (table01) sh % indicate start line
+.25 slw % very thin line
+% 0 rcto inch m 
+0 0 m  
+mcw inch 0 rl st
+ % col_str - measurement
+/x_val 0 d
+x_val 4.5101 neg inch m 
+mcw rcw sub inch 0 rm
+mcf_proc % mcf measurement chart font & size
+mcfc % measurement chart font color
+(4 oz. ) rightshow
+hlw slw % set horizontal line width
+hlc % horizontal line color
+rcw inch 0 rl st
+% col_str - measurement
+/x_val 0 d
+x_val 4.0872 neg inch m 
+mcw rcw sub inch 0 rm
+mcf_proc % mcf measurement chart font & size
+mcfc % measurement chart font color
+(8 oz. ) rightshow
+hlw slw % set horizontal line width
+hlc % horizontal line color
+rcw inch 0 rl st
+% col_str - measurement
+/x_val 0 d
+x_val 3.7121 neg inch m 
+mcw rcw sub inch 0 rm
+mcf_proc % mcf measurement chart font & size
+mcfc % measurement chart font color
+(12 oz. ) rightshow
+hlw slw % set horizontal line width
+hlc % horizontal line color
+rcw inch 0 rl st
+% col_str - measurement
+/x_val 0 d
+x_val 3.3434 neg inch m 
+mcw rcw sub inch 0 rm
+mcf_proc % mcf measurement chart font & size
+mcfc % measurement chart font color
+(16 oz. ) rightshow
+hlw slw % set horizontal line width
+hlc % horizontal line color
+rcw inch 0 rl st
+    
+SOMsv restore
+U
+%%Trailer
+%%EOF 
+%%EndDocument
+% epsstr
+% Move over to next ratio table
+/bd { bind def } bind def
+/ld { load def } bd
+/d /def ld
+/m /moveto ld
+/l /lineto ld
+/rl /rlineto ld
+/sh /show ld
+/st /stroke ld
+/gs /gsave ld
+/gr /grestore ld
+/inch { 72 mul } bd
+% ratio table variables
+/rcw 0.2 d % width of ratio table col
+/mcw 0.75 d % width of measurement table
+/cs 0.1 d % column spacing
+/tablecols 1 d % number of ratio table cols
+% epsstr
+mcw cs add inch 0 translate
+%%BeginDocument
+%!PS-Adobe-3.1 EPSF-3.0
+%%Creator: Ratio Compiler 2.0
+%%--Creator: Adobe Illustrator(R) 12
+%%--AI8_CreatorVersion: 12.0.1
+%%For: (Kim) (Berry Plastics)
+%%Title: (BASF - B1003076)
+%%CreationDate: 5/29/2017 10:04:35
+%%BoundingBox: 0 0 61.2 478
+%%HiResBoundingBox: 0 0 61.2 478
+%%DocumentProcessColors: Black 
+
+%%EndComments 
+%%BeginProlog
+/u { } def
+/U { } def
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+%%BeginPageSetup
+%%EndPageSetup
+u
+/SOMsv save def
+/bd { bind def } bind def
+/ld { load def } bd
+/ed { exch def } bd
+/d /def ld
+/m /moveto ld
+/rm /rmoveto ld
+/l /lineto ld
+/rl /rlineto ld
+/sh /show ld
+/st /stroke ld
+/gs /gsave ld
+/gr /grestore ld
+/inch { 72 mul } bd
+/slw /setlinewidth ld
+
+/rnlabove (below) (above) eq d % Ratio number location (above or below)
+% Center justify ratio numbers
+% len is the width of the space the string must be centered in
+/centershow % pass - str len aboveorbelow
+{
+	/above exch d
+	2 copy pop exch % make extra copy of string
+	2 div exch stringwidth pop 2 div sub % xoffset
+	above % calculate the y offset
+	{ % place number above
+		bo % up by bo (baseline offset)
+	}
+	{ % place number below
+		% bo rcfs add neg % move down by font size + baseline offset
+		rcfs neg nbo add % move down by font size
+	} ifelse
+	rm % move into position
+	sh % show char
+} bd
+% Center justify ratio header numbers
+% This proc must center horizontally and vertically
+% len is the width of the space the string must be centered in
+/centershowhdr % pass - str len dummy
+{
+	pop % get rid of dummy boolean 
+	2 copy pop exch % make extra copy of string
+	2 div exch stringwidth pop 2 div sub % xoffset
+	rhh inch yheight sub 2 div % calculate the y offset
+	rm % move into position
+	sh % show char
+} bd
+% Right justify from current point
+/rightshow % pass str
+{
+	dup stringwidth pop % get width of str
+	neg 0 rm % backup by stringwidth
+	sh % show char
+} bd
+% ratio table variables
+/bo 2 d % baseline offset
+/nbo 0 d % negative baseline offset
+/ho 10 d % information header offset
+/hfs 6 d % information header font
+/hf_proc % information header font
+{
+	rcf findfont hfs scalefont setfont
+} bind def
+
+/ver 2.0 d % ratio comiler version
+/on (Kim) d % operator name
+/cn (BASF) d % customer name
+/jn (B1003076) d % job number
+/cpn (S40232) d % container part number
+/rcw 0.2 d % width of col
+/rch 6.5 d % height of col
+/rcf /Helvetica-Bold d % Ratio Column Font
+/rcfc (Black) d % ratio column font color
+/rcfs 9 d % ratio column font size
+/rcto 0.5625 d % Ratio Chart Top Offset (inches) 
+
+/rcf_proc % Ratio Column Font
+{
+	rcf findfont rcfs scalefont setfont
+} bind def
+
+/cs 0.1 d % column spacing
+/tablecols 0 d % number of ratio table cols
+/vlwo 2 d % vertical line weight outside
+/vlwi 1 d % vertical line weight inside
+/vlco (Black) d % vertical line color outside
+/vlci (Black) d % vertical line color inside
+/rhh 0.25 d % ratio header height
+/rhf /Helvetica-Bold d % ratio header font
+/rhfc (Black) d % ratio header font color
+/rhfs 12 d % ratio header font size
+/hhlw 2 d % header horizontal line weight under header text
+/hhlc (black) d % header horizontal line color under header text
+
+/rhf_proc % ratio header font
+{
+	rhf findfont rhfs scalefont setfont
+} bind def
+
+% Find the height of numbers for vertical centering
+gs 
+newpath 0 0 m rhf_proc
+(1234567890) true charpath
+flattenpath pathbbox
+gr
+	% calc yheight from ury - lly
+exch pop exch sub /yheight ed % save yheight
+pop % discard llx
+
+/hlw 1 d % horizontal line weight
+/hlc (Black) d % horizontal line color
+% /slo .125 d % offset from startline to top of ratio chart
+/slo rcto d % offset from startline to top of ratio chart
+/mcw 0.75 d % width of measurement table
+/mcf /Helvetica-Bold d % measurement chart font
+/mcfc (Black) d % measurement chart font color
+/mcfs 10 d % measurement chart font size
+
+/mcf_proc % measurement chart font
+{
+	mcf findfont mcfs scalefont setfont
+} bind def
+%%%%%%%%%%%% color procs below
+% process color proc
+/vlco
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/vlci
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/rhfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/rcfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/hlc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/mcfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/hhlc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+
+%%%%%%%%%%%% color procs above
+% Move origin to top - 
+% all moves are negative from top
+% 0 rch inch translate
+0 rch inch slo add 15 add translate
+% Put in header information only once
+% if table00
+(table02) (table00) eq
+{
+% rcf_proc % set rcf font
+hf_proc % set information header font
+0 0 0 1 setcmykcolor % black
+% header information
+% 0 ho rcto inch add m (Job Number: ) sh jn sh % job number
+0 ho m 0 8 rm
+(Job Number: ) sh jn sh % job number
+( - Container Part Number: ) sh cpn sh % container part number
+( - Customer Name: ) sh cn sh % customer name
+0 ho m 
+(Operator Name: ) sh on sh % operator name
+( - Date and Time: 5/29/2017 10:04:35) sh % show date and time
+( - Ratio Compiler Version: ) sh ver 10 string cvs sh % ratio compiler version
+} if
+% epsstr % sl_str
+% Move origin to top - 
+% all moves are negative from top
+% 0 rch inch translate
+% Draw start line and label with table name
+% rcf_proc % set rcf font
+hf_proc % set information header font
+0 0 0 1 setcmykcolor % black
+% 0 bo rcto inch add m (table02) sh % indicate start line
+0 bo m (table02) sh % indicate start line
+.25 slw % very thin line
+% 0 rcto inch m 
+0 0 m  
+mcw inch 0 rl st
+ % col_str - measurement
+/x_val 0 d
+x_val 5.4785 neg inch m 
+mcw rcw sub inch 0 rm
+mcf_proc % mcf measurement chart font & size
+mcfc % measurement chart font color
+(40 ml ) rightshow
+hlw slw % set horizontal line width
+hlc % horizontal line color
+rcw inch 0 rl st
+    
+SOMsv restore
+U
+%%Trailer
+%%EOF 
+%%EndDocument
+% epsstr
+% Move over to next ratio table
+/bd { bind def } bind def
+/ld { load def } bd
+/d /def ld
+/m /moveto ld
+/l /lineto ld
+/rl /rlineto ld
+/sh /show ld
+/st /stroke ld
+/gs /gsave ld
+/gr /grestore ld
+/inch { 72 mul } bd
+% ratio table variables
+/rcw 0.2 d % width of ratio table col
+/mcw 0.75 d % width of measurement table
+/cs 0.1 d % column spacing
+/tablecols 0 d % number of ratio table cols
+% epsstr
+mcw cs add inch 0 translate
+%%BeginDocument
+%!PS-Adobe-3.1 EPSF-3.0
+%%Creator: Ratio Compiler 2.0
+%%--Creator: Adobe Illustrator(R) 12
+%%--AI8_CreatorVersion: 12.0.1
+%%For: (Kim) (Berry Plastics)
+%%Title: (BASF - B1003076)
+%%CreationDate: 5/29/2017 10:04:35
+%%BoundingBox: 0 0 50.4 478
+%%HiResBoundingBox: 0 0 50.4 478
+%%DocumentProcessColors: Black 
+
+%%EndComments 
+%%BeginProlog
+/u { } def
+/U { } def
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+%%BeginPageSetup
+%%EndPageSetup
+u
+/SOMsv save def
+/bd { bind def } bind def
+/ld { load def } bd
+/ed { exch def } bd
+/d /def ld
+/m /moveto ld
+/rm /rmoveto ld
+/l /lineto ld
+/rl /rlineto ld
+/sh /show ld
+/st /stroke ld
+/gs /gsave ld
+/gr /grestore ld
+/inch { 72 mul } bd
+/slw /setlinewidth ld
+
+/rnlabove (below) (above) eq d % Ratio number location (above or below)
+% Center justify ratio numbers
+% len is the width of the space the string must be centered in
+/centershow % pass - str len aboveorbelow
+{
+	/above exch d
+	2 copy pop exch % make extra copy of string
+	2 div exch stringwidth pop 2 div sub % xoffset
+	above % calculate the y offset
+	{ % place number above
+		bo % up by bo (baseline offset)
+	}
+	{ % place number below
+		% bo rcfs add neg % move down by font size + baseline offset
+		rcfs neg nbo add % move down by font size
+	} ifelse
+	rm % move into position
+	sh % show char
+} bd
+% Center justify ratio header numbers
+% This proc must center horizontally and vertically
+% len is the width of the space the string must be centered in
+/centershowhdr % pass - str len dummy
+{
+	pop % get rid of dummy boolean 
+	2 copy pop exch % make extra copy of string
+	2 div exch stringwidth pop 2 div sub % xoffset
+	rhh inch yheight sub 2 div % calculate the y offset
+	rm % move into position
+	sh % show char
+} bd
+% Right justify from current point
+/rightshow % pass str
+{
+	dup stringwidth pop % get width of str
+	neg 0 rm % backup by stringwidth
+	sh % show char
+} bd
+% ratio table variables
+/bo 2 d % baseline offset
+/nbo 0 d % negative baseline offset
+/ho 10 d % information header offset
+/hfs 6 d % information header font
+/hf_proc % information header font
+{
+	rcf findfont hfs scalefont setfont
+} bind def
+
+/ver 2.0 d % ratio comiler version
+/on (Kim) d % operator name
+/cn (BASF) d % customer name
+/jn (B1003076) d % job number
+/cpn (S40232) d % container part number
+/rcw 0.2 d % width of col
+/rch 6.5 d % height of col
+/rcf /Helvetica-Bold d % Ratio Column Font
+/rcfc (Black) d % ratio column font color
+/rcfs 9 d % ratio column font size
+/rcto 0.5625 d % Ratio Chart Top Offset (inches) 
+
+/rcf_proc % Ratio Column Font
+{
+	rcf findfont rcfs scalefont setfont
+} bind def
+
+/cs 0.1 d % column spacing
+/tablecols 3 d % number of ratio table cols
+/vlwo 2 d % vertical line weight outside
+/vlwi 1 d % vertical line weight inside
+/vlco (Black) d % vertical line color outside
+/vlci (Black) d % vertical line color inside
+/rhh 0.25 d % ratio header height
+/rhf /Helvetica-Bold d % ratio header font
+/rhfc (Black) d % ratio header font color
+/rhfs 12 d % ratio header font size
+/hhlw 2 d % header horizontal line weight under header text
+/hhlc (black) d % header horizontal line color under header text
+
+/rhf_proc % ratio header font
+{
+	rhf findfont rhfs scalefont setfont
+} bind def
+
+% Find the height of numbers for vertical centering
+gs 
+newpath 0 0 m rhf_proc
+(1234567890) true charpath
+flattenpath pathbbox
+gr
+	% calc yheight from ury - lly
+exch pop exch sub /yheight ed % save yheight
+pop % discard llx
+
+/hlw 1 d % horizontal line weight
+/hlc (Black) d % horizontal line color
+% /slo .125 d % offset from startline to top of ratio chart
+/slo rcto d % offset from startline to top of ratio chart
+/mcw 0.75 d % width of measurement table
+/mcf /Helvetica-Bold d % measurement chart font
+/mcfc (Black) d % measurement chart font color
+/mcfs 10 d % measurement chart font size
+
+/mcf_proc % measurement chart font
+{
+	mcf findfont mcfs scalefont setfont
+} bind def
+%%%%%%%%%%%% color procs below
+% process color proc
+/vlco
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/vlci
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/rhfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/rcfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/hlc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/mcfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/hhlc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+
+%%%%%%%%%%%% color procs above
+% Move origin to top - 
+% all moves are negative from top
+% 0 rch inch translate
+0 rch inch slo add 15 add translate
+% Put in header information only once
+% if table00
+(table00) (table00) eq
+{
+% rcf_proc % set rcf font
+hf_proc % set information header font
+0 0 0 1 setcmykcolor % black
+% header information
+% 0 ho rcto inch add m (Job Number: ) sh jn sh % job number
+0 ho m 0 8 rm
+(Job Number: ) sh jn sh % job number
+( - Container Part Number: ) sh cpn sh % container part number
+( - Customer Name: ) sh cn sh % customer name
+0 ho m 
+(Operator Name: ) sh on sh % operator name
+( - Date and Time: 5/29/2017 10:04:35) sh % show date and time
+( - Ratio Compiler Version: ) sh ver 10 string cvs sh % ratio compiler version
+} if
+% epsstr % sl_str
+% Move origin to top - 
+% all moves are negative from top
+% 0 rch inch translate
+% Draw start line and label with table name
+% rcf_proc % set rcf font
+hf_proc % set information header font
+0 0 0 1 setcmykcolor % black
+% 0 bo rcto inch add m (table00) sh % indicate start line
+0 bo m (table00) sh % indicate start line
+.25 slw % very thin line
+% 0 rcto inch m 
+0 0 m  
+rcw 3 mul inch 0 rl st
+ % col_str - ratio
+/x_val rcw 1 1 sub mul inch d
+x_val 4.7945 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(1) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 4.7945 neg inch m  rcw inch 0 rl st
+% col_str - ratio
+/x_val rcw 1 1 sub mul inch d
+x_val 4.5101 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(2) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 4.5101 neg inch m  rcw inch 0 rl st
+% col_str - ratio
+/x_val rcw 1 1 sub mul inch d
+x_val 4.0872 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(3) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 4.0872 neg inch m  rcw inch 0 rl st
+% col_str - ratio
+/x_val rcw 2 1 sub mul inch d
+x_val 4.0872 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(1) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 4.0872 neg inch m  rcw inch 0 rl st
+% col_str - ratio
+/x_val rcw 2 1 sub mul inch d
+x_val 3.7121 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(2) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 3.7121 neg inch m  rcw inch 0 rl st
+% col_str - ratio
+/x_val rcw 2 1 sub mul inch d
+x_val 3.3434 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(3) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 3.3434 neg inch m  rcw inch 0 rl st
+% col_str - ratio
+/x_val rcw 3 1 sub mul inch d
+x_val 3.3434 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(1) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 3.3434 neg inch m  rcw inch 0 rl st
+% col_str - ratio
+/x_val rcw 3 1 sub mul inch d
+x_val 2.9767 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(2) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 2.9767 neg inch m  rcw inch 0 rl st
+% col_str - ratio
+/x_val rcw 3 1 sub mul inch d
+x_val 2.6183 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(3) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 2.6183 neg inch m  rcw inch 0 rl st
+ % vli_str
+% Move over to next column
+% rcw inch 0 translate
+1 1 ne % skip if col 1?
+{
+/x_val rcw 1 1 sub mul inch d
+vlwi slw % set inside line width
+vlci % set vertical line color inside
+% draw vertical line on right side
+x_val rhh slo add neg inch m 
+% x_val rch neg inch l st
+0 rch rhh sub neg inch rl st
+} if
+% vli_str
+% Move over to next column
+% rcw inch 0 translate
+2 1 ne % skip if col 1?
+{
+/x_val rcw 2 1 sub mul inch d
+vlwi slw % set inside line width
+vlci % set vertical line color inside
+% draw vertical line on right side
+x_val rhh slo add neg inch m 
+% x_val rch neg inch l st
+0 rch rhh sub neg inch rl st
+} if
+% vli_str
+% Move over to next column
+% rcw inch 0 translate
+3 1 ne % skip if col 1?
+{
+/x_val rcw 3 1 sub mul inch d
+vlwi slw % set inside line width
+vlci % set vertical line color inside
+% draw vertical line on right side
+x_val rhh slo add neg inch m 
+% x_val rch neg inch l st
+0 rch rhh sub neg inch rl st
+} if
+ % hdr_str
+/x_val rcw 1 1 sub mul inch d
+% Draw header horizontal line
+gs
+vlwo slw % set line width
+vlco % set horizontal line color
+x_val slo neg inch m 
+2 setlinecap
+rcw inch 0 rl st % draw line across
+gr
+rhf_proc % set header font 
+% rhf findfont rhfs scalefont setfont
+rhfc % ratio header font color
+% print header
+x_val rhh slo add neg inch m 
+(4) rcw inch true centershowhdr % true - place above line
+1 1 ne % skip if col 1?
+{
+% print colon
+% rcw rhh slo add neg inch m 
+x_val rhh slo add neg inch m
+(:) 0 true centershowhdr % true - place above line
+} if
+% gr
+% hdr_str
+/x_val rcw 2 1 sub mul inch d
+% Draw header horizontal line
+gs
+vlwo slw % set line width
+vlco % set horizontal line color
+x_val slo neg inch m 
+2 setlinecap
+rcw inch 0 rl st % draw line across
+gr
+rhf_proc % set header font 
+% rhf findfont rhfs scalefont setfont
+rhfc % ratio header font color
+% print header
+x_val rhh slo add neg inch m 
+(3) rcw inch true centershowhdr % true - place above line
+2 1 ne % skip if col 1?
+{
+% print colon
+% rcw rhh slo add neg inch m 
+x_val rhh slo add neg inch m
+(:) 0 true centershowhdr % true - place above line
+} if
+% gr
+% hdr_str
+/x_val rcw 3 1 sub mul inch d
+% Draw header horizontal line
+gs
+vlwo slw % set line width
+vlco % set horizontal line color
+x_val slo neg inch m 
+2 setlinecap
+rcw inch 0 rl st % draw line across
+gr
+rhf_proc % set header font 
+% rhf findfont rhfs scalefont setfont
+rhfc % ratio header font color
+% print header
+x_val rhh slo add neg inch m 
+(1) rcw inch true centershowhdr % true - place above line
+3 1 ne % skip if col 1?
+{
+% print colon
+% rcw rhh slo add neg inch m 
+x_val rhh slo add neg inch m
+(:) 0 true centershowhdr % true - place above line
+} if
+% gr
+ % hlo_str
+/x_val rcw 1 1 sub mul inch d
+% Column Header
+% gs
+% Draw ratio chart horizontal line
+hhlw slw % set line width
+hhlc % set horizontal line color
+x_val rhh slo add neg inch m 
+rcw inch 0 rl st % draw line across
+% hlo_str
+/x_val rcw 2 1 sub mul inch d
+% Column Header
+% gs
+% Draw ratio chart horizontal line
+hhlw slw % set line width
+hhlc % set horizontal line color
+x_val rhh slo add neg inch m 
+rcw inch 0 rl st % draw line across
+% hlo_str
+/x_val rcw 3 1 sub mul inch d
+% Column Header
+% gs
+% Draw ratio chart horizontal line
+hhlw slw % set line width
+hhlc % set horizontal line color
+x_val rhh slo add neg inch m 
+rcw inch 0 rl st % draw line across
+ % vlo_str
+% Draw left hand line
+vlwo slw % set outside linewidth
+vlco % set vertical line color outside
+0 slo neg inch m
+% 0 rch neg inch l st
+0 rch neg inch rl st
+% vlo_str
+% Draw right hand line
+/x_val rcw 3 mul inch d
+vlwo slw % set outside linewidth
+vlco % set vertical line color outside
+x_val slo neg inch m
+% x_val rch neg inch l st
+0 rch neg inch rl st
+
+SOMsv restore
+U
+%%Trailer
+%%EOF 
+%%EndDocument
+% epsstr
+% Move over to next ratio table
+/bd { bind def } bind def
+/ld { load def } bd
+/d /def ld
+/m /moveto ld
+/l /lineto ld
+/rl /rlineto ld
+/sh /show ld
+/st /stroke ld
+/gs /gsave ld
+/gr /grestore ld
+/inch { 72 mul } bd
+% ratio table variables
+/rcw 0.2 d % width of ratio table col
+/mcw 0.75 d % width of measurement table
+/cs 0.1 d % column spacing
+/tablecols 3 d % number of ratio table cols
+% epsstr
+tablecols rcw mul cs add inch 0 translate
+SOMsv restore
+U
+%%Trailer
+%%EOF 
+
+++Parse measurement tables
+line: 0; lookforheader: yes; line array: %!PS-Adobe-3.1 EPSF-3.0
+%%Creator: Ratio Compiler 2.0
+%%--Creator: Adobe Illustrator(R) 12
+%%--AI8_CreatorVersion: 12.0.1
+%%For: (Kim) (Berry Plastics)
+%%Title: (BASF - B1003076)
+%%CreationDate: 5/29/2017 10:04:35
+%%BoundingBox: 0 0 172.8 478
+%%HiResBoundingBox: 0 0 172.8 478
+%%DocumentProcessColors: Black 
+
+%%EndComments 
+%%BeginProlog
+/u { } def
+/U { } def
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+%%BeginPageSetup
+%%EndPageSetup
+u
+/SOMsv save def
+%%BeginDocument
+%!PS-Adobe-3.1 EPSF-3.0
+%%Creator: Ratio Compiler 2.0
+%%--Creator: Adobe Illustrator(R) 12
+%%--AI8_CreatorVersion: 12.0.1
+%%For: (Kim) (Berry Plastics)
+%%Title: (BASF - B1003076)
+%%CreationDate: 5/29/2017 10:04:35
+%%BoundingBox: 0 0 61.2 478
+%%HiResBoundingBox: 0 0 61.2 478
+%%DocumentProcessColors: Black 
+
+%%EndComments 
+%%BeginProlog
+/u { } def
+/U { } def
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+%%BeginPageSetup
+%%EndPageSetup
+u
+/SOMsv save def
+/bd { bind def } bind def
+/ld { load def } bd
+/ed { exch def } bd
+/d /def ld
+/m /moveto ld
+/rm /rmoveto ld
+/l /lineto ld
+/rl /rlineto ld
+/sh /show ld
+/st /stroke ld
+/gs /gsave ld
+/gr /grestore ld
+/inch { 72 mul } bd
+/slw /setlinewidth ld
+
+/rnlabove (below) (above) eq d % Ratio number location (above or below)
+% Center justify ratio numbers
+% len is the width of the space the string must be centered in
+/centershow % pass - str len aboveorbelow
+{
+|/above exch d
+|2 copy pop exch % make extra copy of string
+|2 div exch stringwidth pop 2 div sub % xoffset
+|above % calculate the y offset
+|{ % place number above
+|*|bo % up by bo (baseline offset)
+|}
+|{ % place number below
+|*|% bo rcfs add neg % move down by font size + baseline offset
+|*|rcfs neg nbo add % move down by font size
+|} ifelse
+|rm % move into position
+|sh % show char
+} bd
+% Center justify ratio header numbers
+% This proc must center horizontally and vertically
+% len is the width of the space the string must be centered in
+/centershowhdr % pass - str len dummy
+{
+|pop % get rid of dummy boolean 
+|2 copy pop exch % make extra copy of string
+|2 div exch stringwidth pop 2 div sub % xoffset
+|rhh inch yheight sub 2 div % calculate the y offset
+|rm % move into position
+|sh % show char
+} bd
+% Right justify from current point
+/rightshow % pass str
+{
+|dup stringwidth pop % get width of str
+|neg 0 rm % backup by stringwidth
+|sh % show char
+} bd
+% ratio table variables
+/bo 2 d % baseline offset
+/nbo 0 d % negative baseline offset
+/ho 10 d % information header offset
+/hfs 6 d % information header font
+/hf_proc % information header font
+{
+|rcf findfont hfs scalefont setfont
+} bind def
+
+/ver 2.0 d % ratio comiler version
+/on (Kim) d % operator name
+/cn (BASF) d % customer name
+/jn (B1003076) d % job number
+/cpn (S40232) d % container part number
+/rcw 0.2 d % width of col
+/rch 6.5 d % height of col
+/rcf /Helvetica-Bold d % Ratio Column Font
+/rcfc (Black) d % ratio column font color
+/rcfs 9 d % ratio column font size
+/rcto 0.5625 d % Ratio Chart Top Offset (inches) 
+
+/rcf_proc % Ratio Column Font
+{
+|rcf findfont rcfs scalefont setfont
+} bind def
+
+/cs 0.1 d % column spacing
+/tablecols 1 d % number of ratio table cols
+/vlwo 2 d % vertical line weight outside
+/vlwi 1 d % vertical line weight inside
+/vlco (Black) d % vertical line color outside
+/vlci (Black) d % vertical line color inside
+/rhh 0.25 d % ratio header height
+/rhf /Helvetica-Bold d % ratio header font
+/rhfc (Black) d % ratio header font color
+/rhfs 12 d % ratio header font size
+/hhlw 2 d % header horizontal line weight under header text
+/hhlc (black) d % header horizontal line color under header text
+
+/rhf_proc % ratio header font
+{
+|rhf findfont rhfs scalefont setfont
+} bind def
+
+% Find the height of numbers for vertical centering
+gs 
+newpath 0 0 m rhf_proc
+(1234567890) true charpath
+flattenpath pathbbox
+gr
+|% calc yheight from ury - lly
+exch pop exch sub /yheight ed % save yheight
+pop % discard llx
+
+/hlw 1 d % horizontal line weight
+/hlc (Black) d % horizontal line color
+% /slo .125 d % offset from startline to top of ratio chart
+/slo rcto d % offset from startline to top of ratio chart
+/mcw 0.75 d % width of measurement table
+/mcf /Helvetica-Bold d % measurement chart font
+/mcfc (Black) d % measurement chart font color
+/mcfs 10 d % measurement chart font size
+
+/mcf_proc % measurement chart font
+{
+|mcf findfont mcfs scalefont setfont
+} bind def
+%%%%%%%%%%%% color procs below
+% process color proc
+/vlco
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/vlci
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/rhfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/rcfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/hlc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/mcfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/hhlc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+
+%%%%%%%%%%%% color procs above
+% Move origin to top - 
+% all moves are negative from top
+% 0 rch inch translate
+0 rch inch slo add 15 add translate
+% Put in header information only once
+% if table00
+(table01) (table00) eq
+{
+% rcf_proc % set rcf font
+hf_proc % set information header font
+0 0 0 1 setcmykcolor % black
+% header information
+% 0 ho rcto inch add m (Job Number: ) sh jn sh % job number
+0 ho m 0 8 rm
+(Job Number: ) sh jn sh % job number
+( - Container Part Number: ) sh cpn sh % container part number
+( - Customer Name: ) sh cn sh % customer name
+0 ho m 
+(Operator Name: ) sh on sh % operator name
+( - Date and Time: 5/29/2017 10:04:35) sh % show date and time
+( - Ratio Compiler Version: ) sh ver 10 string cvs sh % ratio compiler version
+} if
+% epsstr % sl_str
+% Move origin to top - 
+% all moves are negative from top
+% 0 rch inch translate
+% Draw start line and label with table name
+% rcf_proc % set rcf font
+hf_proc % set information header font
+0 0 0 1 setcmykcolor % black
+% 0 bo rcto inch add m (table01) sh % indicate start line
+0 bo m (table01) sh % indicate start line
+.25 slw % very thin line
+% 0 rcto inch m 
+0 0 m  
+mcw inch 0 rl st
+ % col_str - measurement
+/x_val 0 d
+x_val 4.5101 neg inch m 
+mcw rcw sub inch 0 rm
+mcf_proc % mcf measurement chart font & size
+mcfc % measurement chart font color
+(4 oz. ) rightshow
+hlw slw % set horizontal line width
+hlc % horizontal line color
+rcw inch 0 rl st
+% col_str - measurement
+/x_val 0 d
+x_val 4.0872 neg inch m 
+mcw rcw sub inch 0 rm
+mcf_proc % mcf measurement chart font & size
+mcfc % measurement chart font color
+(8 oz. ) rightshow
+hlw slw % set horizontal line width
+hlc % horizontal line color
+rcw inch 0 rl st
+% col_str - measurement
+/x_val 0 d
+x_val 3.7121 neg inch m 
+mcw rcw sub inch 0 rm
+mcf_proc % mcf measurement chart font & size
+mcfc % measurement chart font color
+(12 oz. ) rightshow
+hlw slw % set horizontal line width
+hlc % horizontal line color
+rcw inch 0 rl st
+% col_str - measurement
+/x_val 0 d
+x_val 3.3434 neg inch m 
+mcw rcw sub inch 0 rm
+mcf_proc % mcf measurement chart font & size
+mcfc % measurement chart font color
+(16 oz. ) rightshow
+hlw slw % set horizontal line width
+hlc % horizontal line color
+rcw inch 0 rl st
+    
+SOMsv restore
+U
+%%Trailer
+%%EOF 
+%%EndDocument
+% epsstr
+% Move over to next ratio table
+/bd { bind def } bind def
+/ld { load def } bd
+/d /def ld
+/m /moveto ld
+/l /lineto ld
+/rl /rlineto ld
+/sh /show ld
+/st /stroke ld
+/gs /gsave ld
+/gr /grestore ld
+/inch { 72 mul } bd
+% ratio table variables
+/rcw 0.2 d % width of ratio table col
+/mcw 0.75 d % width of measurement table
+/cs 0.1 d % column spacing
+/tablecols 1 d % number of ratio table cols
+% epsstr
+mcw cs add inch 0 translate
+%%BeginDocument
+%!PS-Adobe-3.1 EPSF-3.0
+%%Creator: Ratio Compiler 2.0
+%%--Creator: Adobe Illustrator(R) 12
+%%--AI8_CreatorVersion: 12.0.1
+%%For: (Kim) (Berry Plastics)
+%%Title: (BASF - B1003076)
+%%CreationDate: 5/29/2017 10:04:35
+%%BoundingBox: 0 0 61.2 478
+%%HiResBoundingBox: 0 0 61.2 478
+%%DocumentProcessColors: Black 
+
+%%EndComments 
+%%BeginProlog
+/u { } def
+/U { } def
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+%%BeginPageSetup
+%%EndPageSetup
+u
+/SOMsv save def
+/bd { bind def } bind def
+/ld { load def } bd
+/ed { exch def } bd
+/d /def ld
+/m /moveto ld
+/rm /rmoveto ld
+/l /lineto ld
+/rl /rlineto ld
+/sh /show ld
+/st /stroke ld
+/gs /gsave ld
+/gr /grestore ld
+/inch { 72 mul } bd
+/slw /setlinewidth ld
+
+/rnlabove (below) (above) eq d % Ratio number location (above or below)
+% Center justify ratio numbers
+% len is the width of the space the string must be centered in
+/centershow % pass - str len aboveorbelow
+{
+|/above exch d
+|2 copy pop exch % make extra copy of string
+|2 div exch stringwidth pop 2 div sub % xoffset
+|above % calculate the y offset
+|{ % place number above
+|*|bo % up by bo (baseline offset)
+|}
+|{ % place number below
+|*|% bo rcfs add neg % move down by font size + baseline offset
+|*|rcfs neg nbo add % move down by font size
+|} ifelse
+|rm % move into position
+|sh % show char
+} bd
+% Center justify ratio header numbers
+% This proc must center horizontally and vertically
+% len is the width of the space the string must be centered in
+/centershowhdr % pass - str len dummy
+{
+|pop % get rid of dummy boolean 
+|2 copy pop exch % make extra copy of string
+|2 div exch stringwidth pop 2 div sub % xoffset
+|rhh inch yheight sub 2 div % calculate the y offset
+|rm % move into position
+|sh % show char
+} bd
+% Right justify from current point
+/rightshow % pass str
+{
+|dup stringwidth pop % get width of str
+|neg 0 rm % backup by stringwidth
+|sh % show char
+} bd
+% ratio table variables
+/bo 2 d % baseline offset
+/nbo 0 d % negative baseline offset
+/ho 10 d % information header offset
+/hfs 6 d % information header font
+/hf_proc % information header font
+{
+|rcf findfont hfs scalefont setfont
+} bind def
+
+/ver 2.0 d % ratio comiler version
+/on (Kim) d % operator name
+/cn (BASF) d % customer name
+/jn (B1003076) d % job number
+/cpn (S40232) d % container part number
+/rcw 0.2 d % width of col
+/rch 6.5 d % height of col
+/rcf /Helvetica-Bold d % Ratio Column Font
+/rcfc (Black) d % ratio column font color
+/rcfs 9 d % ratio column font size
+/rcto 0.5625 d % Ratio Chart Top Offset (inches) 
+
+/rcf_proc % Ratio Column Font
+{
+|rcf findfont rcfs scalefont setfont
+} bind def
+
+/cs 0.1 d % column spacing
+/tablecols 0 d % number of ratio table cols
+/vlwo 2 d % vertical line weight outside
+/vlwi 1 d % vertical line weight inside
+/vlco (Black) d % vertical line color outside
+/vlci (Black) d % vertical line color inside
+/rhh 0.25 d % ratio header height
+/rhf /Helvetica-Bold d % ratio header font
+/rhfc (Black) d % ratio header font color
+/rhfs 12 d % ratio header font size
+/hhlw 2 d % header horizontal line weight under header text
+/hhlc (black) d % header horizontal line color under header text
+
+/rhf_proc % ratio header font
+{
+|rhf findfont rhfs scalefont setfont
+} bind def
+
+% Find the height of numbers for vertical centering
+gs 
+newpath 0 0 m rhf_proc
+(1234567890) true charpath
+flattenpath pathbbox
+gr
+|% calc yheight from ury - lly
+exch pop exch sub /yheight ed % save yheight
+pop % discard llx
+
+/hlw 1 d % horizontal line weight
+/hlc (Black) d % horizontal line color
+% /slo .125 d % offset from startline to top of ratio chart
+/slo rcto d % offset from startline to top of ratio chart
+/mcw 0.75 d % width of measurement table
+/mcf /Helvetica-Bold d % measurement chart font
+/mcfc (Black) d % measurement chart font color
+/mcfs 10 d % measurement chart font size
+
+/mcf_proc % measurement chart font
+{
+|mcf findfont mcfs scalefont setfont
+} bind def
+%%%%%%%%%%%% color procs below
+% process color proc
+/vlco
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/vlci
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/rhfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/rcfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/hlc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/mcfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/hhlc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+
+%%%%%%%%%%%% color procs above
+% Move origin to top - 
+% all moves are negative from top
+% 0 rch inch translate
+0 rch inch slo add 15 add translate
+% Put in header information only once
+% if table00
+(table02) (table00) eq
+{
+% rcf_proc % set rcf font
+hf_proc % set information header font
+0 0 0 1 setcmykcolor % black
+% header information
+% 0 ho rcto inch add m (Job Number: ) sh jn sh % job number
+0 ho m 0 8 rm
+(Job Number: ) sh jn sh % job number
+( - Container Part Number: ) sh cpn sh % container part number
+( - Customer Name: ) sh cn sh % customer name
+0 ho m 
+(Operator Name: ) sh on sh % operator name
+( - Date and Time: 5/29/2017 10:04:35) sh % show date and time
+( - Ratio Compiler Version: ) sh ver 10 string cvs sh % ratio compiler version
+} if
+% epsstr % sl_str
+% Move origin to top - 
+% all moves are negative from top
+% 0 rch inch translate
+% Draw start line and label with table name
+% rcf_proc % set rcf font
+hf_proc % set information header font
+0 0 0 1 setcmykcolor % black
+% 0 bo rcto inch add m (table02) sh % indicate start line
+0 bo m (table02) sh % indicate start line
+.25 slw % very thin line
+% 0 rcto inch m 
+0 0 m  
+mcw inch 0 rl st
+ % col_str - measurement
+/x_val 0 d
+x_val 5.4785 neg inch m 
+mcw rcw sub inch 0 rm
+mcf_proc % mcf measurement chart font & size
+mcfc % measurement chart font color
+(40 ml ) rightshow
+hlw slw % set horizontal line width
+hlc % horizontal line color
+rcw inch 0 rl st
+    
+SOMsv restore
+U
+%%Trailer
+%%EOF 
+%%EndDocument
+% epsstr
+% Move over to next ratio table
+/bd { bind def } bind def
+/ld { load def } bd
+/d /def ld
+/m /moveto ld
+/l /lineto ld
+/rl /rlineto ld
+/sh /show ld
+/st /stroke ld
+/gs /gsave ld
+/gr /grestore ld
+/inch { 72 mul } bd
+% ratio table variables
+/rcw 0.2 d % width of ratio table col
+/mcw 0.75 d % width of measurement table
+/cs 0.1 d % column spacing
+/tablecols 0 d % number of ratio table cols
+% epsstr
+mcw cs add inch 0 translate
+%%BeginDocument
+%!PS-Adobe-3.1 EPSF-3.0
+%%Creator: Ratio Compiler 2.0
+%%--Creator: Adobe Illustrator(R) 12
+%%--AI8_CreatorVersion: 12.0.1
+%%For: (Kim) (Berry Plastics)
+%%Title: (BASF - B1003076)
+%%CreationDate: 5/29/2017 10:04:35
+%%BoundingBox: 0 0 50.4 478
+%%HiResBoundingBox: 0 0 50.4 478
+%%DocumentProcessColors: Black 
+
+%%EndComments 
+%%BeginProlog
+/u { } def
+/U { } def
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+%%BeginPageSetup
+%%EndPageSetup
+u
+/SOMsv save def
+/bd { bind def } bind def
+/ld { load def } bd
+/ed { exch def } bd
+/d /def ld
+/m /moveto ld
+/rm /rmoveto ld
+/l /lineto ld
+/rl /rlineto ld
+/sh /show ld
+/st /stroke ld
+/gs /gsave ld
+/gr /grestore ld
+/inch { 72 mul } bd
+/slw /setlinewidth ld
+
+/rnlabove (below) (above) eq d % Ratio number location (above or below)
+% Center justify ratio numbers
+% len is the width of the space the string must be centered in
+/centershow % pass - str len aboveorbelow
+{
+|/above exch d
+|2 copy pop exch % make extra copy of string
+|2 div exch stringwidth pop 2 div sub % xoffset
+|above % calculate the y offset
+|{ % place number above
+|*|bo % up by bo (baseline offset)
+|}
+|{ % place number below
+|*|% bo rcfs add neg % move down by font size + baseline offset
+|*|rcfs neg nbo add % move down by font size
+|} ifelse
+|rm % move into position
+|sh % show char
+} bd
+% Center justify ratio header numbers
+% This proc must center horizontally and vertically
+% len is the width of the space the string must be centered in
+/centershowhdr % pass - str len dummy
+{
+|pop % get rid of dummy boolean 
+|2 copy pop exch % make extra copy of string
+|2 div exch stringwidth pop 2 div sub % xoffset
+|rhh inch yheight sub 2 div % calculate the y offset
+|rm % move into position
+|sh % show char
+} bd
+% Right justify from current point
+/rightshow % pass str
+{
+|dup stringwidth pop % get width of str
+|neg 0 rm % backup by stringwidth
+|sh % show char
+} bd
+% ratio table variables
+/bo 2 d % baseline offset
+/nbo 0 d % negative baseline offset
+/ho 10 d % information header offset
+/hfs 6 d % information header font
+/hf_proc % information header font
+{
+|rcf findfont hfs scalefont setfont
+} bind def
+
+/ver 2.0 d % ratio comiler version
+/on (Kim) d % operator name
+/cn (BASF) d % customer name
+/jn (B1003076) d % job number
+/cpn (S40232) d % container part number
+/rcw 0.2 d % width of col
+/rch 6.5 d % height of col
+/rcf /Helvetica-Bold d % Ratio Column Font
+/rcfc (Black) d % ratio column font color
+/rcfs 9 d % ratio column font size
+/rcto 0.5625 d % Ratio Chart Top Offset (inches) 
+
+/rcf_proc % Ratio Column Font
+{
+|rcf findfont rcfs scalefont setfont
+} bind def
+
+/cs 0.1 d % column spacing
+/tablecols 3 d % number of ratio table cols
+/vlwo 2 d % vertical line weight outside
+/vlwi 1 d % vertical line weight inside
+/vlco (Black) d % vertical line color outside
+/vlci (Black) d % vertical line color inside
+/rhh 0.25 d % ratio header height
+/rhf /Helvetica-Bold d % ratio header font
+/rhfc (Black) d % ratio header font color
+/rhfs 12 d % ratio header font size
+/hhlw 2 d % header horizontal line weight under header text
+/hhlc (black) d % header horizontal line color under header text
+
+/rhf_proc % ratio header font
+{
+|rhf findfont rhfs scalefont setfont
+} bind def
+
+% Find the height of numbers for vertical centering
+gs 
+newpath 0 0 m rhf_proc
+(1234567890) true charpath
+flattenpath pathbbox
+gr
+|% calc yheight from ury - lly
+exch pop exch sub /yheight ed % save yheight
+pop % discard llx
+
+/hlw 1 d % horizontal line weight
+/hlc (Black) d % horizontal line color
+% /slo .125 d % offset from startline to top of ratio chart
+/slo rcto d % offset from startline to top of ratio chart
+/mcw 0.75 d % width of measurement table
+/mcf /Helvetica-Bold d % measurement chart font
+/mcfc (Black) d % measurement chart font color
+/mcfs 10 d % measurement chart font size
+
+/mcf_proc % measurement chart font
+{
+|mcf findfont mcfs scalefont setfont
+} bind def
+%%%%%%%%%%%% color procs below
+% process color proc
+/vlco
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/vlci
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/rhfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/rcfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/hlc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/mcfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/hhlc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+
+%%%%%%%%%%%% color procs above
+% Move origin to top - 
+% all moves are negative from top
+% 0 rch inch translate
+0 rch inch slo add 15 add translate
+% Put in header information only once
+% if table00
+(table00) (table00) eq
+{
+% rcf_proc % set rcf font
+hf_proc % set information header font
+0 0 0 1 setcmykcolor % black
+% header information
+% 0 ho rcto inch add m (Job Number: ) sh jn sh % job number
+0 ho m 0 8 rm
+(Job Number: ) sh jn sh % job number
+( - Container Part Number: ) sh cpn sh % container part number
+( - Customer Name: ) sh cn sh % customer name
+0 ho m 
+(Operator Name: ) sh on sh % operator name
+( - Date and Time: 5/29/2017 10:04:35) sh % show date and time
+( - Ratio Compiler Version: ) sh ver 10 string cvs sh % ratio compiler version
+} if
+% epsstr % sl_str
+% Move origin to top - 
+% all moves are negative from top
+% 0 rch inch translate
+% Draw start line and label with table name
+% rcf_proc % set rcf font
+hf_proc % set information header font
+0 0 0 1 setcmykcolor % black
+% 0 bo rcto inch add m (table00) sh % indicate start line
+0 bo m (table00) sh % indicate start line
+.25 slw % very thin line
+% 0 rcto inch m 
+0 0 m  
+rcw 3 mul inch 0 rl st
+ % col_str - ratio
+/x_val rcw 1 1 sub mul inch d
+x_val 4.7945 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(1) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 4.7945 neg inch m  rcw inch 0 rl st
+% col_str - ratio
+/x_val rcw 1 1 sub mul inch d
+x_val 4.5101 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(2) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 4.5101 neg inch m  rcw inch 0 rl st
+% col_str - ratio
+/x_val rcw 1 1 sub mul inch d
+x_val 4.0872 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(3) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 4.0872 neg inch m  rcw inch 0 rl st
+% col_str - ratio
+/x_val rcw 2 1 sub mul inch d
+x_val 4.0872 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(1) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 4.0872 neg inch m  rcw inch 0 rl st
+% col_str - ratio
+/x_val rcw 2 1 sub mul inch d
+x_val 3.7121 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(2) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 3.7121 neg inch m  rcw inch 0 rl st
+% col_str - ratio
+/x_val rcw 2 1 sub mul inch d
+x_val 3.3434 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(3) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 3.3434 neg inch m  rcw inch 0 rl st
+% col_str - ratio
+/x_val rcw 3 1 sub mul inch d
+x_val 3.3434 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(1) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 3.3434 neg inch m  rcw inch 0 rl st
+% col_str - ratio
+/x_val rcw 3 1 sub mul inch d
+x_val 2.9767 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(2) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 2.9767 neg inch m  rcw inch 0 rl st
+% col_str - ratio
+/x_val rcw 3 1 sub mul inch d
+x_val 2.6183 neg inch m 
+rcf_proc % set ratio column font
+rcfc % ratio column font color
+(3) rcw inch rnlabove centershow % rnlabove - ratio num above or below
+hlw slw % set horizontal line width
+hlc % horizontal line color
+x_val 2.6183 neg inch m  rcw inch 0 rl st
+ % vli_str
+% Move over to next column
+% rcw inch 0 translate
+1 1 ne % skip if col 1?
+{
+/x_val rcw 1 1 sub mul inch d
+vlwi slw % set inside line width
+vlci % set vertical line color inside
+% draw vertical line on right side
+x_val rhh slo add neg inch m 
+% x_val rch neg inch l st
+0 rch rhh sub neg inch rl st
+} if
+% vli_str
+% Move over to next column
+% rcw inch 0 translate
+2 1 ne % skip if col 1?
+{
+/x_val rcw 2 1 sub mul inch d
+vlwi slw % set inside line width
+vlci % set vertical line color inside
+% draw vertical line on right side
+x_val rhh slo add neg inch m 
+% x_val rch neg inch l st
+0 rch rhh sub neg inch rl st
+} if
+% vli_str
+% Move over to next column
+% rcw inch 0 translate
+3 1 ne % skip if col 1?
+{
+/x_val rcw 3 1 sub mul inch d
+vlwi slw % set inside line width
+vlci % set vertical line color inside
+% draw vertical line on right side
+x_val rhh slo add neg inch m 
+% x_val rch neg inch l st
+0 rch rhh sub neg inch rl st
+} if
+ % hdr_str
+/x_val rcw 1 1 sub mul inch d
+% Draw header horizontal line
+gs
+vlwo slw % set line width
+vlco % set horizontal line color
+x_val slo neg inch m 
+2 setlinecap
+rcw inch 0 rl st % draw line across
+gr
+rhf_proc % set header font 
+% rhf findfont rhfs scalefont setfont
+rhfc % ratio header font color
+% print header
+x_val rhh slo add neg inch m 
+(4) rcw inch true centershowhdr % true - place above line
+1 1 ne % skip if col 1?
+{
+% print colon
+% rcw rhh slo add neg inch m 
+x_val rhh slo add neg inch m
+(:) 0 true centershowhdr % true - place above line
+} if
+% gr
+% hdr_str
+/x_val rcw 2 1 sub mul inch d
+% Draw header horizontal line
+gs
+vlwo slw % set line width
+vlco % set horizontal line color
+x_val slo neg inch m 
+2 setlinecap
+rcw inch 0 rl st % draw line across
+gr
+rhf_proc % set header font 
+% rhf findfont rhfs scalefont setfont
+rhfc % ratio header font color
+% print header
+x_val rhh slo add neg inch m 
+(3) rcw inch true centershowhdr % true - place above line
+2 1 ne % skip if col 1?
+{
+% print colon
+% rcw rhh slo add neg inch m 
+x_val rhh slo add neg inch m
+(:) 0 true centershowhdr % true - place above line
+} if
+% gr
+% hdr_str
+/x_val rcw 3 1 sub mul inch d
+% Draw header horizontal line
+gs
+vlwo slw % set line width
+vlco % set horizontal line color
+x_val slo neg inch m 
+2 setlinecap
+rcw inch 0 rl st % draw line across
+gr
+rhf_proc % set header font 
+% rhf findfont rhfs scalefont setfont
+rhfc % ratio header font color
+% print header
+x_val rhh slo add neg inch m 
+(1) rcw inch true centershowhdr % true - place above line
+3 1 ne % skip if col 1?
+{
+% print colon
+% rcw rhh slo add neg inch m 
+x_val rhh slo add neg inch m
+(:) 0 true centershowhdr % true - place above line
+} if
+% gr
+ % hlo_str
+/x_val rcw 1 1 sub mul inch d
+% Column Header
+% gs
+% Draw ratio chart horizontal line
+hhlw slw % set line width
+hhlc % set horizontal line color
+x_val rhh slo add neg inch m 
+rcw inch 0 rl st % draw line across
+% hlo_str
+/x_val rcw 2 1 sub mul inch d
+% Column Header
+% gs
+% Draw ratio chart horizontal line
+hhlw slw % set line width
+hhlc % set horizontal line color
+x_val rhh slo add neg inch m 
+rcw inch 0 rl st % draw line across
+% hlo_str
+/x_val rcw 3 1 sub mul inch d
+% Column Header
+% gs
+% Draw ratio chart horizontal line
+hhlw slw % set line width
+hhlc % set horizontal line color
+x_val rhh slo add neg inch m 
+rcw inch 0 rl st % draw line across
+ % vlo_str
+% Draw left hand line
+vlwo slw % set outside linewidth
+vlco % set vertical line color outside
+0 slo neg inch m
+% 0 rch neg inch l st
+0 rch neg inch rl st
+% vlo_str
+% Draw right hand line
+/x_val rcw 3 mul inch d
+vlwo slw % set outside linewidth
+vlco % set vertical line color outside
+x_val slo neg inch m
+% x_val rch neg inch l st
+0 rch neg inch rl st
+
+SOMsv restore
+U
+%%Trailer
+%%EOF 
+%%EndDocument
+% epsstr
+% Move over to next ratio table
+/bd { bind def } bind def
+/ld { load def } bd
+/d /def ld
+/m /moveto ld
+/l /lineto ld
+/rl /rlineto ld
+/sh /show ld
+/st /stroke ld
+/gs /gsave ld
+/gr /grestore ld
+/inch { 72 mul } bd
+% ratio table variables
+/rcw 0.2 d % width of ratio table col
+/mcw 0.75 d % width of measurement table
+/cs 0.1 d % column spacing
+/tablecols 3 d % number of ratio table cols
+% epsstr
+tablecols rcw mul cs add inch 0 translate
+SOMsv restore
+U
+%%Trailer
+%%EOF 
+|
+Ratio table from: table00
+row 0: 	mcf findfont mcfs scalefont setfont
+} bind def
+%%%%%%%%%%%% color procs below
+% process color proc
+/vlco
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/vlci
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/rhfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/rcfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/hlc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/mcfc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+% process color proc
+/hhlc
+{
+% (Black)
+ 0 0 0 1  setcmykcolor
+} bind def
+
+%%%%%%%%%%%% color procs above
+% Move origin to top - 
+% all moves are negative from top
+% 0 rch inch translate
+0 rch inch slo add 15 add translate
+% Put in header information only once
+% if table00
+(table02) (table00) eq
+{
+% rcf_proc % set rcf font
+hf_proc % set information header font
+0 0 0 1 setcmykcolor % black
+% header information
+% 0 ho rcto inch add m (Job Number: ) sh jn sh % job number
+0 ho m 0 8 rm
+(Job Number: ) sh jn sh % job number
+( - Container Part Number: ) sh cpn sh % container part number
+( - Customer Name: ) sh cn sh % customer name
+0 ho m 
+(Operator Name: ) sh on sh % operator name
+( - Date and Time: 5/29/2017 10:04:35) sh % show date and time
+( - Ratio Compiler Version: ) sh ver 10 string cvs sh % ratio compiler version
+} if
+% epsstr % sl_str
+% Move origin to top - 
+% all moves are negative from top
+% 0 rch inch translate
+% Draw start line and label with table name
+% rcf_proc % set rcf font
+hf_proc % set information header font
+0 0 0 1 setcmykcolor % black
+% 0 bo rcto inch add m (table02) sh % indicate start line
+0 bo m (table02) sh % indicate start line
+.25 slw % very thin line
+% 0 rcto inch m 
+0 0 m  
+mcw inch 0 rl st
+ % col_str - measurement
+/x_val 0 d
+x_val 5.4785 neg inch m 
+mcw rcw sub inch 0 rm
+mcf_proc % mcf measurement chart font & size
+mcfc % measurement chart font color
+(40 ml ) rightshow
+hlw slw % set horizontal line width
+hlc % horizontal line color
+rcw inch 0 rl st
+    
+SOMsv restore
+U
+%%Trailer
+%%EOF 
+%%EndDocument
+% epsstr
+% Move over to next ratio table
+/bd { bind def } bind def
+/ld { load def } bd
+/d /def ld
+/m /moveto ld
+/l /lineto ld
+/rl /rlineto ld
+/sh /show ld
+/st /stroke ld
+/gs /gsave ld
+/gr /grestore ld
+/inch { 72 mul } bd
+% ratio table variables
+/rcw 0.2 d % width of ratio table col
+/mcw 0.75 d % width of measurement table
+/cs 0.1 d % column spacing
+/tablecols 0 d % number of ratio table cols
+% epsstr
+mcw cs add inch 0 translate
+%%BeginDocument
+%!PS-Adobe-3.1 EPSF-3.0
+%%Creator: Ratio Compiler 2.0
+%%--Creator: Adobe Illustrator(R) 12
+%%--AI8_CreatorVersion: 12.0.1
+%%For: (Kim) (Berry Plastics)
+%%Title: (BASF - B1003076)
+%%CreationDate: 5/29/2017 10:04:35
+%%BoundingBox: 0 0 50.4 478
+%%HiResBoundingBox: 0 0 50.4 478
+%%DocumentProcessColors: Black 
+
+%%EndComments 
+%%BeginProlog
+/u { } def
+/U { } def
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+%%BeginPageSetup
+%%EndPageSetup
+u
+/SOMsv save def
+/bd { bind def } bind def
+/ld { load def } bd
+/ed { exch def } bd
+/d /def ld
+/m /moveto ld
+/rm /rmoveto ld
+/l /lineto ld
+/rl /rlineto ld
+/sh /show ld
+/st /stroke ld
+/gs /gsave ld
+/gr /grestore ld
+/inch { 72 mul } bd
+/slw /setlinewidth ld
+
+/rnlabove (below) (above) eq d % Ratio number location (above or below)
+% Center justify ratio numbers
+% len is the width of the space the string must be centered in
+/centershow % pass - str len aboveorbelow
+{
+|
+End Ratio table from tableprint 
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/B1466721 folder Bug test 5-20-17/S40232 Parameter chart.txt
+^^^^File Name: S40232 Parameter chart.txt, TXT  - Mac file CR - File Length: 1132 - 34 tabs
+Looking for table in "S40232 Parameter chart.txt" at line 1
+++Parse parameter table
+Parameter table from: parametertable
+line: 1 = val: 0.1			key: Column Space (inches)
+line: 2 = val: S40232			key: Container Part Number
+line: 3 = val: BASF			key: Customer Name
+line: 4 = val: Black			key: Header Horizontal Line Color
+line: 5 = val: 2			key: Header Horizontal Line Weight (points)
+line: 6 = val: Black			key: Horizontal Line Color
+line: 7 = val: 1			key: Horizontal Line Weight (points)
+line: 8 = val: B1003076			key: Job Number
+line: 9 = val: Helvetica-Bold			key: Measurement Chart Font
+line: 10 = val: Black			key: Measurement Chart Font Color
+line: 11 = val: 10			key: Measurement Chart Font Size (points)
+line: 12 = val: 6.5			key: Measurement Chart Height (inches)
+line: 13 = val: Left			key: Measurement Chart Location (on Right or on Left)
+line: 14 = val: 0.75			key: Measurement Chart Width (inches)
+line: 15 = val: Kim			key: Operator Name
+line: 16 = val: 6.5			key: Ratio Chart Height (inches)
+line: 17 = val: 0.5625			key: Ratio Chart Top Offset (inches)
+line: 18 = val: 0.2			key: Ratio Chart Width (inches)
+line: 19 = val: Helvetica-Bold			key: Ratio Column Font
+line: 20 = val: Black			key: Ratio Column Font Color
+line: 21 = val: 9			key: Ratio Column Font Size (points)
+line: 22 = val: Helvetica-Bold			key: Ratio Header Font
+line: 23 = val: Black			key: Ratio Header Font Color
+line: 24 = val: 12			key: Ratio Header Font Size (points)
+line: 25 = val: 0.25			key: Ratio Header Height (inches)
+line: 26 = val: Below			key: Ratio Number Location (Above or Below)
+line: 27 = val: Black			key: Vertical Line Color Inside
+line: 28 = val: Black			key: Vertical Line Color Outside
+line: 29 = val: 1			key: Vertical Line Weight Inside (points)
+line: 30 = val: 2			key: Vertical Line Weight Outside (points)
+End parameter table from paramtableprint
+++Color and Font Check.
+-color param: Header Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Measurement Chart Font Color = Black --Exists in process colors hash.
+-color param: Ratio Column Font Color = Black --Exists in process colors hash.
+-color param: Ratio Header Font Color = Black --Exists in process colors hash.
+-color param: Vertical Line Color Inside = Black --Exists in process colors hash.
+-color param: Vertical Line Color Outside = Black --Exists in process colors hash.
+-font param: Measurement Chart Font = Helvetica-Bold--Exists in fonts hash.
+-font param: Ratio Column Font = Helvetica-Bold--Exists in fonts hash.
+-font param: Ratio Header Font = Helvetica-Bold--Exists in fonts hash.
+++Build EPS file
+++New file name: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/B1466721 folder Bug test 5-20-17/B1466721 Ratio Chart.eps.eps

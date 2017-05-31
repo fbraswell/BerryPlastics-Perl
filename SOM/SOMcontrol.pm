@@ -288,6 +288,12 @@ sub processjob
             logprint " - $matchtab tabs" if $matchtab;
             logprint " - $matchcomma commas" if $matchcomma;
             logprint "\n";
+			
+			unless ( $filetype eq 'TXT')
+			{
+				die "File must be a text file - extension = .txt\n";
+			}
+			
             seek $fh, 0, 0; # rewind file
         
         } else
@@ -298,6 +304,10 @@ sub processjob
 		push @convobj, ( parsetables( $fh, $fin ) );
 	
 	} # foreach my $fin ( @ARGV )
+#	unless (buildeps( \@convobj ))
+#	{
+#		logprint "---!! buildeps failed!\n"
+#	}
 	buildeps( \@convobj );
     print "++processjob status: "."$result - EPS built" . ($message? "- message: $message":'')."\n";
     return "$result - EPS built" . ($message? "- message: $message":'');
@@ -638,6 +648,7 @@ sub parseratiotables
 				# Measurement tables may be mixed in with ratio tables
 				# Ounces and Parts have two columns
 				# if ( $linearr[ $i + 1 ] =~ /ounces|parts/i )
+				# Make sure it exists first.
 				if ( exists $linearr[ $tmpind + 1 ] && $linearr[ $tmpind + 1 ] =~ /ounces|parts/i )
 					{
 						### DEBUG ### logprint "++found measurement table: ", $linearr[ $i + 1 ], "++";
@@ -660,6 +671,7 @@ sub parseratiotables
 				# Measurement tables may be mixed in with ratio tables
 				# mL only has one column
 				# if ( $linearr[ $i + 1 ] =~ /ml/i )
+				# Make sure it exists first.
 				if ( exists $linearr[ $tmpind + 1 ] && $linearr[ $tmpind + 1 ] =~ /ml/i )
 					{
 						### DEBUG ### logprint "++found ml measurement table: ", $linearr[ $i + 1 ], "++";
@@ -1095,10 +1107,17 @@ sub buildeps
 		# logprint "Conversion table doesn't exist\n";
 		die "Conversion table doesn't exist\n";
 	}
+	
 	unless ( exists $objects{ 'parametertable' } )
 	{
 		# logprint "Parameter table doesn't exist\n";
 		die "Parameter table doesn't exist\n";
+	}
+	
+	unless ( exists $objects{ 'table00' } )
+	{
+		die "--!! Can't find table00!\n";
+		# return 0; # buildeps failed
 	}
 	
 	# Get parameter and conversion hash information that
@@ -1172,6 +1191,7 @@ sub buildeps
 		}
 
 	} # foreach ( sort keys %objects )
+	
 	my $mcloc; # Measurement chart location - right or left
 	$mcloc = $objects{ 'table00' }->getmeasurementchartlocation( );
 		# measurement chart on right or left?
@@ -1187,6 +1207,7 @@ sub buildeps
 	logprint "++New file name: $fname\n";
 	open $fh, ">$fname";
 	print $fh $epsstring;
+	return 1; # success
 } # sub buildeps
 #===========================================================#
 1; # end of SOMcontrol module
