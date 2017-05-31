@@ -430,6 +430,8 @@ sub parsetables
 #            if ( 	($linearr[ $j ] =~ /ounces/i) or 
 #						($linearr[ $j ] =~ /parts/i) or
 #						($linearr[ $j ] =~ /ml/i) )
+
+			# Simplified regex
 			if ( 	$linearr[ $i ] =~ /ounces|parts|ml/i) 
 			{
 				$charttype = 'measurement';
@@ -601,11 +603,13 @@ sub parseratiotables
 			# next;
 		}
 		
-		if ( 1 or $lookforheader )
-		{
+#		if ( 1 or $lookforheader )
+#		{
 				# Step through each element of the line looking for table information
 			# for ( my $i = 0; $i <= $#linearr - 1; $i++ )
-			for ( my $i = 0; $i < $#linearr; $i++ )
+			# Remember that $#linearr is the last index, not the length of the array
+			# needs to have <= to get to the end of the array
+			for ( my $i = 0; $i <= $#linearr; $i++ )
 			{
 					# If index is known in the @sliceranges array skip to next col
 					$foundindex = 0;
@@ -626,6 +630,7 @@ sub parseratiotables
 				# Usually after the list of tables
 				my $tmpind;
 				if ( $i == 0 && $linearr[ $i ] =~ /ounces|parts|ml/i )
+### DEBUG ###	if ( $i == 0 && $linearr[ $i ] =~ /ounces|parts/i )
 				{	$tmpind = $i - 1;
 				} else
 				{	$tmpind = $i;
@@ -633,7 +638,7 @@ sub parseratiotables
 				# Measurement tables may be mixed in with ratio tables
 				# Ounces and Parts have two columns
 				# if ( $linearr[ $i + 1 ] =~ /ounces|parts/i )
-				if ( $linearr[ $tmpind + 1 ] =~ /ounces|parts/i )
+				if ( exists $linearr[ $tmpind + 1 ] && $linearr[ $tmpind + 1 ] =~ /ounces|parts/i )
 					{
 						### DEBUG ### logprint "++found measurement table: ", $linearr[ $i + 1 ], "++";
 							# Ounces table is always 2 columns wide, right under the "ounces" label
@@ -655,7 +660,7 @@ sub parseratiotables
 				# Measurement tables may be mixed in with ratio tables
 				# mL only has one column
 				# if ( $linearr[ $i + 1 ] =~ /ml/i )
-				if ( $linearr[ $tmpind + 1 ] =~ /ml/i )
+				if ( exists $linearr[ $tmpind + 1 ] && $linearr[ $tmpind + 1 ] =~ /ml/i )
 					{
 						### DEBUG ### logprint "++found ml measurement table: ", $linearr[ $i + 1 ], "++";
 							# ML table is always 1 columns wide, right under the "ounces" label
@@ -685,7 +690,10 @@ sub parseratiotables
 					
 					unless ( (not $linearr[ $i ]) || $linearr[ $i ] =~ /^\s?\d/ )
 					{
-						logprint "**unknown text: ", $linearr[ $i ], "**";
+						if($linenum > 5)
+						{
+							logprint "**unknown text: ", $linearr[ $i ], "**\n";
+						}
 						next; # Go to next cell
 					}
 					
@@ -743,7 +751,7 @@ sub parseratiotables
 			### DEBUG ### map { logprint "$_|" } @tableranges;
 			### DEBUG ### logprint "\n";		
 				
-		} # if ( 1 or $lookforheader )
+#		} # if ( 1 or $lookforheader )
 
 			# look for first col of table
 			# Slice range entries always come in pairs.
@@ -764,9 +772,9 @@ sub parseratiotables
 
 			# First check for end of tables. If there is a blank
 			# cell at the bottom the table is ended
-#		logprint "== body slicerange before: ";
-#		map { logprint "$_|" } @sliceranges;
-		# logprint "\n";
+### DEBUG ###		logprint "== body slicerange before: ";
+### DEBUG ###		map { logprint "$_|" } @sliceranges;
+### DEBUG ### 		logprint "\n";
 			# The slice range entries come in pairs, the first
 			# number is the beginning col of the table and the
 			# second number is the end of the table (inc $i by 2 
@@ -808,10 +816,10 @@ sub parseratiotables
 				# Place a leading 0 in front of table numbers less than 10
 				# $tableranges[ $i ] =~ s/table(\d)$/table0$1/;
 				unless ( exists $tablehash{ $tmptr[ $i ] } )
-				{ # If table name doesn't exist create new 
+				{ 	# If table name doesn't exist create new 
 					# table object
 					my $tableobj =
-					new SOM::SOMtables( $tmptr[ $i ], $fin );			# add table name
+						new SOM::SOMtables( $tmptr[ $i ], $fin );	# add table name
 															
 					# logprint "==Table name method: ", $tableobj->gettablename( ), "\n";
 															
@@ -820,11 +828,11 @@ sub parseratiotables
 				### DEBUG ### logprint "**add data tmp index: $i**";
 				# Add row data
 				$tablehash{ $tmptr[ $i ] } -> addtablerow
-														( $tmptr[ $i ],			# table name
-															$tmpsr[ $i -1 ],	# begin index
-															$tmpsr[ $i ],			# end index
-															@linearr	);		
-				
+												( 	$tmptr[ $i ],		# table name
+													$tmpsr[ $i -1 ],	# begin index
+													$tmpsr[ $i ],		# end index
+													@linearr			# row entries
+												);
 				
 			} # for ( my $i = 1; $i <= $#tmp; $i += 2 )
 			

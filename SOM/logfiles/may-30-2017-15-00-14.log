@@ -1,0 +1,478 @@
+
+------Berry Plastics RatioCompiler Version 2.0 
+Date: 5/30/2017, Time: 15:00:14
+Program path: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl
+Command line: runprog.pl
+cwd Program path: /
+Command line: runprog.pl
+**Fonts & Colors file: Berry Fonts & Colors.eps
+-Font: Courier
+-Font: Helvetica
+-Font: Helvetica-Black
+-Font: Helvetica-Bold
+-Font: Helvetica-Condensed-Bold
+-Font: Helvetica-UltraCompressed
+-Font: Myriad-Roman
+-Font: Times-Bold
+-Font: Times-Roman
+=Process Color: Black
+=Process Color: Cyan
+=Process Color: Magenta
+=Process Color: Yellow
+=Spot Color: Berry Blue
+=Spot Color: PANTONE 106 M
+=Spot Color: PANTONE 277 M
+=Spot Color: PANTONE 2925 M
+=Spot Color: PANTONE 484 M
+=Spot Color: PANTONE Reflex Blue CVC
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Bug Test 5-29-13/SOM Test/Ratio Files/H1074222/Reference/H1074222 Conversion Chart.txt
+^^^^File Name: H1074222 Conversion Chart.txt, TXT  - Mac file CR - File Length: 2676 - 534 tabs
+++Parse conversion table
+k 29.6|v 2.6602|k 99|v 2.0334|k 195|v 1.2290|
+k 30|v 2.6560|k 100|v 2.0250|k 196|v 1.2220|
+k 32|v 2.635|k 101|v 2.0140|k 198|v 1.2080|
+k 33|v 2.6245|k 101.3|v 2.0109|k 200|v 1.1940|
+k 33.3|v 2.6213|k 102|v 2.0035|k 202.5|v 1.1732|
+k 33.8|v 2.6161|k 103.5|v 1.9878|k 203|v 1.1690|
+k 34|v 2.6140|k 104|v 1.9825|k 204|v 1.1606|
+k 35|v 2.6032|k 105|v 1.9720|k 206|v 1.1437|
+k 36|v 2.5923|k 106|v 1.9636|k 207|v 1.1353|
+k 36.7|v 2.5847|k 108|v 1.9468|k 207.5|v 1.1311|
+k 37.5|v 2.5760|k 110|v 1.9300|k 208|v 1.1269|
+k 38|v 2.5700|k 112|v 1.9132|k 210|v 1.1100|
+k 38.3|v 2.5680|k 112.5|v 1.9090|k 212|v 1.0947|
+k 39|v 2.5598|k 113|v 1.9050|k 215|v 1.0717|
+k 40|v 2.5480|k 114|v 1.8967|k 216|v 1.0640|
+k 41.5|v 2.5336|k 114.8|v 1.8900|k 220|v 1.0333|
+k 42|v 2.5288|k 115|v 1.8883|k 224|v 1.0027|
+k 42.5|v 2.524|k 117|v 1.8711|k 225|v 0.9950|
+k 43|v 2.5192|k 118.3|v 1.8600|k 228|v 0.9757|
+k 44|v 2.5096|k 120|v 1.8450|k 229.5|v 0.9660|
+k 45|v 2.5000|k 122|v 1.8282|k 230|v 0.9626|
+k 46|v 2.4933|k 124.5|v 1.8072|k 231|v 0.9560|
+k 46.5|v 2.4900|k 125|v 1.8030|k 232.5|v 0.9460|
+k 47.5|v 2.4826|k 126|v 1.7946|k 233.3|v 0.9393|
+k 48|v 2.4789|k 128|v 1.7778|k 234|v 0.9335|
+k 48.8|v 2.4730|k 129|v 1.7694|k 236.3|v 0.9145|
+k 49|v 2.4717|k 130|v 1.7610|k 236.6|v 0.9120|
+k 49.5|v 2.4684|k 132|v 1.7442|k 237.5|v 0.9043|
+k 50|v 2.4650|k 133.3|v 1.7333|k 238|v 0.90004|
+k 51|v 2.4538|k 135|v 1.7190|k 240|v 0.8830|
+k 51.8|v 2.4448|k 138|v 1.6890|k 243.8|v 0.8560|
+k 52|v 2.4426|k 139.5|v 1.6740|k 244|v 0.8546|
+k 52.5|v 2.4370|k 140|v 1.6704|k 245|v 0.8476|
+k 53|v 2.4312|k 142.5|v 1.6524|k 246|v 0.8407|
+k 54|v 2.4196|k 143|v 1.6488|k 247.5|v 0.8303|
+k 55|v 2.4080|k 144|v 1.6416|k 249|v 0.8199|
+k 56|v 2.4018|k 146.3|v 1.6250|k 250|v 0.8130|
+k 56.3|v 2.4000|k 146.7|v 1.6222|k 252|v 0.7976|
+k 57|v 2.3958|k 147|v 1.6201|k 255|v 0.7746|
+k 57.5|v 2.3928|k 147.9|v 1.6138|k 256.7|v 0.7615|
+k 59.1|v 2.3830|k 148.5|v 1.6096|k 258|v 0.7515|
+k 60|v 2.3770|k 150|v 1.5990|k 260|v 0.7362|
+k 61|v 2.3643|k 153|v 1.5750|k 262.5|v 0.7170|
+k 62.5|v 2.3452|k 155.3|v 1.5561|k 263|v 0.7130|
+k 63|v 2.3388|k 156|v 1.5503|k 264|v 0.7035|
+k 64|v 2.3261|k 157.5|v 1.5380|k 265|v 0.6939|
+k 65|v 2.3133|k 159|v 1.5320|k 266.1|v 0.6834|
+k 66|v 2.3005|k 160|v 1.5280|k 266.7|v 0.6776|
+k 66.7|v 2.2916|k 162|v 1.5098|k 270|v 0.6460|
+k 67.5|v 2.2814|k 165|v 1.4824|k 273|v 0.6293|
+k 68|v 2.2750|k 166|v 1.4733|k 275|v 0.6182|
+k 69|v 2.2688|k 166.7|v 1.4669|k 276|v 0.6126|
+k 70|v 2.2625|k 168|v 1.4551|k 279|v 0.5960|
+k 72|v 2.2499|k 168.8|v 1.4478|k 280|v 0.5885|
+k 73.3|v 2.2417|k 169|v 1.4460|k 281.3|v 0.5788|
+k 75|v 2.2310|k 171|v 1.4265|k 285|v 0.5511|
+k 76.5|v 2.2170|k 172|v 1.4167|k 286|v 0.5436|
+k 78|v 2.2024|k 172.5|v 1.4118|k 287.5|v 0.5324|
+k 80|v 2.1830|k 175|v 1.3874|k 288|v 0.5286|
+k 83|v 2.1623|k 176|v 1.3777|k 290.5|v 0.5099|
+k 84|v 2.1554|k 177.4|v 1.3640|k 292.5|v 0.4950|
+k 85|v 2.1485|k 180|v 1.3490|k 293.3|v 0.4877|
+k 86|v 2.1416|k 183|v 1.3310|k 294|v 0.4814|
+k 88|v 2.1278|k 183.3|v 1.3292|k 295.7|v 0.4660|
+k 88.7|v 2.1230|k 184|v 1.3250|k 300|v 0.4260|
+k 90|v 2.1140|k 186|v 1.3130|k 301|v 0.4184|
+k 92|v 2.0946|k 187.5|v 1.2988|k 312|v 0.3348|
+k 93|v 2.0850|k 188|v 1.2940|k 315|v 0.3120|
+k 95|v 2.0676|k 189|v 1.2849|k 322|v 0.2726|
+k 96|v 2.0590|k 190|v 1.2758|k 325.3|v 0.2540|
+k 97.5|v 2.0460|k 191.3|v 1.2640|k 325.5|v 0.2530|
+k 98|v 2.0418|k 192|v 1.2574|k 330|v 0.2150|
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Bug Test 5-29-13/SOM Test/Ratio Files/H1074222/Reference/H1074222 Ratio Chart.txt
+^^^^File Name: H1074222 Ratio Chart.txt, TXT  - Mac file CR - File Length: 2393 - 1147 tabs
+Looking for table in "H1074222 Ratio Chart.txt" at line 2
+Looking for table in "H1074222 Ratio Chart.txt" at line 3
+Looking for table in "H1074222 Ratio Chart.txt" at line 5
+----values found:  and 1
+--found ratio on line: 	1	1	50%						
+++Parse ratio tables
+line: 0; lookforheader: yes; line array: T30915CP1|
+line: 1; lookforheader: yes; line array: blank line
+line: 2; lookforheader: yes; line array: *|Customer:  Signed Approval means that all ratios on this spreadsheet are accurate and calculated according to customer specifications.  Any changes needed to the below ratios must be clearly marked and returned to Berry Plastics before artwork can further be processed. |
+line: 3; lookforheader: yes; line array: *|Date:|*|*|*|Print #|H1074222 Hyman Raw Material Suppliers|
+line: 4; lookforheader: yes; line array: blank line
+line: 5; lookforheader: yes; line array: *|Signature|
+line: 6; lookforheader: yes; line array: blank line
+line: 7; lookforheader: yes; line array: blank line
+line: 8; lookforheader: yes; line array: *|1|1|50%|
+line: 9; lookforheader: no; line array: 1|30|60|75|
+line: 10; lookforheader: no; line array: 2|60|120|150|
+line: 11; lookforheader: no; line array: 3|90|180|225|
+line: 12; lookforheader: no; line array: 4|120|240|300|
+line: 13; lookforheader: no; line array: blank line
+line: 14; lookforheader: yes; line array: blank line
+line: 15; lookforheader: yes; line array: *|2|1|10%|15%|20%|
+line: 16; lookforheader: no; line array: 1|30|45|48|49.5|51|
+line: 17; lookforheader: no; line array: 2|60|90|96|99|102|
+line: 18; lookforheader: no; line array: 3|90|135|144|148.5|153|
+line: 19; lookforheader: no; line array: 4|120|180|192|198|204|
+line: 20; lookforheader: no; line array: 5|150|225|240|247.5|255|
+line: 21; lookforheader: no; line array: blank line
+line: 22; lookforheader: yes; line array: blank line
+line: 23; lookforheader: yes; line array: *|3|1|20%|1|
+line: 24; lookforheader: no; line array: 1|30|40|46|50|
+line: 25; lookforheader: no; line array: 2|60|80|92|100|
+line: 26; lookforheader: no; line array: 3|90|120|138|150|
+line: 27; lookforheader: no; line array: 4|120|160|184|200|
+line: 28; lookforheader: no; line array: 5|150|200|230|250|
+line: 29; lookforheader: no; line array: 6|180|240|276|300|
+line: 30; lookforheader: no; line array: blank line
+line: 31; lookforheader: yes; line array: blank line
+line: 32; lookforheader: yes; line array: *|3|2|1|
+line: 33; lookforheader: no; line array: 1|30|50|60|
+line: 34; lookforheader: no; line array: 2|60|100|120|
+line: 35; lookforheader: no; line array: 3|90|150|180|
+line: 36; lookforheader: no; line array: 4|120|200|240|
+line: 37; lookforheader: no; line array: 5|150|250|300|
+line: 38; lookforheader: no; line array: blank line
+line: 39; lookforheader: yes; line array: blank line
+line: 40; lookforheader: yes; line array: *|4|1|15%|1|1.5|2|
+line: 41; lookforheader: no; line array: 1|40|50|56|60|65|70|
+line: 42; lookforheader: no; line array: 2|80|100|112|120|130|140|
+line: 43; lookforheader: no; line array: 3|120|150|168|180|195|210|
+line: 44; lookforheader: no; line array: 4|160|200|224|240|260|280|
+line: 45; lookforheader: no; line array: blank line
+line: 46; lookforheader: yes; line array: blank line
+line: 47; lookforheader: yes; line array: *|5|1|*|*|*|7|1|
+line: 48; lookforheader: no; line array: 1|30|36|*|*|1|35|40|
+line: 49; lookforheader: no; line array: 2|60|72|*|*|2|70|80|
+line: 50; lookforheader: no; line array: 3|90|108|*|*|3|105|120|
+line: 51; lookforheader: no; line array: 4|120|144|*|*|4|140|160|
+line: 52; lookforheader: no; line array: 5|150|180|*|*|5|175|200|
+line: 53; lookforheader: no; line array: 6|180|216|*|*|6|210|240|
+line: 54; lookforheader: no; line array: 7|210|252|*|*|7|245|280|
+line: 55; lookforheader: no; line array: 8|240|288|
+line: 56; lookforheader: yes; line array: blank line
+line: 57; lookforheader: yes; line array: blank line
+line: 58; lookforheader: yes; line array: *|8|1|2 |30%|
+line: 59; lookforheader: no; line array: 1|40|45|55|57|
+line: 60; lookforheader: no; line array: 2|80|90|110|114|
+line: 61; lookforheader: no; line array: 3|120|135|165|171|
+line: 62; lookforheader: no; line array: 4|160|180|220|228|
+line: 63; lookforheader: no; line array: 5|200|225|275|285|
+line: 64; lookforheader: no; line array: blank line
+line: 65; lookforheader: yes; line array: blank line
+line: 66; lookforheader: yes; line array: *|8|0.5|4 |*|*|8|1|4 |
+line: 67; lookforheader: no; line array: 1|40|42.5|62.5|*|1|40|45|65|
+line: 68; lookforheader: no; line array: 2|80|85|125|*|2|80|90|130|
+line: 69; lookforheader: no; line array: 3|120|127.5|187.5|*|3|120|135|195|
+line: 70; lookforheader: no; line array: 4|160|170|250|*|4|160|180|260|
+line: 71; lookforheader: no; line array: blank line
+line: 72; lookforheader: yes; line array: blank line
+line: 73; lookforheader: yes; line array: blank line
+line: 74; lookforheader: yes; line array: Parts|*|*|Ounces|
+line: 75; lookforheader: no; line array: 1|30|*|2|59.1|*|mL|
+line: 76; lookforheader: no; line array: 2|60|*|3|88.7|*|50|
+line: 77; lookforheader: no; line array: 3|90|*|4|118.3|*|100|
+line: 78; lookforheader: no; line array: 4|120|*|5|147.9|*|150|
+line: 79; lookforheader: no; line array: 5|150|*|6|177.4|*|200|
+line: 80; lookforheader: no; line array: 6|180|*|7|207.0|*|250|
+line: 81; lookforheader: no; line array: 7|210|*|8|236.6|*|300|
+line: 82; lookforheader: no; line array: 8|240|*|9|266.1|*|350|
+line: 83; lookforheader: no; line array: 9|270|*|10|295.7|*|400|
+line: 84; lookforheader: no; line array: 10|300|*|11|325.3|*|450|
+line: 85; lookforheader: no; line array: *|*|*|*|*|*|500|
+line: 86; lookforheader: yes; line array: *|*|*|*|*|*|550|
+line: 87; lookforheader: yes; line array: *|*|*|*|*|*|600|
+line: 88; lookforheader: yes; line array: *|*|*|*|*|*|650|
+line: 89; lookforheader: yes; line array: *|*|*|*|*|*|700|
+line: 90; lookforheader: yes; line array: *|*|*|*|*|*|750|
+line: 91; lookforheader: yes; line array: blank line
+line: 92; lookforheader: yes; line array: blank line
+line: 93; lookforheader: yes; line array: blank line
+line: 94; lookforheader: yes; line array: blank line
+line: 95; lookforheader: yes; line array: blank line
+line: 96; lookforheader: yes; line array: blank line
+line: 97; lookforheader: yes; line array: blank line
+line: 98; lookforheader: yes; line array: blank line
+line: 99; lookforheader: yes; line array: blank line
+line: 100; lookforheader: yes; line array: blank line
+line: 101; lookforheader: yes; line array: blank line
+line: 102; lookforheader: yes; line array: blank line
+line: 103; lookforheader: yes; line array: blank line
+line: 104; lookforheader: yes; line array: blank line
+line: 105; lookforheader: yes; line array: blank line
+line: 106; lookforheader: yes; line array: blank line
+line: 107; lookforheader: yes; line array: blank line
+line: 108; lookforheader: yes; line array: blank line
+line: 109; lookforheader: yes; line array: blank line
+line: 110; lookforheader: yes; line array: blank line
+line: 111; lookforheader: yes; line array: blank line
+line: 112; lookforheader: yes; line array: blank line
+line: 113; lookforheader: yes; line array: blank line
+line: 114; lookforheader: yes; line array: blank line
+line: 115; lookforheader: yes; line array: blank line
+line: 116; lookforheader: yes; line array: blank line
+line: 117; lookforheader: yes; line array: blank line
+line: 118; lookforheader: yes; line array: blank line
+line: 119; lookforheader: yes; line array: blank line
+line: 120; lookforheader: yes; line array: blank line
+line: 121; lookforheader: yes; line array: blank line
+line: 122; lookforheader: yes; line array: blank line
+line: 123; lookforheader: yes; line array: blank line
+line: 124; lookforheader: yes; line array: blank line
+line: 125; lookforheader: yes; line array: blank line
+line: 126; lookforheader: yes; line array: blank line
+line: 127; lookforheader: yes; line array: blank line
+line: 128; lookforheader: yes; line array: blank line
+line: 129; lookforheader: yes; line array: blank line
+line: 130; lookforheader: yes; line array: blank line
+line: 131; lookforheader: yes; line array: blank line
+line: 132; lookforheader: yes; line array: blank line
+line: 133; lookforheader: yes; line array: blank line
+line: 134; lookforheader: yes; line array: blank line
+line: 135; lookforheader: yes; line array: blank line
+line: 136; lookforheader: yes; line array: blank line
+line: 137; lookforheader: yes; line array: blank line
+line: 138; lookforheader: yes; line array: blank line
+line: 139; lookforheader: yes; line array: blank line
+line: 140; lookforheader: yes; line array: blank line
+line: 141; lookforheader: yes; line array: blank line
+line: 142; lookforheader: yes; line array: blank line
+line: 143; lookforheader: yes; line array: blank line
+line: 144; lookforheader: yes; line array: blank line
+line: 145; lookforheader: yes; line array: blank line
+line: 146; lookforheader: yes; line array: blank line
+line: 147; lookforheader: yes; line array: blank line
+line: 148; lookforheader: yes; line array: blank line
+line: 149; lookforheader: yes; line array: blank line
+line: 150; lookforheader: yes; line array: blank line
+line: 151; lookforheader: yes; line array: blank line
+line: 152; lookforheader: yes; line array: blank line
+line: 153; lookforheader: yes; line array: blank line
+line: 154; lookforheader: yes; line array: blank line
+line: 155; lookforheader: yes; line array: blank line
+line: 156; lookforheader: yes; line array: blank line
+line: 157; lookforheader: yes; line array: blank line
+line: 158; lookforheader: yes; line array: blank line
+line: 159; lookforheader: yes; line array: blank line
+line: 160; lookforheader: yes; line array: blank line
+line: 161; lookforheader: yes; line array: blank line
+line: 162; lookforheader: yes; line array: blank line
+line: 163; lookforheader: yes; line array: blank line
+line: 164; lookforheader: yes; line array: blank line
+line: 165; lookforheader: yes; line array: blank line
+line: 166; lookforheader: yes; line array: blank line
+line: 167; lookforheader: yes; line array: blank line
+line: 168; lookforheader: yes; line array: blank line
+line: 169; lookforheader: yes; line array: blank line
+line: 170; lookforheader: yes; line array: blank line
+Ratio table from: table00
+row 0: 	|	1|	1|	50%|
+row 1: 	1|	30|	60|	75|
+row 2: 	2|	60|	120|	150|
+row 3: 	3|	90|	180|	225|
+row 4: 	4|	120|	240|	300|
+End Ratio table from tableprint 
+Ratio table from: table01
+row 0: 	|	2|	1|	10%|	15%|	20%|
+row 1: 	1|	30|	45|	48|	49.5|	51|
+row 2: 	2|	60|	90|	96|	99|	102|
+row 3: 	3|	90|	135|	144|	148.5|	153|
+row 4: 	4|	120|	180|	192|	198|	204|
+row 5: 	5|	150|	225|	240|	247.5|	255|
+End Ratio table from tableprint 
+Ratio table from: table02
+row 0: 	|	3|	1|	20%|	1|
+row 1: 	1|	30|	40|	46|	50|
+row 2: 	2|	60|	80|	92|	100|
+row 3: 	3|	90|	120|	138|	150|
+row 4: 	4|	120|	160|	184|	200|
+row 5: 	5|	150|	200|	230|	250|
+row 6: 	6|	180|	240|	276|	300|
+End Ratio table from tableprint 
+Ratio table from: table03
+row 0: 	|	3|	2|	1|
+row 1: 	1|	30|	50|	60|
+row 2: 	2|	60|	100|	120|
+row 3: 	3|	90|	150|	180|
+row 4: 	4|	120|	200|	240|
+row 5: 	5|	150|	250|	300|
+End Ratio table from tableprint 
+Ratio table from: table04
+row 0: 	|	4|	1|	15%|	1|	1.5|	2|
+row 1: 	1|	40|	50|	56|	60|	65|	70|
+row 2: 	2|	80|	100|	112|	120|	130|	140|
+row 3: 	3|	120|	150|	168|	180|	195|	210|
+row 4: 	4|	160|	200|	224|	240|	260|	280|
+End Ratio table from tableprint 
+Ratio table from: table05
+row 0: 	|	5|	1|
+row 1: 	1|	30|	36|
+row 2: 	2|	60|	72|
+row 3: 	3|	90|	108|
+row 4: 	4|	120|	144|
+row 5: 	5|	150|	180|
+row 6: 	6|	180|	216|
+row 7: 	7|	210|	252|
+row 8: 	8|	240|	288|
+End Ratio table from tableprint 
+Ratio table from: table06
+row 0: 	|	7|	1|
+row 1: 	1|	35|	40|
+row 2: 	2|	70|	80|
+row 3: 	3|	105|	120|
+row 4: 	4|	140|	160|
+row 5: 	5|	175|	200|
+row 6: 	6|	210|	240|
+row 7: 	7|	245|	280|
+End Ratio table from tableprint 
+Ratio table from: table07
+row 0: 	|	8|	1|	2 |	30%|
+row 1: 	1|	40|	45|	55|	57|
+row 2: 	2|	80|	90|	110|	114|
+row 3: 	3|	120|	135|	165|	171|
+row 4: 	4|	160|	180|	220|	228|
+row 5: 	5|	200|	225|	275|	285|
+End Ratio table from tableprint 
+Ratio table from: table08
+row 0: 	|	8|	0.5|	4 |
+row 1: 	1|	40|	42.5|	62.5|
+row 2: 	2|	80|	85|	125|
+row 3: 	3|	120|	127.5|	187.5|
+row 4: 	4|	160|	170|	250|
+End Ratio table from tableprint 
+Ratio table from: table09
+row 0: 	|	8|	1|	4 |
+row 1: 	1|	40|	45|	65|
+row 2: 	2|	80|	90|	130|
+row 3: 	3|	120|	135|	195|
+row 4: 	4|	160|	180|	260|
+End Ratio table from tableprint 
+Ratio table from: table10
+row 0: 	Parts|	 |
+row 1: 	1|	30|
+row 2: 	2|	60|
+row 3: 	3|	90|
+row 4: 	4|	120|
+row 5: 	5|	150|
+row 6: 	6|	180|
+row 7: 	7|	210|
+row 8: 	8|	240|
+row 9: 	9|	270|
+row 10: 	10|	300|
+End Ratio table from tableprint 
+Ratio table from: table11
+row 0: 	Ounces|	 |
+row 1: 	2|	59.1|
+row 2: 	3|	88.7|
+row 3: 	4|	118.3|
+row 4: 	5|	147.9|
+row 5: 	6|	177.4|
+row 6: 	7|	207.0|
+row 7: 	8|	236.6|
+row 8: 	9|	266.1|
+row 9: 	10|	295.7|
+row 10: 	11|	325.3|
+End Ratio table from tableprint 
+Ratio table from: table12
+row 0: 	mL|
+row 1: 	50|
+row 2: 	100|
+row 3: 	150|
+row 4: 	200|
+row 5: 	250|
+row 6: 	300|
+row 7: 	350|
+row 8: 	400|
+row 9: 	450|
+row 10: 	500|
+End Ratio table from tableprint 
+Ratio table from: table13
+row 0: 	|	550|
+row 1: 	|	600|
+row 2: 	|	650|
+row 3: 	|	700|
+row 4: 	|	750|
+End Ratio table from tableprint 
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Bug Test 5-29-13/SOM Test/Ratio Files/H1074222/Reference/T30915CP Parameter chart.txt
+^^^^File Name: T30915CP Parameter chart.txt, TXT  - Mac file CR - File Length: 1138 - 34 tabs
+Looking for table in "T30915CP Parameter chart.txt" at line 1
+++Parse parameter table
+Parameter table from: parametertable
+line: 1 = val: 0.15			key: Column Space (inches)
+line: 2 = val: T30915CP			key: Container Part Number
+line: 3 = val: Hyman			key: Customer Name
+line: 4 = val: Black			key: Header Horizontal Line Color
+line: 5 = val: 1			key: Header Horizontal Line Weight (points)
+line: 6 = val: Black			key: Horizontal Line Color
+line: 7 = val: 1			key: Horizontal Line Weight (points)
+line: 8 = val: H444444_9108			key: Job Number
+line: 9 = val: Helvetica-Bold			key: Measurement Chart Font
+line: 10 = val: Black			key: Measurement Chart Font Color
+line: 11 = val: 8			key: Measurement Chart Font Size (points)
+line: 12 = val: 2.5625			key: Measurement Chart Height (inches)
+line: 13 = val: Right			key: Measurement Chart Location (on Right or on Left)
+line: 14 = val: 0.75			key: Measurement Chart Width (inches)
+line: 15 = val: Kim			key: Operator Name
+line: 16 = val: 2.5625			key: Ratio Chart Height (inches)
+line: 17 = val: 0.1875			key: Ratio Chart Top Offset (inches)
+line: 18 = val: 0.2			key: Ratio Chart Width (inches)
+line: 19 = val: Helvetica-Bold			key: Ratio Column Font
+line: 20 = val: Black			key: Ratio Column Font Color
+line: 21 = val: 8			key: Ratio Column Font Size (points)
+line: 22 = val: Helvetica-Condensed-Bold			key: Ratio Header Font
+line: 23 = val: Black			key: Ratio Header Font Color
+line: 24 = val: 11			key: Ratio Header Font Size (points)
+line: 25 = val: 0.1875			key: Ratio Header Height (inches)
+line: 26 = val: Below			key: Ratio Number Location (Above or Below)
+line: 27 = val: Black			key: Vertical Line Color Inside
+line: 28 = val: Black			key: Vertical Line Color Outside
+line: 29 = val: 1			key: Vertical Line Weight Inside (points)
+line: 30 = val: 2			key: Vertical Line Weight Outside (points)
+End parameter table from paramtableprint
+++Color and Font Check.
+-color param: Header Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Measurement Chart Font Color = Black --Exists in process colors hash.
+-color param: Ratio Column Font Color = Black --Exists in process colors hash.
+-color param: Ratio Header Font Color = Black --Exists in process colors hash.
+-color param: Vertical Line Color Inside = Black --Exists in process colors hash.
+-color param: Vertical Line Color Outside = Black --Exists in process colors hash.
+-font param: Measurement Chart Font = Helvetica-Bold--Exists in fonts hash.
+-font param: Ratio Column Font = Helvetica-Bold--Exists in fonts hash.
+-font param: Ratio Header Font = Helvetica-Condensed-Bold--Exists in fonts hash.
+++Build EPS file
+--Warning - Value outside printable area!
+---table name: table08 - row: 3; col: 2; name: 3; Measurement Value: 127.5; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table08 - row: 4; col: 2; name: 4; Measurement Value: 170; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table13 - row: 1; col: 1; name: ; Measurement Value: 600; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table13 - row: 2; col: 1; name: ; Measurement Value: 650; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table13 - row: 3; col: 1; name: ; Measurement Value: 700; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table13 - row: 4; col: 1; name: ; Measurement Value: 750; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table12 - row: 7; col: 0; name: 350; Measurement Value: 350; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table12 - row: 8; col: 0; name: 400; Measurement Value: 400; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table12 - row: 9; col: 0; name: 450; Measurement Value: 450; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table12 - row: 10; col: 0; name: 500; Measurement Value: 500; offset: no value - skip to next value
+++New file name: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Bug Test 5-29-13/SOM Test/Ratio Files/H1074222/Reference/H1074222 Ratio Chart.eps

@@ -1,0 +1,528 @@
+
+------Berry Plastics RatioCompiler Version 2.0 
+Date: 5/30/2017, Time: 15:42:42
+Program path: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl
+Command line: runprog.pl
+cwd Program path: /
+Command line: runprog.pl
+**Fonts & Colors file: Berry Fonts & Colors.eps
+-Font: Courier
+-Font: Helvetica
+-Font: Helvetica-Black
+-Font: Helvetica-Bold
+-Font: Helvetica-Condensed-Bold
+-Font: Helvetica-UltraCompressed
+-Font: Myriad-Roman
+-Font: Times-Bold
+-Font: Times-Roman
+=Process Color: Black
+=Process Color: Cyan
+=Process Color: Magenta
+=Process Color: Yellow
+=Spot Color: Berry Blue
+=Spot Color: PANTONE 106 M
+=Spot Color: PANTONE 277 M
+=Spot Color: PANTONE 2925 M
+=Spot Color: PANTONE 484 M
+=Spot Color: PANTONE Reflex Blue CVC
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Ratio Testing Folder 4-2-13/H961095/H961095 Conversion Chart.txt
+^^^^File Name: H961095 Conversion Chart.txt, TXT  - Mac file CR - File Length: 777 - 121 tabs
+++Parse conversion table
+k 1200|v 1.4137|k 9450|v 7.1896|
+k 1350|v 1.4809|k 9462.4|v 7.2010|
+k 1400|v 1.5514|k 9600|v 7.3278|
+k 1500|v 1.6153|k 10000|v 7.5741|
+k 1600|v 1.6776|k 10408.64|v 7.8512|
+k 1800|v 1.8194|k 10500|v 7.9131|
+k 1892.48|v 1.9092|k 10800|v 8.1315|
+k 2000|v 1.9854|k 11000|v 8.2680|
+k 2100|v 2.0593|k 11354.88|v 8.4640|
+k 2400|v 2.2915|
+k 2700|v 2.4938|
+k 2800|v 2.5718|
+k 2838.72|v 2.5983|
+k 3000|v 2.7088|
+k 3200|v 2.8788|
+k 3600|v 3.1458|
+k 3784.96|v 3.2973|
+k 4000|v 3.4149|
+k 4050|v 3.4544|
+k 4200|v 3.5729|
+k 4500|v 3.7826|
+k 4731.2|v 3.9488|
+k 4800|v 3.9982|
+k 5000|v 4.1463|
+k 5400|v 4.4228|
+k 5600|v 4.5686|
+k 5677.44|v 4.6239|
+k 6000|v 4.8542|
+k 6300|v 5.0534|
+k 6400|v 5.1046|
+k 6623.68|v 5.2865|
+k 6750|v 5.3676|
+k 7000|v 5.5412|
+k 7200|v 5.6686|
+k 7500|v 5.8799|
+k 7569.92|v 5.9246|
+k 8000|v 6.1999|
+k 8100|v 6.2820|
+k 8400|v 6.4809|
+k 8516.16|v 6.5527|
+k 9000|v 6.8862|
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Ratio Testing Folder 4-2-13/H961095/H961095 Ratio Chart.txt
+^^^^File Name: H961095 Ratio Chart.txt, TXT  - Mac file CR - File Length: 2184 - 1111 tabs
+Looking for table in "H961095 Ratio Chart.txt" at line 2
+Looking for table in "H961095 Ratio Chart.txt" at line 3
+Looking for table in "H961095 Ratio Chart.txt" at line 5
+----values found:  and 8
+--found ratio on line: 	8	1	1				6	2	1
+----values found:  and 6
+--found ratio on line: 	8	1	1				6	2	1
+++Parse ratio tables
+line: 0; lookforheader: yes; line array: T34SQ|
+line: 1; lookforheader: yes; line array: blank line
+line: 2; lookforheader: yes; line array: *|Customer:  Signed Approval means that all ratios on this spreadsheet are accurate and calculated according to customer specifications.  Any changes needed to the below ratios must be clearly marked and returned to Berry Plastics before artwork can further be processed. |
+line: 3; lookforheader: yes; line array: *|Date:|
+line: 4; lookforheader: yes; line array: blank line
+line: 5; lookforheader: yes; line array: *|Signature|
+line: 6; lookforheader: yes; line array: blank line
+line: 7; lookforheader: yes; line array: blank line
+line: 8; lookforheader: yes; line array: blank line
+line: 9; lookforheader: yes; line array: *|8|1|1|*|*|*|6|2|1|
+line: 10; lookforheader: no; line array: 1|1200|1350|1500|*|*|1|1200|1600|1800|
+line: 11; lookforheader: no; line array: 2|2400|2700|3000|*|*|2|2400|3200|3600|
+line: 12; lookforheader: no; line array: 3|3600|4050|4500|*|*|3|3600|4800|5400|
+line: 13; lookforheader: no; line array: 4|4800|5400|6000|*|*|4|4800|6400|7200|
+line: 14; lookforheader: no; line array: 5|6000|6750|7500|*|*|5|6000|8000|9000|
+line: 15; lookforheader: no; line array: 6|7200|8100|9000|*|*|6|7200|9600|10800|
+line: 16; lookforheader: no; line array: 7|8400|9450|10500|
+line: 17; lookforheader: yes; line array: blank line
+line: 18; lookforheader: yes; line array: blank line
+line: 19; lookforheader: yes; line array: blank line
+line: 20; lookforheader: yes; line array: *|*|*|*|*|*| |
+**unknown text:  **
+line: 21; lookforheader: yes; line array: *|6|1|1|*|*|*|4|2|1|
+line: 22; lookforheader: no; line array: 1|1200|1400|1600|*|*|1|1200|1800|2100|
+line: 23; lookforheader: no; line array: 2|2400|2800|3200|*|*|2|2400|3600|4200|
+line: 24; lookforheader: no; line array: 3|3600|4200|4800|*|*|3|3600|5400|6300|
+line: 25; lookforheader: no; line array: 4|4800|5600|6400|*|*|4|4800|7200|8400|
+line: 26; lookforheader: no; line array: 5|6000|7000|8000|*|*|5|6000|9000|10500|
+line: 27; lookforheader: no; line array: 6|7200|8400|9600|
+line: 28; lookforheader: yes; line array: blank line
+line: 29; lookforheader: yes; line array: blank line
+line: 30; lookforheader: yes; line array: blank line
+line: 31; lookforheader: yes; line array: *|4|1|1|*|*|*|3|1|1|
+line: 32; lookforheader: no; line array: 1|1200|1500|1800|*|*|1|1200|1600|2000|
+line: 33; lookforheader: no; line array: 2|2400|3000|3600|*|*|2|2400|3200|4000|
+line: 34; lookforheader: no; line array: 3|3600|4500|5400|*|*|3|3600|4800|6000|
+line: 35; lookforheader: no; line array: 4|4800|6000|7200|*|*|4|4800|6400|8000|
+line: 36; lookforheader: no; line array: 5|6000|7500|9000|*|*|5|6000|8000|10000|
+line: 37; lookforheader: no; line array: 6|7200|9000|10800|
+line: 38; lookforheader: yes; line array: blank line
+line: 39; lookforheader: yes; line array: blank line
+line: 40; lookforheader: yes; line array: *|2|1|1|*|*|*|1|1|50%|
+line: 41; lookforheader: no; line array: 1|1200|1800|2400|*|*|1|1200|2400|3000|
+line: 42; lookforheader: no; line array: 2|2400|3600|4800|*|*|2|2400|4800|6000|
+line: 43; lookforheader: no; line array: 3|3600|5400|7200|*|*|3|3600|7200|9000|
+line: 44; lookforheader: no; line array: 4|4800|7200|9600|
+line: 45; lookforheader: yes; line array: blank line
+line: 46; lookforheader: yes; line array: blank line
+line: 47; lookforheader: yes; line array: blank line
+line: 48; lookforheader: yes; line array: *|Parts|*|Parts|*|Grams|
+**unknown text: Parts**
+**unknown text: Grams**
+line: 49; lookforheader: no; line array: *|1|*|2|*|1892|
+line: 50; lookforheader: yes; line array: *|2|*|3|*|2839|
+%% ERROR firstcol%%
+== body slicerange before: 4|5|0|1|2|== table tablerange: 4|table09|0|table10|2|table11|
+line: 51; lookforheader: no; line array: *|3|*|4|*|3785|
+%% ERROR firstcol%%
+== body slicerange before: 4|5|0|1|2|== table tablerange: 4|table09|0|table10|2|table11|
+line: 52; lookforheader: no; line array: *|*|*|5|*|4731|
+%% ERROR firstcol%%
+== body slicerange before: 4|5|0|1|2|== table tablerange: 4|table09|0|table10|2|table11|
+line: 53; lookforheader: yes; line array: *|*|*|6|*|5677|
+%% ERROR firstcol%%
+== body slicerange before: 4|5|2|== table tablerange: 4|table09|2|table11|
+line: 54; lookforheader: yes; line array: *|*|*|7|*|6624|
+%% ERROR firstcol%%
+== body slicerange before: 4|5|2|== table tablerange: 4|table09|2|table11|
+line: 55; lookforheader: yes; line array: *|*|*|8|*|7570|
+%% ERROR firstcol%%
+== body slicerange before: 4|5|2|== table tablerange: 4|table09|2|table11|
+line: 56; lookforheader: yes; line array: *|*|*|9|*|8516|
+%% ERROR firstcol%%
+== body slicerange before: 4|5|2|== table tablerange: 4|table09|2|table11|
+line: 57; lookforheader: yes; line array: *|*|*|10|*|9462|
+%% ERROR firstcol%%
+== body slicerange before: 4|5|2|== table tablerange: 4|table09|2|table11|
+line: 58; lookforheader: yes; line array: *|*|*|11|*|10409|
+%% ERROR firstcol%%
+== body slicerange before: 4|5|2|== table tablerange: 4|table09|2|table11|
+line: 59; lookforheader: yes; line array: *|*|*|12|*|11355|
+%% ERROR firstcol%%
+== body slicerange before: 4|5|2|== table tablerange: 4|table09|2|table11|
+line: 60; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 4|5|2|== table tablerange: 4|table09|2|table11|
+line: 61; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 62; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 63; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 64; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 65; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 66; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 67; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 68; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 69; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 70; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 71; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 72; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 73; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 74; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 75; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 76; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 77; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 78; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 79; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 80; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 81; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 82; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 83; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 84; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 85; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 86; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 87; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 88; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 89; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 90; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 91; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 92; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 93; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 94; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 95; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 96; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 97; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 98; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 99; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 100; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 101; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 102; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 103; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 104; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 105; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 106; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 107; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 108; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 109; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 110; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 111; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 112; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 113; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 114; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 115; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 116; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 117; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 118; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 119; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 120; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 121; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 122; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 123; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 124; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 125; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 126; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 127; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+line: 128; lookforheader: yes; line array: blank line
+%% ERROR firstcol%%
+== body slicerange before: 2|== table tablerange: 2|table11|
+Ratio table from: table00
+row 0: 	|	8|	1|	1|
+row 1: 	1|	1200|	1350|	1500|
+row 2: 	2|	2400|	2700|	3000|
+row 3: 	3|	3600|	4050|	4500|
+row 4: 	4|	4800|	5400|	6000|
+row 5: 	5|	6000|	6750|	7500|
+row 6: 	6|	7200|	8100|	9000|
+row 7: 	7|	8400|	9450|	10500|
+End Ratio table from tableprint 
+Ratio table from: table01
+row 0: 	|	6|	2|	1|
+row 1: 	1|	1200|	1600|	1800|
+row 2: 	2|	2400|	3200|	3600|
+row 3: 	3|	3600|	4800|	5400|
+row 4: 	4|	4800|	6400|	7200|
+row 5: 	5|	6000|	8000|	9000|
+row 6: 	6|	7200|	9600|	10800|
+End Ratio table from tableprint 
+Ratio table from: table02
+row 0: 	|	6|	1|	1|
+row 1: 	1|	1200|	1400|	1600|
+row 2: 	2|	2400|	2800|	3200|
+row 3: 	3|	3600|	4200|	4800|
+row 4: 	4|	4800|	5600|	6400|
+row 5: 	5|	6000|	7000|	8000|
+row 6: 	6|	7200|	8400|	9600|
+End Ratio table from tableprint 
+Ratio table from: table03
+row 0: 	|	4|	2|	1|
+row 1: 	1|	1200|	1800|	2100|
+row 2: 	2|	2400|	3600|	4200|
+row 3: 	3|	3600|	5400|	6300|
+row 4: 	4|	4800|	7200|	8400|
+row 5: 	5|	6000|	9000|	10500|
+End Ratio table from tableprint 
+Ratio table from: table04
+row 0: 	|	4|	1|	1|
+row 1: 	1|	1200|	1500|	1800|
+row 2: 	2|	2400|	3000|	3600|
+row 3: 	3|	3600|	4500|	5400|
+row 4: 	4|	4800|	6000|	7200|
+row 5: 	5|	6000|	7500|	9000|
+row 6: 	6|	7200|	9000|	10800|
+End Ratio table from tableprint 
+Ratio table from: table05
+row 0: 	|	3|	1|	1|
+row 1: 	1|	1200|	1600|	2000|
+row 2: 	2|	2400|	3200|	4000|
+row 3: 	3|	3600|	4800|	6000|
+row 4: 	4|	4800|	6400|	8000|
+row 5: 	5|	6000|	8000|	10000|
+End Ratio table from tableprint 
+Ratio table from: table06
+row 0: 	|	2|	1|	1|
+row 1: 	1|	1200|	1800|	2400|
+row 2: 	2|	2400|	3600|	4800|
+row 3: 	3|	3600|	5400|	7200|
+row 4: 	4|	4800|	7200|	9600|
+End Ratio table from tableprint 
+Ratio table from: table07
+row 0: 	|	1|	1|	50%|
+row 1: 	1|	1200|	2400|	3000|
+row 2: 	2|	2400|	4800|	6000|
+row 3: 	3|	3600|	7200|	9000|
+End Ratio table from tableprint 
+Ratio table from: table08
+row 0: 	Parts|	 |
+End Ratio table from tableprint 
+Ratio table from: table09
+row 0: 	|	1892|
+row 1: 	|	2839|
+row 2: 	|	3785|
+row 3: 	|	4731|
+row 4: 	|	5677|
+row 5: 	|	6624|
+row 6: 	|	7570|
+row 7: 	|	8516|
+row 8: 	|	9462|
+row 9: 	|	10409|
+row 10: 	|	11355|
+End Ratio table from tableprint 
+Ratio table from: table10
+row 0: 	|	2|
+row 1: 	|	3|
+End Ratio table from tableprint 
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Ratio Testing Folder 4-2-13/H961095/T34SQW Parameter chart.txt
+^^^^File Name: T34SQW Parameter chart.txt, TXT  - Mac file CR - File Length: 1129 - 34 tabs
+Looking for table in "T34SQW Parameter chart.txt" at line 1
+++Parse parameter table
+Parameter table from: parametertable
+line: 1 = val: 0.5			key: Column Space (inches)
+line: 2 = val: T34SQW			key: Container Part Number
+line: 3 = val: Hyman			key: Customer Name
+line: 4 = val: Black			key: Header Horizontal Line Color
+line: 5 = val: 3			key: Header Horizontal Line Weight (points)
+line: 6 = val: Black			key: Horizontal Line Color
+line: 7 = val: 2			key: Horizontal Line Weight (points)
+line: 8 = val: H961095			key: Job Number
+line: 9 = val: Helvetica-Bold			key: Measurement Chart Font
+line: 10 = val: Black			key: Measurement Chart Font Color
+line: 11 = val: 16			key: Measurement Chart Font Size (points)
+line: 12 = val: 7.875			key: Measurement Chart Height (inches)
+line: 13 = val: Right			key: Measurement Chart Location (on Right or on Left)
+line: 14 = val: 1.25			key: Measurement Chart Width (inches)
+line: 15 = val: Kim			key: Operator Name
+line: 16 = val: 7.875			key: Ratio Chart Height (inches)
+line: 17 = val: 0.5625			key: Ratio Chart Top Offset (inches)
+line: 18 = val: 0.45			key: Ratio Chart Width (inches)
+line: 19 = val: Helvetica-Bold			key: Ratio Column Font
+line: 20 = val: Black			key: Ratio Column Font Color
+line: 21 = val: 18			key: Ratio Column Font Size (points)
+line: 22 = val: Helvetica-UltraCompressed			key: Ratio Header Font
+line: 23 = val: Black			key: Ratio Header Font Color
+line: 24 = val: 28			key: Ratio Header Font Size (points)
+line: 25 = val: 0.5			key: Ratio Header Height (inches)
+line: 26 = val: Below			key: Ratio Number Location (Above or Below)
+line: 27 = val: Black			key: Vertical Line Color Inside
+line: 28 = val: Black			key: Vertical Line Color Outside
+line: 29 = val: 2			key: Vertical Line Weight Inside (points)
+line: 30 = val: 3			key: Vertical Line Weight Outside (points)
+End parameter table from paramtableprint
+++Color and Font Check.
+-color param: Header Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Measurement Chart Font Color = Black --Exists in process colors hash.
+-color param: Ratio Column Font Color = Black --Exists in process colors hash.
+-color param: Ratio Header Font Color = Black --Exists in process colors hash.
+-color param: Vertical Line Color Inside = Black --Exists in process colors hash.
+-color param: Vertical Line Color Outside = Black --Exists in process colors hash.
+-font param: Measurement Chart Font = Helvetica-Bold--Exists in fonts hash.
+-font param: Ratio Column Font = Helvetica-Bold--Exists in fonts hash.
+-font param: Ratio Header Font = Helvetica-UltraCompressed--Exists in fonts hash.
+++Build EPS file
+--Warning - Value outside printable area!
+---table name: table09 - row: 1; col: 1; name: ; Measurement Value: 2839; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table09 - row: 2; col: 1; name: ; Measurement Value: 3785; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table09 - row: 3; col: 1; name: ; Measurement Value: 4731; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table09 - row: 4; col: 1; name: ; Measurement Value: 5677; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table09 - row: 5; col: 1; name: ; Measurement Value: 6624; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table09 - row: 6; col: 1; name: ; Measurement Value: 7570; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table09 - row: 7; col: 1; name: ; Measurement Value: 8516; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table09 - row: 8; col: 1; name: ; Measurement Value: 9462; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table09 - row: 9; col: 1; name: ; Measurement Value: 10409; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table09 - row: 10; col: 1; name: ; Measurement Value: 11355; offset: no value - skip to next value
+--Warning - Value outside printable area!
+---table name: table10 - row: 1; col: 1; name: ; Measurement Value: 3; offset: no value - skip to next value
+++New file name: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Ratio Testing Folder 4-2-13/H961095/H961095 Ratio Chart.eps
