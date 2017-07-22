@@ -10,7 +10,7 @@ use Cwd;
 # Copyright (c) 2007 Systems of Merritt, Inc.
 # Written by Frank Braswell
 # Flush data immediately to stdout.
-# autoflush STDOUT 1;
+autoflush STDOUT 1;
 	# Look in the current folder first for included modules
 
 # use lib "/Users/frankbraswell/Business\ Folders/Berry\ Plastics/test/";
@@ -25,7 +25,7 @@ BEGIN
     # including the path
         ($ppath) = $0 =~ /(.+\/)/;
 }
-# print STDOUT "prog path: $ppath\n";
+print STDOUT "prog path: $ppath\n";
 
 use lib $ppath;
 
