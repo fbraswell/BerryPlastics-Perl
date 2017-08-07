@@ -1,0 +1,159 @@
+
+------Berry Plastics RatioCompiler Version 2.0 
+Date: 6/2/2017, Time: 07:01:43
+Program path: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl
+Command line: runprog.pl
+cwd Program path: /
+Command line: runprog.pl
+**Fonts & Colors file: Berry Fonts & Colors.eps
+-Font: Courier
+-Font: Helvetica
+-Font: Helvetica-Black
+-Font: Helvetica-Bold
+-Font: Helvetica-Condensed-Bold
+-Font: Helvetica-UltraCompressed
+-Font: Myriad-Roman
+-Font: Times-Bold
+-Font: Times-Roman
+=Process Color: Black
+=Process Color: Cyan
+=Process Color: Magenta
+=Process Color: Yellow
+=Spot Color: Berry Blue
+=Spot Color: PANTONE 106 M
+=Spot Color: PANTONE 277 M
+=Spot Color: PANTONE 2925 M
+=Spot Color: PANTONE 484 M
+=Spot Color: PANTONE Reflex Blue CVC
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/W1467142 Bug Test 6-2-17/test files/T30206CP Parameter chart.txt
+^^^^File Name: T30206CP Parameter chart.txt, TXT  - Mac file CR - File Length: 1151 - 34 tabs
+Looking for table in "T30206CP Parameter chart.txt" at line 1
+++Parse parameter table
+Parameter table from: parametertable
+line: 1 = val: 0.15			key: Column Space (inches)
+line: 2 = val: T30206CP			key: Container Part Number
+line: 3 = val: TRICORBRAUN			key: Customer Name
+line: 4 = val: Black			key: Header Horizontal Line Color
+line: 5 = val: 2			key: Header Horizontal Line Weight (points)
+line: 6 = val: Black			key: Horizontal Line Color
+line: 7 = val: 1			key: Horizontal Line Weight (points)
+line: 8 = val: T720465			key: Job Number
+line: 9 = val: Helvetica-Bold			key: Measurement Chart Font
+line: 10 = val: Black			key: Measurement Chart Font Color
+line: 11 = val: 8			key: Measurement Chart Font Size (points)
+line: 12 = val: 2.1718			key: Measurement Chart Height (inches)
+line: 13 = val: Right			key: Measurement Chart Location (on Right or on Left)
+line: 14 = val: 0.75			key: Measurement Chart Width (inches)
+line: 15 = val: Kim			key: Operator Name
+line: 16 = val: 2.1718			key: Ratio Chart Height (inches)
+line: 17 = val: 0.0938			key: Ratio Chart Top Offset (inches)
+line: 18 = val: 0.2			key: Ratio Chart Width (inches)
+line: 19 = val: Helvetica-Condensed-Bold			key: Ratio Column Font
+line: 20 = val: Black			key: Ratio Column Font Color
+line: 21 = val: 8			key: Ratio Column Font Size (points)
+line: 22 = val: Helvetica-Condensed-Bold			key: Ratio Header Font
+line: 23 = val: Black			key: Ratio Header Font Color
+line: 24 = val: 10.5			key: Ratio Header Font Size (points)
+line: 25 = val: 0.1875			key: Ratio Header Height (inches)
+line: 26 = val: Below			key: Ratio Number Location (Above or Below)
+line: 27 = val: Black			key: Vertical Line Color Inside
+line: 28 = val: Black			key: Vertical Line Color Outside
+line: 29 = val: 1			key: Vertical Line Weight Inside (points)
+line: 30 = val: 2			key: Vertical Line Weight Outside (points)
+End parameter table from paramtableprint
+++Color and Font Check.
+-color param: Header Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Measurement Chart Font Color = Black --Exists in process colors hash.
+-color param: Ratio Column Font Color = Black --Exists in process colors hash.
+-color param: Ratio Header Font Color = Black --Exists in process colors hash.
+-color param: Vertical Line Color Inside = Black --Exists in process colors hash.
+-color param: Vertical Line Color Outside = Black --Exists in process colors hash.
+-font param: Measurement Chart Font = Helvetica-Bold--Exists in fonts hash.
+-font param: Ratio Column Font = Helvetica-Condensed-Bold--Exists in fonts hash.
+-font param: Ratio Header Font = Helvetica-Condensed-Bold--Exists in fonts hash.
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/W1467142 Bug Test 6-2-17/test files/W1467142 Conversion Chart.txt
+^^^^File Name: W1467142 Conversion Chart.txt, TXT  - Mac file CR - File Length: 348 - 60 tabs
+++Parse conversion table
+k 15|v 2.230|
+k 29.6|v 2.0056|
+k 30|v 1.999|
+k 37.5|v 1.8835|
+k 45|v 1.768|
+k 52.5|v 1.661|
+k 59.1|v 1.5663|
+k 60|v 1.554|
+k 67.5|v 1.451|
+k 75|v 1.348|
+k 82.5|v 1.248|
+k 88.7|v 1.1652|
+k 90|v 1.148|
+k 97.5|v 1.0495|
+k 105|v 0.951|
+k 112.5|v 0.8625|
+k 118.3|v 0.7943|
+k 120|v 0.774|
+k 127.5|v 0.6845|
+k 135|v 0.595|
+k 142.5|v 0.5035|
+k 147.9|v 0.4382|
+k 150|v 0.412|
+k 165|v 0.242|
+k 177.4|v 0.1203|
+k 180|v 0.095|
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/W1467142 Bug Test 6-2-17/test files/W1467142 Ratio Chart.txt
+^^^^File Name: W1467142 Ratio Chart.txt, TXT  - Mac file CR - File Length: 652 - 243 tabs
+Looking for table in "W1467142 Ratio Chart.txt" at line 2
+Looking for table in "W1467142 Ratio Chart.txt" at line 3
+Looking for table in "W1467142 Ratio Chart.txt" at line 5
+--found measurement on line: ml									
+++Parse measurement tables
+line: 0; lookforheader: yes; line array: T30206CP|
+line: 1; lookforheader: yes; line array: blank line
+line: 2; lookforheader: yes; line array: *|Customer:  Signed Approval means that all ratios on this spreadsheet are accurate and calculated according to customer specifications.  Any changes needed to the below ratios must be clearly marked and returned to Berry Global before artwork can further be processed. |
+line: 3; lookforheader: yes; line array: *|Date:|*|*|*|Print #|1467142 Wilbur Pro Measure |
+line: 4; lookforheader: yes; line array: blank line
+line: 5; lookforheader: yes; line array: *|Signature|
+line: 6; lookforheader: yes; line array: blank line
+line: 7; lookforheader: yes; line array: blank line
+line: 8; lookforheader: yes; line array: blank line
+line: 9; lookforheader: yes; line array: ml|
+line: 10; lookforheader: no; line array: 30|
+line: 11; lookforheader: no; line array: 37.5|
+line: 12; lookforheader: no; line array: 45|
+line: 13; lookforheader: no; line array: 52.5|
+line: 14; lookforheader: no; line array: 60|
+line: 15; lookforheader: no; line array: 67.5|
+line: 16; lookforheader: no; line array: 75|
+line: 17; lookforheader: no; line array: 82.5|
+line: 18; lookforheader: no; line array: 90|
+line: 19; lookforheader: no; line array: 97.5|
+line: 20; lookforheader: no; line array: 105|
+line: 21; lookforheader: no; line array: 112.5|
+line: 22; lookforheader: no; line array: 120|
+line: 23; lookforheader: no; line array: 127.5|
+line: 24; lookforheader: no; line array: 135|
+line: 25; lookforheader: no; line array: 142.5|
+line: 26; lookforheader: no; line array: 150|
+Ratio table from: table00
+row 0: 	ml|
+row 1: 	30|
+row 2: 	37.5|
+row 3: 	45|
+row 4: 	52.5|
+row 5: 	60|
+row 6: 	67.5|
+row 7: 	75|
+row 8: 	82.5|
+row 9: 	90|
+row 10: 	97.5|
+row 11: 	105|
+row 12: 	112.5|
+row 13: 	120|
+row 14: 	127.5|
+row 15: 	135|
+row 16: 	142.5|
+row 17: 	150|
+End Ratio table from tableprint 
+++Build EPS file
+++New file name: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/W1467142 Bug Test 6-2-17/test files/W1467142 Ratio Chart.eps

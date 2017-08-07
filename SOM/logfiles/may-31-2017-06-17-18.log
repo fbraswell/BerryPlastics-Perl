@@ -1,7 +1,0 @@
-FATAL ERROR MESSAGE! syntax error at /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl/SOM/SOMcontrol.pm line 306, near ")
-    print"
-Compilation failed in require at /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl/runprog.pl line 39.
-FATAL ERROR MESSAGE! syntax error at /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl/SOM/SOMcontrol.pm line 306, near ")
-    print"
-Compilation failed in require at /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl/runprog.pl line 39.
-BEGIN failed--compilation aborted at /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl/runprog.pl line 39.

@@ -19,13 +19,25 @@ use SOM::myutils;
 use SOM::Stopwatch;
 use SOM::getopt;
 use SOM::SOMtables;
-# use Mac::AppleScript qw( RunAppleScript );
 
 # Variables used to determine if file contains
 # one of four types of data.
+
+# Conversion between inches and measurement units
+# in it's own file'
 my $_conversion = 'conversion';
+
+# Tables with ratio measurements
 my $_ratio = 'ratio';
+
+# Vertical measurements alongside the ratio Tables
+# can be "parts" or "ounces" or "ml"
+# These tables are in the same file with the ratio tables
 my $_measurement = 'measurement';
+
+# The parameter table is in it's own file and contains
+# control parameters on how the tables are printed
+# Controls include line widths, fonts, colors, etc.
 my $_parameter = 'parameter';
 
 # print "load SOMcontrol.pm\n"; # DEBUG
@@ -421,21 +433,22 @@ sub parsetables
         # 3. Measurement Tables
 		
 #				Parts				Ounces					mL
-#				1		72			2	59.1				50
-#				2		144			4	118.3				100
-#				3		216			6	177.4				150
-#				4		288			8	236.6				200
-#				5		360			10	295.7				250
-#				6		432			12	354.8				300
-#				7		504			14	414.0				350
-#				8		576			16	473.1				400
-#				9		648			18	532.3				450
-#				10	    720			20	591.4				500
-#									22	650.5				550
-#									24	709.7				600
-#									26	768.8				650
-#															700
-#															750		
+#				1		72			2   59.1				50
+#				2		144			4   118.3				100
+#				3		216			6   177.4				150
+#				4		288			8   236.6				200
+#				5		360			10	295.7       250
+#				6		432			12	354.8       300
+#				7		504			14	414.0       350
+#				8		576			16	473.1       400
+#				9		648			18	532.3       450
+#				10	720			20	591.4       500
+#                   22	650.5				550
+#                   24	709.7				600
+#                   26	768.8				650
+#                                   700
+#                                   750
+    
         # Step through the line array, looking for data
 		for ( my $i = 0; $i <= $#linearr; $i++ )
 		{
@@ -513,39 +526,39 @@ sub parsetables
 		CASE:
 		{
 			$charttype =~ /$_conversion/		&& do
-													{
-														logprint "++Parse conversion table\n";
-														push @tableobjects, ( parseconversiontable( $fh, $fin ) );
-														# Can only find one time
-                                                        $_conversion = 'not found again';
-														last CASE;
-													};
+            {
+              logprint "++Parse conversion table\n";
+              push @tableobjects, ( parseconversiontable( $fh, $fin ) );
+              # Can only find one time
+                                $_conversion = 'not found again';
+              last CASE;
+            };
 			$charttype =~ /$_ratio/				&& do
-													{
-														logprint "++Parse ratio tables\n";
-														push @tableobjects, ( parseratiotables( $fh, $fin ) );
-														# Can only find one time
-                                                        $_ratio = 'not found again';
-														last CASE;
-													};
+            {
+              logprint "++Parse ratio tables\n";
+              push @tableobjects, ( parseratiotables( $fh, $fin ) );
+              # Can only find one time
+                                $_ratio = 'not found again';
+              last CASE;
+            };
 			$charttype =~ /$_measurement/		&& do
-													{
-														logprint "++Parse measurement tables\n";
-														# push @tableobjects, ( parsemeasurementtables( $fh, $fin ) );
-														push @tableobjects, ( parseratiotables( $fh, $fin ) );
-														# Can only find one time
-                                                        $_measurement = 'not found again';
-														last CASE;
-													};
+            {
+              logprint "++Parse measurement tables\n";
+              # push @tableobjects, ( parsemeasurementtables( $fh, $fin ) );
+              push @tableobjects, ( parseratiotables( $fh, $fin ) );
+              # Can only find one time
+                                $_measurement = 'not found again';
+              last CASE;
+            };
 			$charttype =~ /$_parameter/			&& do
-													{
-														logprint "++Parse parameter table\n";
-														push @tableobjects, ( parseparametertable( $fh, $fin ) );
-														# Can only find one time
-                                                        $_parameter = 'not found again';
-														last CASE;
-													};
-													
+            {
+              logprint "++Parse parameter table\n";
+              push @tableobjects, ( parseparametertable( $fh, $fin ) );
+              # Can only find one time
+                                $_parameter = 'not found again';
+              last CASE;
+            };
+      
 #			logprint "No table found in \"$fnamein\" at $linenum\n";
             logprint "Looking for table in \"$fnamein\" at line $linenum\n";
 		} # end CASE
@@ -1007,7 +1020,7 @@ sub parsemeasurementtables
 #    Grams	Inches			Grams	Inches	
 #    20	    2.6325			90	    1.6196	
 #    22	    2.6021			92	    1.6001	
-#    22.5	2.5945			96	    1.5612	
+#    22.5   2.5945			96	    1.5612
 #    24	    2.5716			99	    1.5319	
 #    25	    2.5564			100	    1.5222	
 
@@ -1017,14 +1030,14 @@ sub parsemeasurementtables
 #    T30304LW	# example of inverted measurements		
 #
 #    Grams	    Inches from base			
-#    14.8	    0.2498			
+#    14.8       0.2498
 #    15	        0.2548			
-#    17.5	    0.3172			
+#    17.5       0.3172
 #    18	        0.3240			
-#    18.8	    0.3348			
+#    18.8       0.3348
 #    20	        0.3510			
 #    21	        0.3639			
-#    22.5	    0.3833			
+#    22.5       0.3833
 #    25	        0.4177			
 
 # Parse conversion table - see example above
@@ -1181,26 +1194,23 @@ sub buildeps
 			# logprint "--rwidth of this eps: $tmpwidth; total width: $epswidth\n";
 		}
 		
-	} # foreach ( sort keys %objects )
+	} # foreach ( sort keys %objects ) # Build ratio tables loop
 	
 	my $m_epsstring; # String content of eps file
 	# Build measurement tables
 	foreach ( sort keys %objects )
 	{
 		# logprint "$_\n";
-
 			# Build embedded eps for each table
 		if ( /^table\d\d/ )
 		{
-			# $m_epsstring .= $objects{ $_ }->buildtableeps( 'measurement' );
 			( $tmpstr, $tmpwidth, $epsheight ) = $objects{ $_ }->buildtableeps( 'measurement' );
 			$m_epsstring .= $tmpstr;
 			$epswidth += $tmpwidth;
 			# logprint "--mwidth of this eps: $tmpwidth; total width: $epswidth inches; ";
 			# logprint $epswidth * 72, " points; Height: $epsheight points; ", $epsheight / 72, " inches \n";
 		}
-
-	} # foreach ( sort keys %objects )
+	} # foreach ( sort keys %objects ) # build measurement tables loop
 	
 	my $mcloc; # Measurement chart location - right or left
 	$mcloc = $objects{ 'table00' }->getmeasurementchartlocation( );

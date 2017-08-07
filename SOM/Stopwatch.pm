@@ -1,6 +1,6 @@
 package Stopwatch;
 
-# Copyright © 2000-2005 Systems of Merritt, Inc.
+# Copyright ï¿½ 2000-2005 Systems of Merritt, Inc.
 # Written by Frank Braswell for Hallmark Cards
 # October 2000
 # November 2004 2.0 

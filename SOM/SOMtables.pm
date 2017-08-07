@@ -14,7 +14,7 @@ use SOM::getopt;
 	# The following closures control access to 
 	# important control variables.
 {
-	my $boxyval = 0; # Y value of possible Mexico code box - init to 0
+	my  $boxyval = 0; # Y value of possible Mexico code box - init to 0
 	sub setboxyval { ( $boxyval ) = @_ }
 	sub getboxyval { return $boxyval }
 }
@@ -22,6 +22,7 @@ use SOM::getopt;
 	# Global Variables
 my $firstheader = 1; # True if first EPS header, false if embedded EPS headers
 my $firsttrailer = 1; # True if first EPS trailer, false if embedded EPS trailers
+my $inchesdown = 1; # Default true, measure from bottom - false, measure from top
 my %static_parameters =
 (
 		# This is for numbers above the line (in points)
@@ -140,6 +141,7 @@ sub tableprint
 sub buildtableeps
 {
 	my ( $pkg, $tabletype ) = @_;
+  # $tabletype is either 'ratio' or 'measurement'
 	my $epsstr; # String for building eps
 	my $vlo_str; # vertical line outside proc
 	my $vli_str; # vertical line inside proc
@@ -147,6 +149,7 @@ sub buildtableeps
 	my $col_str = ''; # column line and text proc
 	my $hlo_str; # horizontal line outside proc
 	my $hdr_str; # header text and horizontal line
+      # $makeratiotalbe - ratio table (T) or measurement table (F)
 	my $makeratiotable = $tabletype =~ /ratio/i; # Type of table to produce
 		# Get the smallest index from the conversion table
 		# This will be used to determine the vertical size and
@@ -164,10 +167,7 @@ sub buildtableeps
 	my $ph = $pkg->{ 'paramhash' }; # Shorthand for parameter hash
 	my $tn = $pkg->{ 'tablename' }; # Get table name
 	my $ver = $pkg->{ 'version' }; # Get ratio compiler version
-		# Ratio Column Width
-#	my $rcw = .25; ####
-		# Ratio Column Height
-#	my $rch = $maxlenint; ######	
+
 		# Get number of columns
 	my $tablecols = $#{ $ta->[ 0 ] };
 		# baseline offset (points) - lift chars up off ratio line
@@ -181,7 +181,10 @@ sub buildtableeps
 	my $ho = $static_parameters{ 'header offset' };
 	# Date and time information
 	my ( $d, $t ) = timeofday_datetime( );
-		# Parameter Table
+
+# Parameter Table
+  # Get all the parameter table variables
+  # Create short variable names for each parameter
 
 #	Braswell					Operator Name
 	my $on = ${ $ph }{ 'Operator Name' }; 
@@ -196,7 +199,6 @@ sub buildtableeps
 #	$rcw = .25; ####
 #				4						Ratio Chart Height (inches)
 	my $rch = ${ $ph }{ 'Ratio Chart Height (inches)' }; 
-#	$rch = $maxlenint; #############
 #				1						Measurement Chart Width (inches)
 		my $mcw = ${ $ph }{ 'Measurement Chart Width (inches)' };
 #				4						Measurement Chart Height (inches)
@@ -248,9 +250,24 @@ sub buildtableeps
 
 		# Gather up the rest of the font and color parameters
 		my ( $pscode ) = $pkg->getcolorcode( );
-		
-		# logprint "--pscode\n$pscode\n--colorDSCcode\n$colorDSCcode\n";
-		#####
+		# logprint "--pscode\n$pscode\n--colorDSCcode\n$colorDSCcode\n";  #####
+  
+  # Look at row 0, column 0 to determine if we have a
+  # ratio table or measurement table.
+  
+  
+  # Ratio table has nothing in row 0, col 0
+  
+  # Ratio Table has multiple columns
+  #				row 0: 	 |	10 |	1  |	5  |	# Headers
+  #				row 1: 	1|	60 |	66 |	96 |
+  
+  # Measurement table has 'ounces', 'parts' or 'ml' in row 0, col 0
+  
+  # Measurement Table only has one column
+  #     row 0: 	Ounces  |     |
+  #     row 1: 	0.5     |	14.8|
+
 	my $mtlabel = ''; # measurement table label
 	$_ = ${ $ta->[ 0 ] }[ 0 ];
 	# Check for measurement table - it has info in row 0, col 0
@@ -259,12 +276,14 @@ sub buildtableeps
 		# Don't add this table with ratio tables
 		# logprint "-Found measurement table: $tn - $_\n";
 		# Return empty string if this call for measurement tables
+      # $makeratiotalbe - ratio table (T) or measurement table (F)
 		return "", 0, 0 if $makeratiotable;
 	} else
 	{
 		# Don't add this table with measurement tables
 		# logprint "-Found ratio table: $tn\n";
 		# Return empty string if this call for ratio tables
+      # $makeratiotalbe - ratio table (T) or measurement table (F)
 		return "", 0, 0 unless $makeratiotable;
 	} # if ( ${ $ta->[ 0 ] }[ 0 ] )
 	
@@ -430,6 +449,7 @@ $pscode
 % Move origin to top - 
 % all moves are negative from top
 % 0 rch inch translate
+  %%%%%% move the origin to the correct location %%%%%%
 0 rch inch slo add 15 add translate
 % Put in header information only once
 % if table00
@@ -452,6 +472,7 @@ hf_proc % set information header font
 EOS
 ;
 
+  # Ratio Table has multiple columns
 #				row 0: 	 |	10 |	1  |	5  |	# Headers
 #				row 1: 	1|	60 |	66 |	96 |
 #				row 2: 	2|	120|	132|	192|
@@ -461,7 +482,18 @@ EOS
 #				row 6: 	6|	360|	396|	576|
 #				row 7: 	7|	420|	462|	672|
 
-	$sl_str .= 
+  # Measurement Table only has one column
+  #     row 0: 	Ounces  |     |
+  #     row 1: 	0.5     |	14.8|
+  #     row 2: 	1       |	29.6|
+  #     row 3: 	1.5     |	44.4|
+  #     row 4: 	2       |	59.1|
+  #     row 5: 	2.5     |	73.9|
+  
+  # The $makeratiotable variable decides whether a ratio
+  # or measurement table is being built
+  
+	$sl_str .=  # start line proc
 <<"EOS"
 % sl_str
 % Move origin to top - 
@@ -479,7 +511,8 @@ hf_proc % set information header font
 EOS
 ;
 
-	$sl_str .= $makeratiotable?
+  # $makeratiotalbe - ratio table (T) or measurement table (F)
+	$sl_str .= $makeratiotable?  # start line proc
 <<"EOS"
 rcw $tablecols mul inch 0 rl st
 EOS
@@ -488,7 +521,9 @@ EOS
 mcw inch 0 rl st
 EOS
 ;
-	$vlo_str .= $makeratiotable?
+ 
+  # $makeratiotalbe - ratio table (T) or measurement table (F)
+	$vlo_str .= $makeratiotable?  # vertical line outside proc
 <<"EOS"
 % vlo_str
 % Draw left hand line
@@ -498,19 +533,24 @@ vlco % set vertical line color outside
 % 0 rch neg inch l st
 0 rch neg inch rl st
 EOS
-:'';	
+:'';
+  
 	my $row0hdr; # Temp variable for header info
 		# Traverse the ratio table by column (starting at row 1)
 		# The first row (0) contains the header information
-		# Go across each column starting at column 1
+  
+  # Outer loop
+		# Go down each column starting at column 1
 	for ( my $col = $tablecols == 0?0:1; $col <= $tablecols; $col++ )
 	{
 		
 			# The column header (row 0) can be handled here
 			#####
 			$row0hdr = ${ $ta->[ 0 ] }[ $col ];
-			# logprint "Row 0 header: $row0hdr\n"; 
-			$hlo_str .= $makeratiotable?
+			# logprint "Row 0 header: $row0hdr\n";
+    
+  # $makeratiotalbe - ratio table (T) or measurement table (F)
+  $hlo_str .= $makeratiotable?  # horizontal line outside proc
 <<"EOS"
 % hlo_str
 /x_val rcw $col 1 sub mul inch d
@@ -524,7 +564,8 @@ rcw inch 0 rl st % draw line across
 EOS
 :'';
 
-			$hdr_str .= $makeratiotable?
+  # $makeratiotalbe - ratio table (T) or measurement table (F)
+  $hdr_str .= $makeratiotable?  # header text and horizontal line
 <<"EOS"
 % hdr_str
 /x_val rcw $col 1 sub mul inch d
@@ -553,7 +594,8 @@ x_val rhh slo add neg inch m
 EOS
 :'';
 		
-			# Go down each row starting at row 1			
+    # Inner loop
+			# Go across each row starting at row 1
 		for ( my $row = 1; $row < $pkg->{ 'tablerows' }; $row++ )
 		{
 			# The measuring label (number) is in column 0
@@ -570,7 +612,17 @@ EOS
 			}
 			# logprint "-row: $row; col: $col; name: $colname; key: $colkey; offset: $coloffset; ";
 			# logprint "table cols: $tablecols; table name: $tn\n";
-			$col_str .= $makeratiotable?
+      
+      # Adjust for measure from top - default is measure from bottom
+      # Default true, measure from bottom - false, measure from top
+      unless($inchesdown)
+      {
+        # adjust for measure from top
+        $coloffset = $rch + $rcto + $rhh - $coloffset
+      }
+      #      logprint "????? inchesdown: $inchesdown; coloffset: $coloffset\n";
+  # $makeratiotalbe - ratio table (T) or measurement table (F)
+  $col_str .= $makeratiotable?  # column line and text proc
 <<"EOS"
 % col_str - ratio
 /x_val rcw $col 1 sub mul inch d
@@ -596,6 +648,7 @@ hlc % horizontal line color
 rcw inch 0 rl st
 EOS
 ;
+      
 		# See if $col_str defined
         logprint "col_str not defined\n" unless defined $col_str;
         logprint "makeratiotable not defined\n" unless defined $makeratiotable;
@@ -603,7 +656,8 @@ EOS
 		} # for ( my $row = 1; $i < $pkg->{ 'tablerows' }; $row++ )
 		
 		# Move over to the next column
-			$vli_str .= $makeratiotable?
+  # $makeratiotalbe - ratio table (T) or measurement table (F)
+  $vli_str .= $makeratiotable?  # vertical line inside proc
 <<"EOS"
 % vli_str
 % Move over to next column
@@ -619,11 +673,13 @@ x_val rhh slo add neg inch m
 0 rch rhh sub neg inch rl st
 } if
 EOS
-:'';		
+:'';
+    
 	} # for ( my $col = 1; $col < $#{$pkg->{ 'tablearray' } }; $col++ )
 
 # Draw line on right
-	$vlo_str .= $makeratiotable?
+  # $makeratiotalbe - ratio table (T) or measurement table (F)
+	$vlo_str .= $makeratiotable?  # vertical line outside proc
 <<"EOS"
 % vlo_str
 % Draw right hand line
@@ -637,12 +693,15 @@ EOS
 :'';	
 
 # Put together the sequencing from the above ps procs
-logprint "sl_str not defined for epsstr\n" unless defined $sl_str;
-logprint "col_str not defined for epsstr\n" unless defined $col_str;
-logprint "vli_str not defined for epsstr\n" unless defined $vli_str;
-logprint "hdr_str not defined for epsstr\n" unless defined $hdr_str;
-logprint "hlo_str not defined for epsstr\n" unless defined $hlo_str;
-logprint "vlo_str not defined for epsstr\n" unless defined $vlo_str;
+  # Report to log if PS code sections aren't defined
+logprint "sl_str not defined for epsstr\n" unless defined $sl_str;  # start line proc
+logprint "col_str not defined for epsstr\n" unless defined $col_str;  # column line and text proc
+logprint "vli_str not defined for epsstr\n" unless defined $vli_str;  # vertical line inside proc
+logprint "hdr_str not defined for epsstr\n" unless defined $hdr_str;  # header text and horizontal line
+logprint "hlo_str not defined for epsstr\n" unless defined $hlo_str;  # horizontal line outside proc
+logprint "vlo_str not defined for epsstr\n" unless defined $vlo_str;  # vertical line outside proc
+  
+  # Put everything together
 	$epsstr .=
 <<"EOS"
 % epsstr $sl_str $col_str $vli_str $hdr_str $hlo_str $vlo_str
@@ -650,10 +709,10 @@ EOS
 ;
 	# $fileheader = 0 indicates this is not the file header - it is
 	# an embedded eps
-	$epsstr .= epstrailer( $pkg, $fileheader ); # Add trailer to string
+	$epsstr .= epstrailer( $pkg, $fileheader ); # Add trailer to string  # String for building eps
 		# Add PS code to translate over for the next table
 		# translate by $tablecols * $rcw (table width) + $cs (col space)
-	$epsstr .=
+	$epsstr .=  # String for building eps
 <<"EOS"
 % epsstr
 % Move over to next ratio table
@@ -676,7 +735,8 @@ EOS
 EOS
 ;
 
-	$epsstr .= $makeratiotable?
+  # $makeratiotalbe - ratio table (T) or measurement table (F)
+	$epsstr .= $makeratiotable?  # String for building eps
 <<"EOS"
 % epsstr
 tablecols rcw mul cs add inch 0 translate
@@ -728,6 +788,27 @@ sub getconvhash
 } # sub getconvhash
 #===========================================================#
 # Determine direction of conversion table - up or down
+#
+# Key "up"/Value "down" is normal measure from bottom
+# key is graams, value is in inches
+# returns " - measurement: up - inches: up\n";
+#    k 14.8|v 1.0766|
+#    k 15|v 1.0716|
+#    k 17.5|v 1.0092|
+#    k 18|v 1.0024|
+#    k 18.8|v 0.9916|
+#    k 20|v 0.9754|
+
+# Key "up"/Value "up" is rare, and represents measure from top
+# Key is grams and value is inches
+# returns " - measurement: up - inches: down\n";
+#    k 14.8|v 0.2498|
+#    k 15|v 0.2548|
+#    k 17.5|v 0.3172|
+#    k 18|v 0.3240|
+#    k 18.8|v 0.3348|
+#    k 20|v 0.3510|
+
 sub dirconvhash
 {
 	my $pkg = shift;
@@ -763,6 +844,7 @@ sub dirconvhash
         $prevkey = $_;
         $prevval = $chash{ $_ };
 	}
+    $inchesdown = $inches eq 'down'; # true if down, false if up
     return " - measurement: $measurement - inches: $inches\n";
 #	logprint "End Conversion table direction\n";
     

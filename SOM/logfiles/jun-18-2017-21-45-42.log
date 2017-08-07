@@ -1,6 +1,6 @@
 
 ------Berry Plastics RatioCompiler Version 2.0 
-Date: 5/31/2017, Time: 13:35:10
+Date: 6/18/2017, Time: 21:45:42
 Program path: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/BerryPlastics/Berry Plastics perl debug/BerryPlastics-Perl
 Command line: runprog.pl
 cwd Program path: /
@@ -25,8 +25,55 @@ Command line: runprog.pl
 =Spot Color: PANTONE 2925 M
 =Spot Color: PANTONE 484 M
 =Spot Color: PANTONE Reflex Blue CVC
-Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Berry Update Dec 2016/Test Jobs March 2017/T30304LW/H1305709 conversion chart.txt
-^^^^File Name: H1305709 conversion chart.txt, TXT  - Mac file CR - File Length: 380 - 40 tabs
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Berry Update Dec 2016/Test Files Dec 2016/Test 2/Original Files/3 T30304LW Parameter chart Mac.txt
+^^^^File Name: 3 T30304LW Parameter chart Mac.txt, TXT  - Mac file CR - File Length: 1150 - 34 tabs
+Looking for table in "3 T30304LW Parameter chart Mac.txt" at line 1
+++Parse parameter table
+Parameter table from: parametertable
+line: 1 = val: 0.15			key: Column Space (inches)
+line: 2 = val: T30304LW			key: Container Part Number
+line: 3 = val: HYMAN			key: Customer Name
+line: 4 = val: Black			key: Header Horizontal Line Color
+line: 5 = val: 1.5			key: Header Horizontal Line Weight (points)
+line: 6 = val: Black			key: Horizontal Line Color
+line: 7 = val: .75			key: Horizontal Line Weight (points)
+line: 8 = val: H1305709			key: Job Number
+line: 9 = val: Helvetica-Bold			key: Measurement Chart Font
+line: 10 = val: Black			key: Measurement Chart Font Color
+line: 11 = val: 7			key: Measurement Chart Font Size (points)
+line: 12 = val: 0.9375			key: Measurement Chart Height (inches)
+line: 13 = val: Right			key: Measurement Chart Location (on Right or on Left)
+line: 14 = val: 0.75			key: Measurement Chart Width (inches)
+line: 15 = val: Bill			key: Operator Name
+line: 16 = val: 0.9375			key: Ratio Chart Height (inches)
+line: 17 = val: 0.125			key: Ratio Chart Top Offset (inches)
+line: 18 = val: 0.2			key: Ratio Chart Width (inches)
+line: 19 = val: Helvetica-Condensed-Bold			key: Ratio Column Font
+line: 20 = val: Black			key: Ratio Column Font Color
+line: 21 = val: 6			key: Ratio Column Font Size (points)
+line: 22 = val: Helvetica-Condensed-Bold			key: Ratio Header Font
+line: 23 = val: Black			key: Ratio Header Font Color
+line: 24 = val: 8			key: Ratio Header Font Size (points)
+line: 25 = val: 0.125			key: Ratio Header Height (inches)
+line: 26 = val: Below			key: Ratio Number Location (Above or Below)
+line: 27 = val: Black			key: Vertical Line Color Inside
+line: 28 = val: Black			key: Vertical Line Color Outside
+line: 29 = val: .75			key: Vertical Line Weight Inside (points)
+line: 30 = val: 1.5			key: Vertical Line Weight Outside (points)
+End parameter table from paramtableprint
+++Color and Font Check.
+-color param: Header Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Horizontal Line Color = Black --Exists in process colors hash.
+-color param: Measurement Chart Font Color = Black --Exists in process colors hash.
+-color param: Ratio Column Font Color = Black --Exists in process colors hash.
+-color param: Ratio Header Font Color = Black --Exists in process colors hash.
+-color param: Vertical Line Color Inside = Black --Exists in process colors hash.
+-color param: Vertical Line Color Outside = Black --Exists in process colors hash.
+-font param: Measurement Chart Font = Helvetica-Bold--Exists in fonts hash.
+-font param: Ratio Column Font = Helvetica-Condensed-Bold--Exists in fonts hash.
+-font param: Ratio Header Font = Helvetica-Condensed-Bold--Exists in fonts hash.
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Berry Update Dec 2016/Test Files Dec 2016/Test 2/Original Files/Inch Markings-conversion chart 1 Mac.txt
+^^^^File Name: Inch Markings-conversion chart 1 Mac.txt, TXT  - Mac file CR - File Length: 500 - 160 tabs
 ++Parse conversion table
 k 14.8|v 0.2498|
 k 15|v 0.2548|
@@ -59,12 +106,12 @@ k 73.9|v 0.9717|
 k 75|v 0.9823|
 k 80|v 1.0461|
 k 90|v 1.1188|
-Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Berry Update Dec 2016/Test Jobs March 2017/T30304LW/H1305709 ratio chart.txt
-^^^^File Name: H1305709 ratio chart.txt, TXT  - Mac file CR - File Length: 1762 - 1089 tabs
-Looking for table in "H1305709 ratio chart.txt" at line 0
-Looking for table in "H1305709 ratio chart.txt" at line 2
-Looking for table in "H1305709 ratio chart.txt" at line 3
-Looking for table in "H1305709 ratio chart.txt" at line 5
+Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Berry Update Dec 2016/Test Files Dec 2016/Test 2/Original Files/T30304LW-ratio chart 1 Mac.txt
+^^^^File Name: T30304LW-ratio chart 1 Mac.txt, TXT  - Mac file CR - File Length: 1762 - 1089 tabs
+Looking for table in "T30304LW-ratio chart 1 Mac.txt" at line 0
+Looking for table in "T30304LW-ratio chart 1 Mac.txt" at line 2
+Looking for table in "T30304LW-ratio chart 1 Mac.txt" at line 3
+Looking for table in "T30304LW-ratio chart 1 Mac.txt" at line 5
 ----values found:  and 3
 --found ratio on line: 	3	1	1			4	1	1	
 ----values found:  and 4
@@ -241,52 +288,5 @@ row 3: 	1.5|	44.4|
 row 4: 	2|	59.1|
 row 5: 	2.5|	73.9|
 End Ratio table from tableprint 
-Input file: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Berry Update Dec 2016/Test Jobs March 2017/T30304LW/T30304LW Parameter chart.txt
-^^^^File Name: T30304LW Parameter chart.txt, TXT  - Mac file CR - File Length: 1150 - 34 tabs
-Looking for table in "T30304LW Parameter chart.txt" at line 1
-++Parse parameter table
-Parameter table from: parametertable
-line: 1 = val: 0.15			key: Column Space (inches)
-line: 2 = val: T30304LW			key: Container Part Number
-line: 3 = val: HYMAN			key: Customer Name
-line: 4 = val: Black			key: Header Horizontal Line Color
-line: 5 = val: 1.5			key: Header Horizontal Line Weight (points)
-line: 6 = val: Black			key: Horizontal Line Color
-line: 7 = val: .75			key: Horizontal Line Weight (points)
-line: 8 = val: H1305709			key: Job Number
-line: 9 = val: Helvetica-Bold			key: Measurement Chart Font
-line: 10 = val: Black			key: Measurement Chart Font Color
-line: 11 = val: 7			key: Measurement Chart Font Size (points)
-line: 12 = val: 0.9375			key: Measurement Chart Height (inches)
-line: 13 = val: Right			key: Measurement Chart Location (on Right or on Left)
-line: 14 = val: 0.75			key: Measurement Chart Width (inches)
-line: 15 = val: Bill			key: Operator Name
-line: 16 = val: 0.9375			key: Ratio Chart Height (inches)
-line: 17 = val: 0.125			key: Ratio Chart Top Offset (inches)
-line: 18 = val: 0.2			key: Ratio Chart Width (inches)
-line: 19 = val: Helvetica-Condensed-Bold			key: Ratio Column Font
-line: 20 = val: Black			key: Ratio Column Font Color
-line: 21 = val: 6			key: Ratio Column Font Size (points)
-line: 22 = val: Helvetica-Condensed-Bold			key: Ratio Header Font
-line: 23 = val: Black			key: Ratio Header Font Color
-line: 24 = val: 8			key: Ratio Header Font Size (points)
-line: 25 = val: 0.125			key: Ratio Header Height (inches)
-line: 26 = val: Below			key: Ratio Number Location (Above or Below)
-line: 27 = val: Black			key: Vertical Line Color Inside
-line: 28 = val: Black			key: Vertical Line Color Outside
-line: 29 = val: .75			key: Vertical Line Weight Inside (points)
-line: 30 = val: 1.5			key: Vertical Line Weight Outside (points)
-End parameter table from paramtableprint
-++Color and Font Check.
--color param: Header Horizontal Line Color = Black --Exists in process colors hash.
--color param: Horizontal Line Color = Black --Exists in process colors hash.
--color param: Measurement Chart Font Color = Black --Exists in process colors hash.
--color param: Ratio Column Font Color = Black --Exists in process colors hash.
--color param: Ratio Header Font Color = Black --Exists in process colors hash.
--color param: Vertical Line Color Inside = Black --Exists in process colors hash.
--color param: Vertical Line Color Outside = Black --Exists in process colors hash.
--font param: Measurement Chart Font = Helvetica-Bold--Exists in fonts hash.
--font param: Ratio Column Font = Helvetica-Condensed-Bold--Exists in fonts hash.
--font param: Ratio Header Font = Helvetica-Condensed-Bold--Exists in fonts hash.
 ++Build EPS file
-++New file name: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Berry Update Dec 2016/Test Jobs March 2017/T30304LW/H1305709 ratio chart.eps
+++New file name: /Users/frankbraswell/Library/Mobile Documents/com~apple~CloudDocs/Business Folders/Berry Plastics/Berry Test Files/Berry Update Dec 2016/Test Files Dec 2016/Test 2/Original Files/T30304LW-ratio chart 1 Mac.eps
