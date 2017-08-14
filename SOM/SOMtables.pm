@@ -618,7 +618,7 @@ EOS
       unless($inchesdown)
       {
         # adjust for measure from top
-        $coloffset = $rch + $rcto + $rhh - $coloffset
+        $coloffset = $rch + $rcto + $rhh + (10 / 72) - $coloffset
       }
       #      logprint "????? inchesdown: $inchesdown; coloffset: $coloffset\n";
   # $makeratiotalbe - ratio table (T) or measurement table (F)
