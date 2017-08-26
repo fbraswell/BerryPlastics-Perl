@@ -33,11 +33,11 @@ use lib $ppath;
 
 use lib ".";
 # print STDOUT "-----Start Berry Plastics Program -----\n";
-print "-----Start Berry Plastics Program -----\n";
+# print "-----Start Berry Plastics Perl Program -----\n";
 autoflush STDOUT 1;
 # Pass in external procedures from SOMcontrol, used below
 use SOM::SOMcontrol( 'initstuff', 'processjob' );
-
+print "-----Start Berry Plastics Perl Program -----\n";
 # print "-----Start Program -----\n";
 
 	# Flush data immediately to stdout.
@@ -53,6 +53,6 @@ my $status = processjob();
 # Print the final status - done in processjob
 # print "++processjob status: $status\n";
 
-print "-----End Program -----\n";
+print "-----End Berry Plastics Perl Program -----\n";
 
 exit;

@@ -855,13 +855,13 @@ sub dirconvhash
 sub conversiontableprint
 {
 	my ( $pkg ) = @_;
-	logprint "Conversion table from: ", $pkg->{ 'tablename' }, "\n";
+	logprint "#### Conversion table Start from: ", $pkg->{ 'tablename' }, "\n";
 	foreach ( sort { $a <=> $b } keys %{ $pkg->{ 'convhash' } } )
 	{
 		logprint "| key: $_, val: ", $pkg->{ 'convhash' }->{ $_ };
 		logprint "\n";
 	}
-	logprint "End Conversion table from conversiontableprint\n";
+	logprint "#### Conversion table End from conversiontableprint\n";
 } # end conversiontableprint
 #===========================================================#
 # Add color information
@@ -1163,14 +1163,14 @@ sub paramtableprint
 {
 	my ( $pkg ) = @_;
 	my $line;
-	logprint "Parameter table from: ", $pkg->{ 'tablename' }, "\n";
+	logprint "#### Parameter table start from: ", $pkg->{ 'tablename' }, "\n";
 	foreach ( sort keys %{ $pkg->{ 'paramhash' } } )
 	{
 		$line++;
 		logprint "line: $line = val: ", $pkg->{ 'paramhash' }->{ $_ }, "\t\t\tkey: $_";
 		logprint "\n";
 	}
-	logprint "End parameter table from paramtableprint\n";
+	logprint "#### Parameter table end from paramtableprint\n";
 } # end paramtableprint
 #===========================================================#
 # gettablePS

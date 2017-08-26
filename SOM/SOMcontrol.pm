@@ -57,8 +57,12 @@ my $message = '';
 #            $0 =~ /(.+)\/(RatioCompiler(.*?).app)/;
 #	print "Program path: $progpath\nCommand line: $progname\n";
 
-openlog(); # Open logfile for writing.
-logprint "\n------Berry Plastics RatioCompiler Version $ratiocompilerver \n";
+# The log file name is the last argument
+my $logfn = pop @ARGV;
+# Send the log file name to openlog()
+
+openlog($logfn); # Open logfile for writing.
+logprint "\n------Berry Plastics RatioCompiler Version $ratiocompilerver Perl Code\n";
 my ( $d, $t ) = timeofday_datetime( );
 logprint "Date: $d, Time: $t\n";
 # logprint "prog name: $0\n";
@@ -286,7 +290,7 @@ sub processjob
             if ($instr =~ /\r\n/) # PC files - 0D0A
             { 
                 logprint " - PC file CRLF - ";
-				print "\n\n";
+				logprint "\n\n";
 				die "Cannot process PC files!\n";
                 $/ = "\r\n"; # input record separator
             } elsif ($instr =~ /\r/) # Mac file with CR only - 0D
@@ -296,7 +300,7 @@ sub processjob
             } elsif ($instr =~ /\n/) # Unix file with LF only - 0A
             {
                 logprint " - Unix file LF - ";
-				print "\n\n";
+				logprint "\n\n";
 				die "Cannot process Unix files!\n";
                 $/ = "\n"; # input record separator
             }
@@ -326,7 +330,7 @@ sub processjob
 #		logprint "---!! buildeps failed!\n"
 #	}
 	buildeps( \@convobj );
-    print "++processjob status: "."$result - EPS built" . ($message? "- message: $message":'')."\n";
+    logprint "++processjob status: "."$result - EPS built" . ($message? "- message: $message":'')."\n";
     return "$result - EPS built" . ($message? "- message: $message":'');
 	# return "$result - EPS built - message: $message";
 } # end sub processjob
@@ -865,18 +869,16 @@ sub parseratiotables
 												);
 				
 			} # for ( my $i = 1; $i <= $#tmp; $i += 2 )
-			
-		} # for ( my $i = 1; $i <= $#sliceranges; $i += 2 )		
-
+		} # for ( my $i = 1; $i <= $#sliceranges; $i += 2 )
 	} # while ( <$fh> ) # read lines of text, looking for tables
 	
-	# logprint "### Dump tablehash ###\n";
+	logprint "#### Ratio Tables Start\n";
 	foreach ( sort keys %tablehash )
 	{
 		# logprint "table name: $_\n";
 		$tablehash{ $_ }->tableprint( );
 	}
-	
+	logprint "#### Ratio Tables End\n";
 	return values %tablehash;
 } # sub parseratiotables
 #===========================================================#
@@ -1100,7 +1102,7 @@ sub parseconversiontable
 	$convobj->addconvhash( \%convhash );
 	$message .= $convobj->dirconvhash();
 	# Dump hash
-#	$convobj->conversiontableprint( );
+  $convobj->conversiontableprint( );
 
 	return $convobj;
 } # sub parseconversiontable

@@ -278,7 +278,9 @@ sub logname
 #===========================================================#
 sub openlog
 {
-	# Place the log file in a "logfiles" folder.
+  # log file name is passed from main prog
+  my ( $logfn ) = @_;
+  # Place the log file in a "logfiles" folder.
 	# If the folder doesn't exist, create it.
 	my $logfolder = 'logfiles';
     #	print "working directory: ", getcwd(), "\n";
@@ -293,6 +295,7 @@ sub openlog
 	}
 	
 	my $ti = "$logfolder/".logname();
+  $ti = "$logfolder/".$logfn;
 	$loghandle = new FileHandle $ti, 'w+'; # Create or open for append.
 	# if ( not defined $loghandle )
 	unless ( defined $loghandle )
