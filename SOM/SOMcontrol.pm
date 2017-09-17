@@ -222,7 +222,8 @@ my %parameterlist =
 			} # if ( /Fonts|Colors/i )
 	} # foreach ( readdir $dh )
 	closedir $dh;
-	
+
+  logprint "#### Spot & Process Colors start\n";
 	foreach ( sort keys %fonts )
 	{
 		logprint "-Font: $_\n";
@@ -235,6 +236,7 @@ my %parameterlist =
 	{
 		logprint "=Spot Color: $_\n";
 	}
+  logprint "#### Spot & Process Colors end\n";
 	# The following closures control access to 
 	# important control variables.
 # {	# begin closure
@@ -330,8 +332,15 @@ sub processjob
 #		logprint "---!! buildeps failed!\n"
 #	}
 	buildeps( \@convobj );
-    logprint "++processjob status: "."$result - EPS built" . ($message? "- message: $message":'')."\n";
-    return "$result - EPS built" . ($message? "- message: $message":'');
+  
+  # If we get past the buildeps() proc EPS file has been built
+  logprint "++processjob status: "."$result - EPS built" . ($message? "- message: $message":'')."\n"; # original message
+  # status message - "status ok" & EPS built
+  logprint "#### Status ok, EPS file has been created.\n$message\n";
+  # message string - contains: "measurement: up - inches: down" and other messages
+  #  logprint $message;
+  
+  return "$result - EPS built" . ($message? "- message: $message":''); # passed to runprog.pl - not used
 	# return "$result - EPS built - message: $message";
 } # end sub processjob
 #===========================================================#
@@ -955,23 +964,24 @@ sub parseparametertable
 	}
 
 	logprint "++Color and Font Check.\n";
+  logprint "#### Color & Font Check start\n";
 	foreach ( sort keys %paramhash )
 	{
 		if ( /color/i )
 		{
-			logprint "-color param: $_ = ",$paramhash{ $_ };
-			
+      #			logprint "-color param: $_ = ",$paramhash{ $_ };
+      logprint "$_ = ",$paramhash{ $_ };
 			
 			CASE:
 			{
 				exists $colors{ $paramhash{ $_ } } && do
 					{
-						logprint " --Exists in spot colors Hash.\n";
+						logprint " --Exists in spot colors.\n";
 						last CASE;
 					};
 				exists $processcolors{ $paramhash{ $_ } } && do
 					{
-						logprint " --Exists in process colors hash.\n";
+						logprint " --Exists in process colors.\n";
 						last CASE;
 					};
 				# default - doesn't exist
@@ -986,14 +996,16 @@ sub parseparametertable
 	{
 		if ( /font$/i )
 		{
-			logprint "-font param: $_ = ",$paramhash{ $_ };
+      #			logprint "-font param: $_ = ",$paramhash{ $_ };
+      logprint "$_ = ",$paramhash{ $_ };
 			if ( exists $fonts{ $paramhash{ $_ } } )
 			{
 				logprint "--Exists in fonts hash.\n";
 			} else
 			{
-				logprint " **WARNING** The font: ", $paramhash{ $_ }, " is not in the font list. ",
-							"Please add it to the list of fonts and try again.\n";
+        #				logprint " **WARNING** The font: ", $paramhash{ $_ }, " is not in the font list. ",
+        #							"Please add it to the list of fonts and try again.\n";
+        logprint "\n#### WARNING #### The font: ", $paramhash{ $_ }, " is not in the font list. \n";
 			}
 		} # if ( /font$/i )
 	} # foreach ( sort keys %paramhash )
@@ -1001,7 +1013,7 @@ sub parseparametertable
 #	{
 #		logprint "-Fonts: key: $_; val: ", $fonts{ $_ }, "\n";
 #	} 	
-
+  logprint "#### Color & Font Check end\n";
 	return $paramobj;
 } # sub parseparametertable
 #===========================================================#
@@ -1113,6 +1125,7 @@ sub buildeps
 	my %objects; # Hash for table objects and names
 	my $fh; # file handle
     logprint "++Build EPS file\n";
+  
 	# Place all objects into hash with object name keys
 	# logprint "**Name of all table objects:\n";
 	foreach ( @$tableobjects )
@@ -1145,6 +1158,7 @@ sub buildeps
 		# return 0; # buildeps failed
 	}
 	
+  logprint "#### Build EPS File start\n"; # Start after making sure tables available
 	# Get parameter and conversion hash information that
 	# will be added to each of the objects
 	my $convhash = $objects{ 'conversiontable' }->getconvhash( );
@@ -1223,12 +1237,16 @@ sub buildeps
 	$epsstring = $mcloc =~ /right/i?$epsstring.$m_epsstring:$m_epsstring.$epsstring;
 	# Wrap the main eps header around the nested table eps file segments
 	# We can use 'table00' epsheader function to generate the overall file header
+  my $epsWid = $epswidth * 72;
 	my $fileheader = 1; # This is not an embedded eps header or trailer
 	$epsstring = $objects{ 'table00' }->epsheader( 0, 0, $epswidth * 72, $epsheight, $fileheader ) . 
 								$epsstring . $objects{ 'table00' }->epstrailer( $fileheader );
+  logprint "#### Bounding Box: 0, 0, $epsWid, $epsheight\n";
 	logprint "++New file name: $fname\n";
 	open $fh, ">$fname";
 	print $fh $epsstring;
+  logprint "#### Build EPS File Name: $fname\n";
+  logprint "#### Build EPS File end\n";
 	return 1; # success
 } # sub buildeps
 #===========================================================#

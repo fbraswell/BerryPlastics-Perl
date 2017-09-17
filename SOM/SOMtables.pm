@@ -135,7 +135,8 @@ sub tableprint
 		}
 		logprint "\n";
 	}
-	logprint "End Ratio table from tableprint \n";
+  logprint "\n";
+  #	logprint "End Ratio table from tableprint \n";
 } # end tableprint
 #===========================================================#
 sub buildtableeps
@@ -319,6 +320,7 @@ sub buildtableeps
 		# convert height to points with 72 pts/inch
 	my $ury = $rch * 72 + 10;
 	my $fileheader = 0; # This is an embedded header
+  logprint "#### Bounding Box: $llx, $lly, $urx, $ury\n";
 	$epsstr .= epsheader( $pkg, $llx, $lly, $urx, $ury, $fileheader ); # Add header to string
 	$epsstr .=
 <<"EOS"
@@ -608,6 +610,7 @@ EOS
 #				logprint "--Warning - Value outside printable area!\n";
 				warn " Value outside printable area!\n";
 				logprint "---table name: $tn - row: $row; col: $col; name: $colname; Measurement Value: $colkey; offset: no value - skip to next value\n";
+        logprint "#### WARNING #### Can't print $tn - row: $row, col: $col\n";
 				next;
 			}
 			# logprint "-row: $row; col: $col; name: $colname; key: $colkey; offset: $coloffset; ";
@@ -790,8 +793,8 @@ sub getconvhash
 # Determine direction of conversion table - up or down
 #
 # Key "up"/Value "down" is normal measure from bottom
-# key is graams, value is in inches
-# returns " - measurement: up - inches: up\n";
+# key is grams, value is in inches
+# returns " - measurement: up - inches: down\n";
 #    k 14.8|v 1.0766|
 #    k 15|v 1.0716|
 #    k 17.5|v 1.0092|
@@ -801,7 +804,7 @@ sub getconvhash
 
 # Key "up"/Value "up" is rare, and represents measure from top
 # Key is grams and value is inches
-# returns " - measurement: up - inches: down\n";
+# returns " - measurement: up - inches: up\n";
 #    k 14.8|v 0.2498|
 #    k 15|v 0.2548|
 #    k 17.5|v 0.3172|
@@ -845,7 +848,16 @@ sub dirconvhash
         $prevval = $chash{ $_ };
 	}
     $inchesdown = $inches eq 'down'; # true if down, false if up
-    return " - measurement: $measurement - inches: $inches\n";
+  
+  # Key "up"/Value "down" is normal measure from bottom
+  # returns " - measurement: up - inches: down\n";
+  
+  # Key "up"/Value "up" is rare, and represents measure from top
+  # returns " - measurement: up - inches: up\n";
+  
+  my $dir = $inches eq 'up'? "#### Direction: Measure from Top": "#### Direction: Measure from Bottom";
+  
+    return " - measurement: $measurement - inches: $inches\n$dir\n";
 #	logprint "End Conversion table direction\n";
     
 #	return $pkg->{ 'convhash' };
@@ -856,9 +868,11 @@ sub conversiontableprint
 {
 	my ( $pkg ) = @_;
 	logprint "#### Conversion table Start from: ", $pkg->{ 'tablename' }, "\n";
+  logprint "Grams\tInches\n\n";
 	foreach ( sort { $a <=> $b } keys %{ $pkg->{ 'convhash' } } )
 	{
-		logprint "| key: $_, val: ", $pkg->{ 'convhash' }->{ $_ };
+    #		logprint "| key: $_, val: ", $pkg->{ 'convhash' }->{ $_ };
+    logprint "$_\t\t", $pkg->{ 'convhash' }->{ $_ };
 		logprint "\n";
 	}
 	logprint "#### Conversion table End from conversiontableprint\n";
@@ -1163,11 +1177,22 @@ sub paramtableprint
 {
 	my ( $pkg ) = @_;
 	my $line;
+  my $tempVal;
 	logprint "#### Parameter table start from: ", $pkg->{ 'tablename' }, "\n";
 	foreach ( sort keys %{ $pkg->{ 'paramhash' } } )
 	{
 		$line++;
-		logprint "line: $line = val: ", $pkg->{ 'paramhash' }->{ $_ }, "\t\t\tkey: $_";
+    #		logprint "line: $line = val: ", $pkg->{ 'paramhash' }->{ $_ }, "\t\t\tkey: $_";
+    #   my tempVal;
+    $tempVal = $pkg->{ 'paramhash' }->{ $_ };
+    logprint $tempVal;
+    if (length $tempVal > 4)
+    {
+      logprint "\t\t---> $_";
+    } else
+    {
+      logprint "\t\t\t---> $_";
+    }
 		logprint "\n";
 	}
 	logprint "#### Parameter table end from paramtableprint\n";
