@@ -671,6 +671,7 @@ sub parseratiotables
 				# Usually after the list of tables
 				my $tmpind;
 				if ( $i == 0 && $linearr[ $i ] =~ /ounces|parts|ml/i )
+#         if ( $i == 0 && $linearr[ $i ] =~ /ounces|parts|ml|grams|cc/i )
 ### DEBUG ###	if ( $i == 0 && $linearr[ $i ] =~ /ounces|parts/i )
 				{	$tmpind = $i - 1;
 				} else
@@ -1241,7 +1242,7 @@ sub buildeps
 	my $fileheader = 1; # This is not an embedded eps header or trailer
 	$epsstring = $objects{ 'table00' }->epsheader( 0, 0, $epswidth * 72, $epsheight, $fileheader ) . 
 								$epsstring . $objects{ 'table00' }->epstrailer( $fileheader );
-  logprint "#### Bounding Box: 0, 0, $epsWid, $epsheight\n";
+  logprint "#### Main Bounding Box: 0, 0, $epsWid, $epsheight\n";
 	logprint "++New file name: $fname\n";
 	open $fh, ">$fname";
 	print $fh $epsstring;

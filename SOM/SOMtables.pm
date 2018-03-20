@@ -302,11 +302,23 @@ sub buildtableeps
 						$mtlabel = ' oz. ';
 						last MTLABEL;
 					};
+#    /grams/i  && do
+#          {
+#            $mtlabel = ' grams ';
+#            last MTLABEL;
+#          };
 		/ml/i	&& do
 					{
 						$mtlabel = ' ml ';
 						last MTLABEL;
 					};
+    /cc/i  && do
+          {
+            $mtlabel = ' cc ';
+            last MTLABEL;
+          };
+    # No matches
+    logprint "#### WARNING #### Label '$_' doesn't match 'parts', 'ounces', 'ml' or 'cc'\n";
 	}
 	
 		# Set up header
