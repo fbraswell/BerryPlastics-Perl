@@ -42,7 +42,7 @@ my $_parameter = 'parameter';
 
 # print "load SOMcontrol.pm\n"; # DEBUG
 
-my $ratiocompilerver = '2.0'; # Must be a number
+my $ratiocompilerver = '2.1'; # Must be a number
 
 # DEBUG Input record separator affects how Font & Color EPS
 # is parsed

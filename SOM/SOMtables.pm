@@ -292,12 +292,12 @@ sub buildtableeps
 		# that will follow the number
 	MTLABEL:
 	{
-		/parts/i	&& do
+		/^parts$/i	&& do
 					{
-						$mtlabel = ' '; # no label
+						$mtlabel = ' '; # no label for parts
 						last MTLABEL;
 					};
-		/ounces/i	&& do
+		/^ounces$/i	&& do
 					{
 						$mtlabel = ' oz. ';
 						last MTLABEL;
@@ -307,18 +307,21 @@ sub buildtableeps
 #            $mtlabel = ' grams ';
 #            last MTLABEL;
 #          };
-		/ml/i	&& do
+      /^ml$/i	&& do
+    #      $_ == 'ml' && do
 					{
 						$mtlabel = ' ml ';
 						last MTLABEL;
 					};
-    /cc/i  && do
+    /^cc$/i  && do
           {
             $mtlabel = ' cc ';
             last MTLABEL;
           };
     # No matches
+    if(length $_ > 0 && length $_ < 10){
     logprint "#### WARNING #### Label '$_' doesn't match 'parts', 'ounces', 'ml' or 'cc'\n";
+    }
 	}
 	
 		# Set up header
